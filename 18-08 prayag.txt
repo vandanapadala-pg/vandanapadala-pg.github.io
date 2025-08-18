@@ -1,0 +1,194 @@
+
+Ok. It is just assigning the spring that may not work for your writer. That is something like that creating the spring and hand the stories to the spring, yeah. That's why not work out for us. Spronite is already created in in.
+
+So all I have to do is the spam the spirit from and then I will do it. Just give me the list of stories and what is Prince do it pursue. Sure sure I can give you. And I will tell you what discussion I had with अमृता. Let's go with we have and then I will start.
+
+Ok. Let me check my screen. Ok. So so this is 1 I think the clone public repository, ok? Ok.
+
+It's for it, right? What we can do is, you can give a stuff stories and then give the stuff for a stories on the story, ok? I can send you the details. Ok? So not a problem.
+
+Ok. So that is 1 thing. So as we discussed why this this print will be integrating the gate and working on integration. And tracing. So for this print, for this print, I think this is what you are planning to do, right?
+
+Puting up the DSG with number 1, number 2, we are going to set up the board and environment and that is why I was asking like whether we have code an environment setup or not? Yeah yeah, he write et cetera, we did the initial POC and we are able to launch the code and enrollment here. And code is coming up with the code. So if I go in once, it should open a my profile. If you go on the single coupon here to open your profile.
+
+If the coupon is ready. And we all we are needing is this thing, ok? So this is what I spoke to अमिताभ, ok? Even even before we go this. The only stuff that we have in question mark is what application do we have to pilot for?
+
+And it's not a straight forward exercise as spoke to अमिताभ. As a list of few applications that is already integrated, that is already in some shape with integration with knowledge with that is something so you know, so you know, so you know, so you know, we have a list of 11 or 12 applications, I will have to go with those application and then figure out that what can be an application that we can get started for pilot which is very straightforward. Ok. In case forward, you are talking about Sinnesay, right? Yeah yeah, Sinnesay, ok.
+
+You are going to get. You are going to stop while application. I will have to go over the post figure out some figure out 1 application and we can start piloting. But even before we go the right so there are few things that we need to, we can decide. Number 1 we need whatever the application whatever the technology.
+
+If we have docker file and if we have dependency file, it shouldn't matter to us how we are going to go and fill up the code, right? Because that is the only 2 point that we need. Is my understanding correct? Or am I missing something else? Yeah, I mean the technology doesn't really a big part.
+
+Because not be able part. For us what we need to do is virtualization is not some part of our scope that we are going through for face 1. But for face 1, we it whatever the technology is it. Let's see if there is a rupee and they will call it. All I need is a doctor file and all I need is what is the dependency.
+
+The dependency somehow will be there in the doctor file and then we load up the doctor file, install the dependency, that should work first. A candidate application, figureing out candidate application is not easy as you think of. You don't take a center. Even the other party has to buy the idea, right? So sometime in the sense what is the time then that we are looking at at some time.
+
+But how does that matter? Even the bottle issue. No not even the bottle matter. After, I would need the details, right? So that's why I am asking.
+
+No no, then take some time and figure the top map. It's not Something I can do it by Thursday or Friday and then we will go to it. Even I have to see look at all the reports and see what works for us right? That's fine, that's fine. Just wanted to understand part, ok?
+
+So anyway, let me know, ok? So but that is 1 point, anything else from our term? Any feedback? Anything else? Ok, what तमिल term is looking, right?
+
+So this is where you were asking me question. That is, can we ready for demo where it goes enough an application in order, right? So, this is what we and I will ask me and whenever asking this on Friday. Ok, let's say if I have a note here, so आपको, right? By ideally way things work, if I have a mode j s repo, if I will throw it in my hotel, I will open the postman and put a bluecal host column column whatever is the port.
+
+That is the in the repo itself. And then we call an end point from a local. Number 1 thing he wants to see is, maybe a note j s application for UI, right? He wants to see that if I go and open up this UI in the remote or, how is the connection going to be, how do I go and tested in the local? So that is what you are looking at.
+
+So what will do is, I will give you 1 NoteJe support. I'll give you 1, you can use our Note JOS, whatever we will, you know, 2, propose, we will cut out, right? Develop by experience. Take the tripod and put it in the code of, विश्वत. And once we put this in portal, we want to see that, ok, if I want to go test my point, we share with the your, which I want to put in the post 1, submit a gift post request.
+
+That is number 1 thing that he is looking for. Even before us opening this for pilot to external applications. You mean including what implementation and everything? No, not the implementation. See, we we had a demo for a Python application, right?
+
+Correct correct correct. And the schools or something something like this, something like this. Ok ok, got it. Not not the entire through issue. It is not really some kind of drawback.
+
+Bring the UI point. Just some some kind of stuff that we can see, right? That you keep oil Chrome. How do I interested in भालू plan. So that is his first question.
+
+Ok. You got this 1, right किशोर? Yeah. I think yeah, it's already possible in our case also. It will show you the it will give you the end point already to test like we have the local host instead of local host it will have our work place name something and what number.
+
+Some some, I mean you are looking. Whatever you are interested when we go and speech. Ok? So that is 1 thing. Another thing about that if you want a demo please let us know when we can schedule a call.
+
+You can schedule a call with अमृता, we can show the demo. That's fine. He is the only thing you have, so he is tremendously busy. No no, I understand what he is practice. That's why sir, you schedule a call, we will show the demo.
+
+But let's take that part first right I see you can show this to me so tomorrow day after tomorrow whenever you feel it's ready. I think it's all about putting putting this coding code as I mean, that's not much of an effort. No, fair enough. Yeah, there is 1 small thing which is like installing dependency, so on our openship cluster. So this will be running on our virtual environment, right?
+
+So we well test, I mean we we are working on that well test that today. So if the dependence get installed on the openship because this is not local, right? So we have all the sudo access in all to install everything. So we are planning to test it out today. So that it is all the dependency are are getting installed.
+
+I able to install on the open set environment. Yeah I mean, so we will show the demo sometimes we speak. I'll come to the product part, which 1. I'll come to the product part, but this is more of a and need reopening the URL, sending the echos to the post 1. That's all.
+
+If you are providing this kind of developer experience. Then see that ok this is working for me. Connecting to my ID to the virtual environment is all good. Yeah, I understand. That's the form which he wants to figure out first.
+
+Ok? Another thing that he was telling me is that, she was asking that ok, what what is the private page? The tool engine there needs to be 2 files. That has to be in the report. 1 is docker file and 1 is the dependency.
+
+Now our dependency combo, right? Then whatever in the caps for the packet or this, whatever beat. तो he is उसने एक ok what if the files are owned in sub holders? Because we can't go and tell our application team that's why we are going to do some kind of stuff for you. But for that, you have to pull the file in such an order that predicted.
+
+That's what something he is looking for. तो विश्वास, we might have to write some file extension functions. Site search. And what is the dependency? It files, so file search kind of stuff.
+
+It's a simple is our Yeah yeah yeah, you got it, right? That is what you was asking. That number was telling her that ok, how is the interface going to look like? That there is going to be a page. I was sharing the wire frame with him.
+
+In the navigation bar, you will see something called JNAIUTs. So when somebody comes and picks on the JNAIUTs, we are going to take the e id of the user. You need the user ID and then you will be clear up from stories. Yes. These are the stories that the user has and how many are in progress?
+
+How many are new? And then spin up environment for us. So, he was asking that, ok, what are we how are we figuring out what the repos are? According to him, right? And this is why it is all coming to solution.
+
+It all comes to fullssion when we go and decide based on the stories what the repos are going to. I told him that for phase 1 it's not going to be there. For phase 1, user have to come and entered manually. Then what is the appos I want to close? And number 2, what is the branched amount?
+
+And then we create a workplace for them. So you told me that let's go figure out how to implement step phase 2. And do phase 1 parallelly. We need to sit with your then ईश्वर and वंदना and figure out on the stories what are possible solutions to give up. Automatically figure out that you give them the post your user might write some food.
+
+Might be phase 2. Ok. Let's say, based on intelligence, right? You got a 3 set of repos that a user might be like. This are the candidate repos, where user can write the code for the stories.
+
+Stories might. No no for this the ontology needs to be done right? Is it done for the repos? Ontology even I don't have much of clarity. See this is all we want stretch for phase 2 and 3 people.
+
+We didn't discuss all these things right? Ok. I will schedule some timely thing on, possibly tomorrow. What we'll do is, I'll include you and वंदना also. So, is doing this, right?
+
+Yeah yeah, I know where अपर्णा. Yes. So, I I let you talk to him. I'll set a call. Whenever I set a call, I'll make sure I include you in brother.
+
+Ok. Understand what ontoology is and let's also understand what is the knowledge based. Sure. And then let's see how you can write to figure out that ok here is the story and figure all the. Yes.
+
+So that is phase 2 LPA. He told us to correct. She told us to get at least routine. What is the analytics we are composing? What is the solution?
+
+It's more of a brainstorming. Sure sure sure, I can work with your. That's why, yes, that's why he is looking forward. तो he says the phase 1 is little straightforward. You want to send the solution?
+
+You want to set the best first in phase 1 rank that's what we discussed. Will come to face 1 but then we will tell you to start working on 2 3 months, correct. That's ok. Yeah I understand. So you need some clarity, right?
+
+Sure sir I do I do. So what we can target is what we can target is for phase 1, right? Let me speak, ok. That we already have. Where you already writing the code for you 1.
+
+And we have a. Angular airport, I will give you an Angular airport, I will give you an Angular airport, I will give access to We can create and then That's good? Yes sounds good sir. Ok. I need to go.
+
+I need to go see what is the plan of कक्षा that we have for this week. Before this print actually. What are you planning to commit? What are you planning to do? And is there any brochure before starting?
+
+Do you need any more design or any more information in order for us to get started for this trip, ok? You can have the information or do you want me to provide that information? I want me to provide as for this is the, this is the 1 I want to sure. We schedule a, if you still now I think we are with the whichever requirements we need for fees, alright? Or is there is something that he has yet to deduct?
+
+No no I mean place 1 is fine. Ok I got a ping from. मुस्कान regarding story right? Yeah like for UI. Like for the UI, ok.
+
+Did you get the info from No we haven't responded yet. Responed yet? Ok. There is this struggle for stories. I was telling this thing, right?
+
+I will share you the diabetes. So this is what I will do issue. So this is 1 thing for me. I'll give you inspireial credentials for that. So, that we can get started.
+
+We need to get started. There is a table, उसपर. I'll ping you the table and also ping you what columns you need, ok? Ok ok. And give you the credentials.
+
+Can we have 1 more problem like श्रेया? Can we have ok so let's sort of disturb whatever is the, we will put a for a relation to the इशरत. Ok, Sure sure sure. Ok, story towards space to, let's for story to word space, right? Yeah, story to work space to use.
+
+It will be create a new table this कि you can book the story that you can associate spirit spirit spirit. So that is something only a counterpart can do. Sure sure. Ok? And that's what we spoke right?
+
+So you send me the list of story and then you will release for these on next. Ok. Even if you don't keep for next. It will be prepared for these. Just let me know about the story.
+
+It will give you the idea. Ok ok. Ok and then we take care of the strings. Ok. And then it will be given to you.
+
+Ok done. Ok? Yeah. Ok ok. I get 1 question which 1 you will get started.
+
+And then you can expect from the option number 1. Option number 2, this is going to be related in the Correct. What do you think we should go for Facebook? Codeer we can give it to now, ok? Codago it in description, then you can go at the service or you have to go at the procedure to access those.
+
+Correct correct. As of now, we will get it from coder, ok? And then in the future, we can use MLM to determine the dependency center post. After that on technology mapping and everything is done. We can use MLM to determine the dependency center post to be order.
+
+Load. But let's phase 2 and phase 3 but in future. But now let's keep it like straight forward. Let us renew the report and let's load it. At least 1 is not even the question.
+
+I know teaching speech that the question is the answer. The only question is this, right? When it comes to develop our experience. So let's see, my environment is dispersid. Do you have to come to code a second time, put the URL of the branch and then start all over again.
+
+The environment is dispersid. Yes. But environment will be purjd. See, the environment purjd, we need to check until the ticket most it is complete or something. We will not purj the enrollment, something like that.
+
+Ok. This piece, because this piece, right? This is unknown that let me let you see what our the, that's why I didn't get chance to discuss with you. Yeah, because it will be confusing if we pause the environment in the middle of the development cycle. So I think we need grab couple of checks.
+
+1 is the number of days, other is the ticket status and if it passes all the checks then maybe we can purpose in wrong. See, the only thing with this, right? It's more of this experience, user experience now. And if if I already have something in GRT, ok? Let's say step 1, right?
+
+If you give me. Going to the procedure, right, we put branch information, track information in order, and then we are going to sphere up an environment. Correct? It's a movie, sorry. This ticket goes from, goes from in progress to extend.
+
+NEET ready for unit or NEET ready for test. Ready for test, right? Ready for test, it's not going to the testing phase. It's not getting the sign off. तो it will again come to in progress.
+
+Ok. But it comes to in progress, we are going to note the code environment. Correct? So when we are going to load the code again are you expecting users to everything practice to expect users to to the URL again. No as per the URL.
+
+We will not use as per the URL again. Ok? So as I said, until the ticket when the ticket goes to test complete, ok? We will pause the enrollment and delete the mapping between the ticket and the enrollment. Ok?
+
+Something will be check that if it is going beyond plus complete or if it is going beyond in progress. So since you are no risk be done wise. Yeah, we can we can decide on what it is. Ok? But we need to put towards the checks, ok?
+
+But once it fulfills all those checks, then the the environment will be pauseed. Otherwise, the URL will still be active at line. Line. Ok. But when you are स्पर्शd to answer your question yes we have to show the user as to set up a new enrollment again everything it.
+
+Developer, right? Who doesn't have access to red off, is order environment still being good for me? I don't think so. You need to be add into the redoff. I have to check Ok because the thing is this right now there is 1 more set on top of 1 more set right so you want to be part of this developer proficiency developer this 1 to be part of the Yes yes.
+
+To manage the access and all. If you want to do? I don't think I mean I can confirm on that but for now I don't think you will need to be part of add on group because शशांक and मुस्कान they are not part of the add on group but they were able to create the work space and like open in the VS code. So mostly I think to manage the access on the name space and all to have cluster access. Ok cluster access that's what I wanted to clarify that whatever that is if I don't group holding people who can access to the work place you are in that you are planning to spend up through order or is it just for the student.
+
+No no I don't think that yeah I can surely give you a confirm answer after sometime. Yeah. But if it is required, we need to create this update on for the developers other than the data on that we have. Correct correct. तो the question is विश्वा right?
+
+Let us say, people come around the those tools, they start creating left or night environment. So we don't want that also platform. This is also something I wanted to explain with तमिल. These are all these are all open items. If what.
+
+If you know, I'll let you know. They cannot create left and right right? How many Jever JeverA tickets are assigned to them? They can create that many enrollments at the maximum at any point in time. If you understand.
+
+Right? So. Yeah Yeah I understand. For user as change in the same time, it will be little bit more unnecessary, to be frank. See, problem is not even that.
+
+Problem is we have limited number of license. Ok? Number 1 is, I don't know if you are going to open Razorpay for everybody. Number 2 is, I don't know if you are going to open Razorpay. Number 3, I am not knowing when you are going to open a for.
+
+If you see currently on 0 that are new in inspire ईश्वर it might be more than thousand. Ok? तो let's say if you have maintain any 1 work space for 1 user that brings us to those 2000 pods. We don't want people to go and click on that button and make that pod. That is all some questions.
+
+Yeah yeah. You have some 1 person So that needs to be clear but. Also in capacity as well. Ok? What is the maximum capacity available and how much can we replace the capacity management on these things, correct.
+
+These are some of the option. We'll we'll we'll I. Sure sir and let me know when you want demo on the product we can provide 1 for you ok? Ok. Code if you do right what we can do you can sit you first now and see how call you can stop?
+
+Ok? Yeah. I mean, right now when you are free today, just ping prior and ask him for his time and take it up. Sure sir, I'm free right now also. Like like whenever you are so you can tell me and I'll I'll tell me you have 1 more call after this.
+
+Ok ok. I will be next call to get some candidate application for pilot. Ok. Can I check, can I see what stories we have plan for this application? Yeah I can take you.
+
+You want to Are you very good with can you access? Do many plate? Yeah. So right. A public loan public tripal street.
+
+This 1 should come into the current. Can you just call me if Guys currently if I am wrong, ok guys correct me if I am wrong, you guys are taking the stories, right. Please correct me if I am wrong, ok? विश्वा this public 1 we discussed there is no public, it has to be private. So there is some modifications that I need to the stories now after we discussed on friday.
+
+Ok, so do me a favor 1 now. Once you discuss right send all the stories to प्रयाग, he can move it to the sprint. Ok, yeah yeah. Ok, sprint 1 story. I think there are only 3 or 4 stories arise to ask 1 them to priority.
+
+Ok? Any 2 3 that's fine. Sure. So can start with development, right? Yeah we have already started development work ok?
+
+Just that we need to lock the details in this. So that is why we need your help. But पंद्रह will provide you the. Yeah. We will lock the details today it takes.
+
+No problem. Ok? And scheduling your call regarding this 1 and knowledge based. Sure sure. Ok.
+
+And then we can plan for next case is how and what to do? Sure sir. Ok. Going to run the print? Going to run?
+
+Either schedule this call in morning. And the problem is वंदना is in PST. So what time do you want? Ok ok. It should be fine.
+
+After 8AM. Like from 8AM onwards. So which is a 10:10AM CST. It's 10AM 5 time 80. Ok.
+
+Can we do 08:30 your time? Is it a good time or you can. Any time after 8AM like 10AM CST is fine for me. 10:30 we can do 1 garden. Yeah yeah sure.
+
+Move to 10:30 cST. Yeah 08:30 is fine yeah. Sure Move then yeah thank you. Yeah yeah. Yeah.
+
+Ok. Anything else prior? I think you are good. So what we are going to do tomorrow is going to start the right? Progress till today actually.
+
+Yeah. Because started. Ok. Let's discuss the progress. Let's see what else we will need.
+
+We will, we can discuss it Ok sure. Ok. Thank you wish. Thank you and sir. Thank you.
+
+Thank you.
