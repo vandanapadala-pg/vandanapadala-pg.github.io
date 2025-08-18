@@ -1,0 +1,219 @@
+Here’s a structured summary of what was discussed in the **18-08 Prayag call** (from your file *18-08 prayag.txt*):
+
+---
+
+### **1. Sprint Planning & Stories**
+
+* Stories will be handed over to the sprint once finalized.
+* Prayag asked for a **list of stories** to move into the sprint.
+* A few stories are already identified (e.g., Git repo cloning, integration setup).
+* Public repo story needs to be changed to private repo based on team decision.
+* Around **3–4 stories for Sprint 1** will be prioritized.
+* Vandana and others will share story details, Prayag will assign them.
+
+---
+
+### **2. Focus for Current Sprint**
+
+* **Integration with Git** and setting up developer environment.
+* Bring up Coder environment (initial POC already worked: able to launch Coder enrollment).
+* Setup board/environment is a priority.
+* Open item: **pilot application** selection (still under discussion).
+
+---
+
+### **3. Pilot Application**
+
+* Not a straightforward exercise; need to evaluate 11–12 candidate apps.
+* Requirement: app must have **Dockerfile** + **dependency file**.
+* Prayag to analyze which application can be piloted first.
+* Timeline: can’t be decided in a day or two; more investigation needed.
+
+---
+
+### **4. Demo Expectations (from Amrita / stakeholders)**
+
+* Need to **demonstrate a working developer experience** before choosing external pilot apps.
+* Example demo flow:
+
+  * Take a Node.js repo.
+  * Deploy it in Coder environment.
+  * Show how endpoint/UI can be tested (instead of localhost → Coder URL).
+  * Validate dependency installation on OpenShift cluster.
+* First goal: prove this experience internally, then extend to pilot apps.
+
+---
+
+### **5. Technical Implementation Details**
+
+* Phase 1:
+
+  * User manually provides **repo + branch** info.
+  * Coder spins up environment.
+  * Dependencies loaded from Dockerfile.
+* Phase 2/3 (future):
+
+  * Smarter automation to infer repos from Jira stories (ontology, knowledge base).
+  * ML/AI could recommend candidate repos.
+* Discussion about writing helper functions for **file search** (e.g., if Dockerfile/dependency file is in subfolders).
+* Handling environment purging:
+
+  * Environment should not be purged mid-development.
+  * Purge only after ticket status changes (e.g., test complete).
+  * Checks: ticket status + number of days.
+
+---
+
+### **6. Access & Infra**
+
+* Question: Do developers need to be added to `addon` group for Coder access?
+* Currently, Muskan and Shashank could use Coder without being in that group.
+* Concern: limited licenses and pods → need **capacity management**.
+* Users should only be allowed to create as many environments as tickets assigned to them.
+* Namespace/cluster access still needs clarity.
+
+---
+
+### **7. Next Steps & Follow-ups**
+
+* Prayag to:
+
+  * Finalize pilot candidate app.
+  * Provide Inspire credentials and story templates.
+  * Schedule follow-up session with team + Aparna (for ontology/knowledge base).
+* Team to:
+
+  * Lock story details in Inspire today/tomorrow.
+  * Prepare demo with Node.js/Angular repo running in Coder.
+  * Test dependency installation on OpenShift.
+* Call scheduled at **10:30 CST / 8:30 PST** for follow-up.
+
+---
+
+✅ In short:
+This call clarified **Sprint 1 scope** (Git + environment setup), discussed **pilot app selection** (needs Dockerfile + dependencies), aligned on **demo expectations**, and addressed **technical + access concerns** (Coder, cluster, purging rules, repo/manual entry in Phase 1). Phase 2/3 will focus on automation via ontology/knowledge base.
+
+---
+
+Do you want me to also **map these discussion points into Jira-ready user stories & tasks** (with description + acceptance criteria), like we did earlier for front-end/back-end split?
+I went through your **18-08 Prayag** call transcript carefully, along with context from the earlier calls your team had. Here’s a structured breakdown of **everything that was discussed and agreed upon for this project**:
+
+---
+
+## ✅ Sprint 1 Scope & Priorities
+
+1. **Git Integration**
+
+   * Clone private repositories (not public).
+   * Branch checkout and integration with coder environment.
+   * Git → Coder integration is the **core focus of Sprint 1**.
+
+2. **Environment Setup**
+
+   * Developer board & environment setup is required.
+   * Initial POC already done → able to launch a coder enrollment.
+   * Need to finalize **which application to use as pilot** (medium complexity, has dependencies and DB connection).
+
+3. **Dependencies**
+
+   * Must support projects with:
+
+     * **Dockerfile**
+     * **Dependency file** (e.g., requirements.txt, package.json).
+   * For Phase 1, these will be provided manually.
+   * Future phases will add automation (ontology, ML-based repo suggestion).
+
+---
+
+## 🔨 Technical Implementation Details
+
+* **Coder Environment**
+
+  * Enrollments spin up via Terraform templates.
+  * Dependencies auto-installed from Dockerfile/dependency files.
+  * Need to test dependency installation in **OpenShift cluster** (not local).
+  * Namespace access must be confirmed; cluster-level access is not given, only namespace admin.
+
+* **Pilot Applications**
+
+  * Prayag will shortlist 1 candidate from \~11–12 existing apps with prior integration.
+  * Pilot must be **straightforward but realistic** (not trivial).
+  * Demo will be done internally before exposing to external pilot users.
+
+* **Access Management**
+
+  * Developers won’t get “left and right” pods.
+  * One coder environment per active Jira ticket.
+  * Enrollments purged only after ticket status moves beyond “In Progress” → “Ready for Test/Complete”.
+
+* **URL Handling**
+
+  * Each coder instance generates a workspace URL.
+  * Must be linked back to UI (Inspire portal).
+  * If coder enrollment crashes, user should be able to relaunch from saved URL.
+  * Auto-save required every 30 mins (investigation pending).
+
+---
+
+## 📊 UI / User Flow
+
+1. **Homepage (Inspire Portal Integration)**
+
+   * Show Jira tickets by status.
+   * Only **tickets “In Progress”** will have **Launch Enrollment** enabled.
+   * Disabled button for others with tooltip (“Move ticket to In Progress to enable”).
+
+2. **Launch Flow**
+
+   * Developer clicks “Launch Enrollment” → coder environment spawns.
+   * Repo and branch entered manually in Phase 1.
+   * Dependencies loaded via Dockerfile/dependency file.
+
+3. **Future Enhancements**
+
+   * Auto-suggest repos based on Jira story via ontology/knowledge base.
+   * ML model may later predict dependency setups.
+   * Phase 2/3 will add tighter integration with Inspire + repo ontology.
+
+---
+
+## 📅 Next Steps / Action Items
+
+* **Prayag**
+
+  * Shortlist pilot application (needs until Thursday/Friday).
+  * Share list of Sprint 1 stories → move to sprint.
+  * Provide Inspire credentials + table for story-workspace mapping.
+
+* **Team**
+
+  * Start development work already (integration ongoing).
+  * Lock story details in Inspire today.
+  * Test Node.js/Angular app in coder → show endpoint works (UI loads, Postman request returns result).
+  * Schedule demo for Amrita (internal validation).
+  * Work with backend team on NS Infra + OnePipeline integration (phase 2).
+
+* **Future Meetings**
+
+  * Daily quick check-ins this week to track setup progress.
+  * Separate session with Aparna on ontology & knowledge base (Phase 2).
+  * Demo readiness check mid-week.
+
+---
+
+## 🔑 Key Risks / Open Questions
+
+* Pilot app selection → still pending, Prayag reviewing.
+* Namespace vs. cluster access → needs clarity.
+* Auto-save implementation → owner not yet finalized.
+* Capacity management → avoid uncontrolled pod creation (licenses limited).
+* Phase 2 ontology/ML repo mapping → exploratory, not yet planned in detail.
+
+---
+
+👉 In short:
+For **Sprint 1**, the team will deliver **Git + Coder integration, environment setup (with dependencies), and Inspire UI integration (launch from Jira ticket “In Progress”).** Pilot app decision is pending but not blocking initial coding. Future phases will expand into automation, ontology, and ML-driven repo suggestions.
+
+---
+
+Would you like me to **convert this into a Jira-ready list of Epics → Stories → Subtasks** so your team can directly import into Inspire?
