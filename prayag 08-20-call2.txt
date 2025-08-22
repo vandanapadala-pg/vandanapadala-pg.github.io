@@ -1,0 +1,118 @@
+
+You you you probably already study coding on dashboard. So if, like, if, if we take, like, the application, like, the port crashes because of the, code LAN getting exceeded. Okay. So, in field census, for now, we can now fix that. But maybe as you mentioned in phase two in future, the agent will be able to decide that.
+
+But we are getting started. We can give it inspired. Then we go and pull the process records for five or ten seconds. And I think that is what the was a task created. When we go pull things around, if they are successful, they're going to go and automatically redirect to the other tab, the workspace.
+
+I can go and see my workspace. There is a URL. Yeah. And if I go and click on that URL, it's going to go and click into the coder. The URL is not on control for now.
+
+No because assembly is already getting done when user is going to come here on the install portal. He or she is able to go in. They're supposed to go inside again because the sales expiration is fifteen minutes. To my local ID. If I go into this with the local ID, let's see if I have an endpoint.
+
+Okay. Local host. I am calling 3000 If I have returned a test input, I should go It is called the endpoints on the post one. If it is a back end report, if it is a UI report, it should go and show up, open up in a new browser. That is what is required for phase one.
+
+Yeah. Okay. And once you have a phase one, you are going to read the Docker file. Yes. Yes.
+
+Yeah. And we are not going to go blindly. That could this logic that we came to see the node. Just go ahead and install the node which is already done. I know you did it for demo.
+
+But now when we're talking phase one. Right? Yeah. Yeah. So, Anurag, this is what I see is needed for phase one.
+
+Got it. Yeah. So there are few stories that we already have. Mhmm. So please check if everything is covered there.
+
+Mhmm. If it is not covered, we'll go and create more stories. Yeah. And we'll go and return the stories. Okay.
+
+Yeah. This is all we need for Facebook. Okay. Okay. I have set up one more call today, Yeah.
+
+Mayapak again is from my experience. Do you know them? No. I don't know them. Okay.
+
+I think this would be my first call then. Couple of okay. Okay. Well, I I have met him in office couple of weeks, sir. Okay.
+
+He's here in Dallas. He's he's also with Ganesh. When he in Ganesh, we proposed this to us. Because he he knows about this. Mhmm.
+
+Got it. Now I'll tell you where the corporate experience and, Mhmm. Okay. These one for developer experiences, we collect information automatically that, okay, what is the the report it records and what is the branch you need. Mhmm.
+
+Extension to this time, I think this is where you will getting more. Right? Much Yeah. Extension to this is there is something called enterprise knowledge base, and then there is something called ontology. Yeah.
+
+And that is what we want to understand more in detail. Yeah. Are you aware of the other two states? Yeah. I heard of the terms, but, I had seen one, image of the ontology knowledge graph map once.
+
+Mhmm. There was one note. Katie Katie's session on on that, I think, just when the workshop started. I wasn't part of that session, but, I I don't know the entire details, in-depth details about, the ontology as of now. Okay.
+
+See, as per what I'm talking about, I just talked to you fifteen, twenty minutes. Okay. I wanted to ask him for a call. Ontology is nothing but Yeah. So, what they're planning to do is, right, okay, they're going and taking all the repos Mhmm.
+
+And feeding it to an engine. Mhmm. So if that engine is going to go summarize Mhmm. If for this application, if I have 10 repos Mhmm. Right?
+
+Mhmm. If the testing is going to go summarize Mhmm. If for this application, if I have Tinder post. Mhmm. Right?
+
+If I have a text context, okay, write a code for this this or this this application, well, this this this is going to get sent. Yeah. And these were developer experiences will go come in. So for phase one, there is going to be a suggestion. Mhmm.
+
+For phase two, there is going to be actual report. That will be the report. Once you move this to the form, new play progress, we're already going in, environment for that user. Okay. Yeah.
+
+This is this is knowledge based. This is knowledge based that we use for the right. Right? So for any right based systems, what we'll do is we'll provide some kind of PDF file or your text file. It's a context to an LML.
+
+Mhmm. That is what 42 level. This is what I know at very high level. Yeah. This is very high level.
+
+And the implementation part, you might have detailed question. Right? Yeah. This is where we can ask my upper industry. Yeah.
+
+I wanted to check regarding the access. What? Yeah. Access to the post and not further any training or anything like that if needed in the future. Yeah.
+
+We'll discuss. We can discuss that. Yeah. Today, I will, see the details, and then I can come up with the questions that I might have going further after this today's call. Okay.
+
+The ontology comes. Right? Yeah. And this clarity of how and what we have to implement. Yeah.
+
+Definitely. Okay. Yeah. Yeah. Okay.
+
+If you're interested, just let me know. I will Yeah. It's at 2PM today. 2PM. Yeah.
+
+I think we are holding that, call. Let's speak on the invite. Please everybody. Please. Nice.
+
+You're joining. Okay. Join this project with two interns. Okay. The thing is, Jeffrey, is a PhD guy is what my opponent told me.
+
+He's working with this whole enterprise knowledge base. This is One moment, we'll have a subsequent session with me to meet my report. Is I don't see any call I don't see any call in my calendar, before, it it's a twelve in my calendar, which is 2PM. Is that the one you are referring to Muskaan? Yeah.
+
+That is the one I was talking. Are you are you in Dallas, bro? I am in Dallas. Yes. We've asked in that question.
+
+I am asking because, I mean, you asked me to set up calls in EST, and I get confused because No. No. No. No. I'm in Dallas.
+
+See, the only thing is my calendar. Right? My entire team is in Okay. Okay. I I mean But you see my calendar here with only an EFT.
+
+Got it. Understand. Yeah. No problem at all. It's just that, I don't want to make mistakes with the train zones.
+
+So that's why Yeah. I'm not sure that's why. No. Not at all. I started around eight every day, so which is 10:10 10AM, CST.
+
+So anything after ten should be okay for me. Okay. Oh, yes, you guys. Right? This call will take some long time, for next couple of days.
+
+Okay. Tell me, don't figure out what the entire process is going through. Mhmm. Yeah. Not an issue.
+
+Yeah. I'll too late for you guys. Right? Yeah. Yeah.
+
+Okay. Yeah. Thank you so much, sir, for the is all ahead. Yeah. Actually, this session is extremely helpful.
+
+Actually, when I was creating, I didn't know a lot of details, going further at that time. And, yeah, I mean, it's been, like, last four, five days, and and so many things are I mean, I'm also learning, from all you guys. So, whatever modifications needed or any new stories needed to be added for the sprints, let me know. I'll make those, necessary changes and update, tickets. I mean, I mean, I I really like it because I am also not a PM.
+
+I'm also creating stories for the first time. And, like, throwing, like, these arrows in the darkness, like, what should this story say? How should it connect to next? There's, like I I also feel some gaps in these, stories because at that that time, the details weren't very clear. Like, they were evolving day by day now.
+
+So, I mean, just bear with me as well. So I'll make the updates as necessary. Yeah. Yeah. Okay.
+
+Shall I be part of the call? Okay. Okay. It's it's really helpful to me because, for creating stories that will give better context about, what capabilities Coder can already implement versus what need to be done from scratch, for us. Okay.
+
+Okay. That's fine. Yeah. Yeah. Next question is Mhmm.
+
+Is everybody a lot of, Gemini access? I have Gemini access. Yeah. I have Copilot access. Yes.
+
+I have Enterprise Copilot access because I was working on an some AI project before this. So I got access from from, you know, that time. Okay. I don't need it because I have it from there. If if you're creating for I mean, try to access new licenses, you can give it to other two folks or other any other folks who have one question.
+
+Yeah. Just yeah. Just yesterday only, we kind of, I mean, bringing new folks to the team and then, like I mean, still we are figuring out a few more things about how the distribution need to be going forward. But most likely, what we decided so far is they will take care of the UI part. And, the folks here, they will be working on the code integration and these aspects.
+
+Yeah. Yeah. Yeah. So yeah. So far that not much Yeah.
+
+Actually, I had discussed with Flo's yesterday and kind of assigned it so far. But now there might be few more changes in terms of that is I I mean, there might be some reassignment. So I have to talk to the folks on offshore. I'll do that, and I'll check with them regarding these other tickets. I'll ask them to join tomorrow's call so that they have better, you know, access to the context of what is going on.
+
+I don't know how far, like, they are up to speed as of now. So, I think it's it's better if they join the call tomorrow and going forward. It will really help them to set, you know, set them to understand the whole thing. Currently, 9AM is fine for me. Okay.
+
+Then it's fine. It's because even for them, nine is 09:30, India time. I hope it should be okay. Okay. Yeah.
+
+Nine nine EST. Yeah. Yeah. Yes. Kind of status update, I mean, sharing the screen showing what is done if we have any blockers or not.
+
+Got it. Yeah. And that that should be fine. Okay. Okay.
+
+Perfect. Okay. I will have one more session with you guys. I would like to have one more session. I'll just use me for our car booking.
+
+Now I know what these things are. This is what I'll do. Question.

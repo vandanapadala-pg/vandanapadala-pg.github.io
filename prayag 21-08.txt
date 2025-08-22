@@ -1,0 +1,262 @@
+
+The screen on top of this, where you can get the Git benefits. Okay. Okay. So so if the, Git, URL is not there in Jira, he will provide that Git repository, his credentials and everything, and then you will take him to the coding. The step one is not even in Jira.
+
+I we don't want to put this kind of exception logical. No. No. No. What I said was, just check the Jira.
+
+Anyway, you're retrieving data from Jira. Okay? If there is a g d URL in Jira, load that. Otherwise, I will save our user. Okay.
+
+So so do we have the call it one deal. If it is not there, request the URL, for the hit report and then grab his keys. First time he will be we'll load his keys, and from then on, it'll be in his profile, and, we should be able to take it from there on. Okay. And profile is something that I want to discuss more.
+
+This way, it's Go ahead, please. Hello? Yeah. Hi. You're good.
+
+Sorry. You're good. Yeah. So, this is the launch environment, we are planning, right now from the UI perspective. And this will be the Jira tickets, which, I think, all of us know.
+
+I mean, just let me know what we need to, discuss right now because this is already known. Right? Shiva, any clarifications that you need? Or, do you need any clarifications related to the UI first? Yeah.
+
+Vishwa, I discussed with Raja. Like, I will start with the card the card layout as of now because, like, parallelly, we can go ahead with the APIs building and later we can integrate. But meanwhile, I'll start with the UI card layout. Yeah. All these cards, I'll start adding.
+
+And with the dummy data, I'll be displaying the details so that it is at least in a shape where we can directly integrate the APIs and for the real time data. Yeah. I was just starting to start You can start designing the API sorry. Screen metadata, and in parallel, we can work on the API part. Okay?
+
+Node JS API has we'll use back Node JS at the back end. Right? So we can create the API and the back end part. Okay? And, we will, the integration we can plan.
+
+Okay? That shouldn't be a problem. Integration is a big work. Okay? Right.
+
+Right. So, Shiva, you will have the API contract and everything ready by tomorrow? Sorry, not Shiva. Raja. Raja.
+
+Raja. We discussed the API contract and everything ready by tomorrow. We can have a quick review, and then you can start implementing it. Yeah. Yeah.
+
+Can direct that tomorrow. Okay. Okay. So you set up a call with me, Raja. Okay?
+
+We both can discuss that AB contract. Okay? And get it done. That should not be a problem. Okay.
+
+So if AB contracts, if we can close them tomorrow, then, I think we should be able to do some, integration and other things next week. Anything that we need to work on for tomorrow's, discussion with Amritam? Yes. I have a question to Prayag about that. Hey, Prayag.
+
+Lot of people have rejected my meeting, actually, meeting request. And my ID algorithm is not, rejected or, accepted anything like that, I guess. Okay. So what do you think, did I not say that he will join or something like that, for him? Vishwa, usually, during our own time is sorry.
+
+I saw you go to the old team company. No. Vishwa invited everybody for tomorrow's demo. Okay. I understand that, but if you want, we can create a status report or something like that.
+
+I don't know. What I'll do is I'll have a weekly call with him. We have only Thursday, mostly 30 hotel. And I'll have a weekly call for thirty minutes regarding developer experience. So that is why he is giving me some time.
+
+Yeah. I mean, if required, if he is interested, just let me know. Okay. Once things are ready, we can show him a quick demo in that call. It will be required.
+
+Okay? So that's fine. Okay. Okay. Okay.
+
+Yeah. We can join this call. Quick demo. Let us know. So this one screen, it helps.
+
+So you guys have any question, Bhushwal? I don't have any question. And if you don't, I will have some question. Couple of fields. That's all.
+
+Two Okay. So once the first thing is updated to zero, but we'll have a record of the enrollments created probably. So just for our reference or audit purposes. Mhmm. Correct.
+
+Yeah. That's that's what I was going to tell you. That you will need something for audit saying that, okay, how many enrollments people are using, how many created, how many parts to all those things. Yeah. We can do it.
+
+Okay. We can just do it. We will just do a Boolean. Okay. So this is fine.
+
+Good. What else do we need to work? See, I I wanted to use some other fields as well, like, how long have they they have they been using this enrollment, like log in time, log out time? We can extend that and able to capture more fields if you want. Right.
+
+Right. Right. Yeah. Yeah. Namely, it is in the column.
+
+Right? So we can somebody wants to work with us. And have some good six in the table. If any data column or anything, we can put it across. Because this is all this thing, that's something that Ashish will ask.
+
+Will ask. Okay. Okay. This one is good launch and development. Launch.
+
+Okay. Once enrollment, how do we go and check history and environment there or not? We go join to that new table and figure out whether we have it or not? This is the Jira, and we have a user profile. Okay.
+
+So Jira user profile, if you have a active enrollment, then launch it. If not, create a new enrollment. So that is known from the table itself? We will have a callback if that is going to store workspace, and that should be Yeah. Create launch environment.
+
+We can get that URL back as a response and update it in our table. Also, I think Coder has the, like, Coder is for the some API where you can list the whole spaces and all. By user ID? Yes. I think.
+
+Coder has its own MCP server, so it has few API six codes. So we can use them also. Yeah. Just the only thing that we will not discorder is the data mapping. But, that is why we need our table.
+
+Okay. Anyway, that's fine. Right. So the in the Zoom table, we really we are going to show Workspace URL and the DRA ID and everything. Right?
+
+The only thing is No. I understand that. Particular entry is there. No. That's what I was explaining.
+
+Can you explain the response? Why why Terraform? Why can't we have, Helm files that can what we'll do is we'll populate the values dot yml. Right? And then we'll have all those Helm files that will go in with work.
+
+The reason why I'm telling you this, ID? Who is the assigning ID? If I have to create a pod, so that if I can use OCP APIs to pull this information for the pod itself and not depend on code of services, who uses? But, I'll let you know. Okay?
+
+I'll look into film script. Okay. Film script. But check check check, it goes back to some kind of stuff that we want to avoid Yeah. Yeah.
+
+I got it. Yeah. I will add it in separate folder. No. No.
+
+Yeah. Okay. We will discuss the folder structure maybe, but, yeah, but we only one folder is your script. That's all. Okay?
+
+Yeah. Just put scripts and we need those scripts as well maybe to put in as well later. Let's see. Okay. Yeah.
+
+Prancer, you were saying something. No. No. No. No.
+
+I wasn't saying it. I was doing the same thing. Okay. So this one we are good. Yeah.
+
+From the statistics perspective, I'm thinking like the log in dash log out time. Okay? And, CPA usage kind of, you know, how many courses he is using, right, for each enrollment that he's building. So there are certain level of information that can get for statistics. Okay?
+
+Yeah. I need to have a question from you, Priyat. What official crew you will do, mate? That's fine. That's green design.
+
+And your basic architecture design is approved, something like that. No. One is still working on this, There is one user story. It's, okay. We will discuss then.
+
+Yeah. Once you are asking There are some user story. Yeah. There are some user stories, which were Yeah. That would that would create it.
+
+I think one that you know, like, generate what would that would give us out of the box. Yeah. Anything that would that would give us out of the box? We need to withdraw those stories. Yes.
+
+Now most of them calling it, Cora. We need to be actually. Using those agents. Okay. I'm very interested.
+
+How we can give the usage of agents, what are all the use cases, and all these things. Okay? So that we can finalize how we will implement the agent AI function. Right? Okay.
+
+Okay. Let's see even how that can be discussed. Maybe I'll Okay. So that's why I just wanted to discuss to be about that. Because I wanna be a little bit ahead before we start the phase one, phase two development, phase three development.
+
+I wanna be a little bit ahead with the design and all those things. That's why. Yeah. Let's cut. We'll discuss on this one.
+
+So okay. Screen design, I am good. Screen design, anybody have any question? You need something from me. There is something that you guys might need from me.
+
+Okay. So, or export Jira. Right? And this is what I'll explain with also. But currently, in Inspire, what happens is every fifteen minutes, there is a process.
+
+If we go check what new zeroes are there, what what zeroes have been changed. And then it will come and rethink those two of our tables. Now that functionality is not there in there. When it comes time for us to test. It, what I can do is or what I can show you is how to create the stories in the Inspire.
+
+Okay? All the stories in Inspire and that was going to get created and that one is a one one is a positive. So that will be more towards integration, but maybe that's not required now. But if you want me to write a scheduler that will do the same thing that it does in production, that will We will, I think we will use the dummy one for now, okay, to start with. Okay?
+
+But when we are doing integration testing and those sorts of things, maybe we might need that schedule available, not at the immediate point. That's all I would say. Correct. Okay. Okay.
+
+That is the only pending stuff. And do many things did you guys go and subscribe to the Dolby team? Yeah. I think they did it. You guys can you confirm?
+
+I'll get it confirmed. Right? Okay. Sure. Thank you, sir.
+
+Okay. Alright. I have a few more questions on hold. If anybody is interested, please keep out of this call or else you can opt. Okay.
+
+Is it time for Allan's question, Yeah. If you hear Muscan, you can also drop the same key to drop. Then you can see if you want to know more on code at this stage, thirty minutes. I can stay, sir. Not a problem.
+
+I would like Muscan and Sashank to stay as well because they are not suggesting on some parts of Kodak. Okay. Let them stay as well. Okay. Fine.
+
+Thanks, sir. So, yeah, we can with, like, user and it's it's, like, Jira or something. The user and Jira ID. Right? Right?
+
+So we can put it, like, c, I mean, prior, what I suggested was when you are showing the you show a default workspace like user hyphen g a u seven underscore g a I d or something like that. Okay? But give an option to the user to change it if he wants to. Yeah. Yeah.
+
+We can do that. I mean, it looks like how is it is, how it will be? So here you can you can see. Right? So this is a the dummy GitLab, URL.
+
+So it it is an editor field, so we can do something similar for this what's this name also. For? Yes. Okay. This is all the workspace for you.
+
+So, this is what I don't understand. Right? Workspaces. Workspace. So is every workspace one rep or workspace is, like, something we have in our, local.
+
+So let's see if I have workspace development. Right? Let's see my workspace underscore development underscore January. So whatever general objects I have, I'll put it in those workspace and then create a new one for next month. Is is that not something that you can do?
+
+Can you come again? No. I mean, it could be is in the tips. Right? The tips, for example.
+
+Yeah. Yeah. Yep. Understood. Understood.
+
+Yeah. We can, do that. So you want the user to have the, workspace name as, the username with Jira and music repository. So now once, like, US Jira work is done. So you are saying that if you want to continue on that, so is it possible for it, like, for other, like, cloning other reports?
+
+Was that your solution? Exactly. This is just one rep that you're building, right, this is not kind of a workspace workspace. Yeah. Yeah.
+
+Yeah. Yeah. Yep. So workspace based workspace, you mean if the the home page that he is seeing, right, all is repository, right, that will be the workspace workspace from that context. Okay?
+
+Yeah. I contact that I'm trying to. Each card is a report from this workspace kind of thing on a collection of reports. One individual zero ticket. Each card is a collection of reports for a individual zero ticket.
+
+That's all it is. So, suppose, we have a zero ticket which involves, like, multiple reports. Like, it has, it involves, like, UI and back end scene, so you need to clone multiple ticket repository. Correct. That is what I want to point to.
+
+Yeah. So let's see for that. Right? Yeah. Let's see if I'm designing the screen.
+
+Okay. So I will output task. One will be LPI, one will be. Yeah. And if in one instance, all those things, Yeah.
+
+Yeah. So yeah. So we are planning to I think it's under development only to to clone multiple workspaces under, a single code of wordsmith. I mean, to clone multiple reports under a single code of wordsmith. So it I think it shouldn't be a problem for codex.
+
+So it will, similar to this by cloning. So cloning is simple, like, we just give the video file in the, Yeah. Yeah. Yeah. I understand.
+
+But this coder the coder engine is, like, well for this terraform. Without terraform, I mean, we can directly spend parts No. No. Doesn't pass us to That's what. Yeah.
+
+We because the only thing is we've had to play. Let's see if I have a Coder, here, Coder UI. I mean, not Coder's launch instance. We're not going to use that anymore. So what we'll use is Yeah.
+
+It's my current web. We have already, thought about this. Like, we'll have multiple URLs, and we should be able to go on multiple reports. So for right now to, be the first, like, to have so we are making this work for a single report right now, but that is also going ongoing development. We are working on that, prior point.
+
+What we should know is working for you are with I just want to make sure the exchange will be asked to have it done. Okay? That, okay, we are doing this one to further two hours along. Let's say the workspace name. Okay.
+
+The launch, workspace. No. You're sure this is what I was thinking. Okay. We are not going to ask for workspace name.
+
+Okay. That is where I had a question yesterday. Owner. Owner. Who is the owner?
+
+Who is owner? He is owner. He's the user ID Yeah. Of the user. It's a credential that which is involved, and we are not going to have this.
+
+Yes. Yes. We'll do one thing. Right? See, direct booking is keeping you.
+
+When we use to remove authentication obligation and turn it off. Coder has, the authentication, is it so it it does. Yeah. Coder has this authentication authorization. Just do one thing.
+
+Just remove it from there. Yeah. Yeah. So let's take that out. Yeah.
+
+Yeah. Yeah. The plan is to take that out of email. So we'll be, logging using, SSO. Yeah.
+
+Okay. So we have to take this one off. Code server port. Code server port is where they are. What is going to run-in code server port?
+
+So code server port is this code server is this one. I yeah. People get confused with that. It's this server. So when so this one.
+
+This one. So it's like we have code on this browser. It's not a bigger store. So this is, so which code this will be running this code server? That is the configuration which will be good.
+
+Yeah. So So this is a online, web ID? Yes. Online web ID. This is a web ID.
+
+Okay. Can I go and pull and push from here? Yes. Everything is same. It's everything is same.
+
+It's everything is same. You went Yes. That's a pretty clean away one. It's on on Yeah. It's not MSC.
+
+It's a standard. Yeah. So I It's not. The GDC was just a two course, so it crashed. So then I had to create it four course, then, it's working.
+
+So, yeah, this we have this issue when we'll log on multiple reports that are big enough. So then I think, we can't I mean, then in the later point, when our agent is able to, we can see the more usage and maybe downgrade the downgrade the CPU or downgrade the memory. Okay. But, that will be once the agent matures. We can do a pooling regularly and see if it is not using it, then it can downgrade Okay.
+
+Okay. Okay. This is not something that you're asking. Yes. Yeah.
+
+We can take this out. We can default to do something. Memory has been right. See yeah. Remember also if you ask me.
+
+Yeah. Everybody will want it. Yeah. Yeah. So as a user, like, I think I don't want to interrupt my workspace, like, two ads, then I need to set up from the beginning.
+
+So I will always do the AC. Instead of that, yeah, something, we'll provide them. We'll have by default. For now, we'll put it as four or six. Ma'am, then we can do it to the log log.
+
+Six, actually. 2224 and six, actually, I guess. Right. And you will build. Right?
+
+In favor, we can do this. What phrase to what we can do is let's build this kind of requesting framework. Right? But if you want to request more info for this part Yeah. You can always do any you can always do an upscale.
+
+Right? Yes. Yes. Yes. But that's not that's not enough.
+
+Just the idea that came to my mind. Yeah. Yeah. We are trying to execute. Like, if someone wants to use more, amount of, resources, so they would need to make a request.
+
+Correct. See, when it comes to creating the resource amount, right, there is very tight control towards it. And there is there is there is immediately a need for, No. Like, suppose, you know those bands don't match. We have to clone from.
+
+Right? No. No. So, yes, this is one of the storage class which we already have on our, which is created. See, for us, for this only.
+
+So we're using that. Okay. But what what what are you storing then? Well, so every, like, all the positions, volumes created for the work sessions are stored in this storage platform. All the autograph you have done in your coding and whatever you have saved till then.
+
+Okay. So that is not going to sitting by hooking. Right? Since Yeah. If you have saved till then.
+
+Okay. So that is not going to sitting by hooking. Right? Since Yeah. If you have saved till then.
+
+Uh-huh. Uh-huh. So I think, yeah, it's same as the Versus code in your local. So when you clone a repository, so now you have cloned the repository before everything is in your local. It's downloaded in your local.
+
+It's on your disk. So same thing will be here also. Press, where persistent coding is there. Yeah. It's mounted slash home slash portal.
+
+We can change that. So in that storage, your repository is already downloaded. So whatever changes you make, like a single line change also, it will already be present there. So the thing that we have put in it, it GPS or for that file, it needs, like, controller when you want to save it. So, whatever storage, is assigned I mean, whatever volume is assigned to your workspace, with these regulations and all.
+
+So in that storage only, so you will you'll have a specific mounted volume. So under that only, you'll have whatever all the repositories you'll have. Everything will be available there. So this will be different by every or every workspace. When you create two workspaces, you'll have two different storage.
+
+Okay. So one workspace, even if it does multiple reports, we are going to store both in the same storage class. So storage class is one to one, nothing with workspace. Right? No.
+
+Let's say storage class, but storage class is like, like, our volume our, I mean, our PVC assigned to our work, this is some of the storage class. So it's storage. Yeah. So every URL, we have a collection inside the storage Yeah. Okay.
+
+From there, we can use inputs to manage, but initially, caller users, Terraform to internally set up the ground. Those things is right, Usher, when it comes to driving this one Terraform. We need to port So it's like, what happens when you click create a workspace? Like, when you click on the create workspace, everything, like, step up. What happens?
+
+You get sick here. So it feels like they use the code, how they are created Okay. Yeah. Yeah. We want and so we have a way, but we wanted to sit around with a couple of reports as well.
+
+Okay. To see how it is loading and whatnot. Right? So just, so it has worked before. It should work now.
+
+So we will see. I just wanted to test it out once in the radar enrollment. That's all I'm saying. Okay. Okay.
+
+The only thing is right, the other files will give you a lot more customizable. These let's see if you want to manipulate the file, x y z things. Right? This one to type it apart. I don't know.
+
+I need to get hands on, these agents and stuff. There is a parking problem. Yeah. Agents will be most probably day three pay up. Okay?
+
+Because we are we need to still find out, the proper use cases for agents here. Okay? One of the use cases I'm thinking is that you'll take an independent decision based on the review status of the agent. So we need to call to review. And from there, the agent can and once the code review is complete, it can call him as in front.
+
+Okay? But, our letter should not be the one key use case. There should be multiple use cases in this. Okay? Correct.
+
+So we need to discuss about the use cases of how we can implement agents here to do autonomous processing. Okay? Another agent, we can use it for code generation. So but we need some some some kind of things to be done here. Okay?
+
+So we need to discuss that part. That's what I'm thinking. Okay? Practical applications of agents, if you can come up with something, that will be much helpful. We can plan ahead on how to integrate the agent, please.
+
+Yeah. Let's go to the. Session. Okay. Yeah.
+
+Okay. Okay, Yeah. Thanks a lot. Yes. Thanks for using Webex.
+
+Visit our website at www.webex.com.

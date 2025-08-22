@@ -1,0 +1,294 @@
+
+I don't know whether you know. Okay. We have an offshore team as well just to pass like this. Yeah. Yeah.
+
+I just, Warner just told me. You you know, I think you know Raja. Yeah. Sivan, right now. Know the that's the one week we'll be reporting.
+
+Okay? That that's the thing that he was working with me. Yeah. Sivan was around. He told me one thing back then on this as well.
+
+So just for your information. Who is who is going to yeah. This one will speak. So let's try and talk about this phase one stuff. Uh-huh.
+
+Okay. Yes. Even that that's what one are telling me that, they're also going to get involved. Right. Right.
+
+That's Okay. So first thing, right, I was checking how we are going in, populating the telephone with voice mail. Yeah. I haven't talked to voice mail in length of this installation. Right?
+
+Coding installation is something that I need. I'll read that and that is what it was done when Ganesh was working. He is the one who went and set it up. So that is okay for now. Okay?
+
+The other thing is right. See, when we talk about developer experience, then I'll tell you this again, something in my local, getting the behaviors from a docker file. Okay. And then installing dependencies. Now see, these are the things that can happen.
+
+Right? Okay. Let's see if I write a job. Okay. That accepts one more parameter.
+
+Let's see if I have file title dot JSON file. Right? And the one which I want to use. These are very extreme scenarios. Right?
+
+Okay. Out of all and dependency files, we're going to pick it up. But this is what we have to do. Right? Let's say when we take so the current way it works is right.
+
+We will take a repo. Okay? Blah, you give this repo in branch to Terraform file and that Terraform will control this, different installation stuff. Right? That is something that we need to tweak.
+
+Okay? So the way we need to tweak it, we need to get this Docker image from artifactory. So what I then will automate, Verizon will already have a base image. We sure. We just can't go and blindly put up that all these conditions.
+
+Right? That if it's an obvious code, we'll go pull a note, this image, whatever the test. So this is something extra that we have to do. If another extra thing we have to do is figure out figuring out the dependency file. And then we can we have to construct a docker file in such a way that we go and build the call.
+
+You're good. Right? Because the moment if I do something like me. Right? No.
+
+I think if you're speaking something, you're a new. If I go print some art, if we go and take this If we go and take this Docker file, whatever is there in the repo, landing right, it's going to failure. So we need a way where we can pass this. Right? I don't keep whatever is in the Docker file, all I'm going to do is pick up the base image and start building using whatever is the dependency file from the report itself.
+
+To me that involves us making a copy of a Docker file. It's point number one. Which one? You have the right? You guys are able to read?
+
+Yes, Brad. Yeah. Okay. So it sounds where you want to see how to do this. Right?
+
+Yes. Yes. What is the plan for this one? Yep. Like, I'm looking into some options where, we there is one way to do this with, something it's like image stream where we, take the case image from this Docker file and, like, deploy it on our environment.
+
+So there is some, expression layer that you're gonna keep on, Yes. Yes. Right between you getting the information, getting all these parameters. Right? Big parameters.
+
+Yeah. Do the reposome of them will figure out what is the top profile. Yeah. And you have to go avoid statements like this. Right?
+
+Because it's been going through here. Yeah. You're right. And if you see, the Docker file is built for a Jenkins job or maybe a little bit later. And there are CLI arguments that are supposed to be passed here, which will not be in this case.
+
+Yeah. It's all this thing we have to take care of it. And I think I will give you some docrefunds for it so that you can do this kind of things. Okay? I have a right tool here.
+
+Yeah. So prior, what we said, so when we are taking the initial application, okay, where we need to see we are first to application, maybe we can take a clean Docker file. But after that, we need to see how to manipulate the Docker Docker file as well just in case if things like this happen. Right? Right.
+
+See, for now, right, even manipulating Docker file is not a big thing. Yeah. All we have to do is just text it. Right? We take this line take this line from here to here.
+
+Yeah. Why did it take this this something we do it. Right? This is inside of our side mode. Running in search for it.
+
+And this is all the UI. No. Running in the right information from the AI by Docker file. We don't need the entire Docker file content. Correct.
+
+We don't need the entire one, Harajit. Okay. But this is what we need. These things are working in. Right?
+
+What port it is exposing, like, like, all these things. So that is why we need to go and irrespective of whatever doctor said we have for an application. Mhmm. But even from phase one, right, we should take this, extract this doctor. For you and extract information as per what we need.
+
+So that is what I was discussing with, Just as he was telling me that how this thing is going to work. Okay? Like, how Okay. So we need to write a utility to we need to write a utility to read and clean up the Docker file if required. Correct.
+
+Correct. Correct. Okay. But this one thing I wanted to end off go through. And I think you should have a task for this one, one and a you should have a task for this one.
+
+Sure. Sure. Clean up the kernel file and read the darker thing. Yeah. I'll create a story for that.
+
+Yeah. Mhmm. Yeah. I think put it in place, man, one minute. Yep.
+
+Now let's see if I build this workspace. Right? There is a URL like this that is getting exposed, and this is where I wanted to discuss this with you. What Okay. Yes.
+
+So there is a what the I know you had you had pasted in something. Right? Oh, yes. No. Okay.
+
+So this is the key side, and this is where we wanted to speak on authentication or authorization. So the expectation is right, Isha. And I think this is what you need to explore more personal. But see, if you look at this URL, right, it will ask us for a username and password. So we should get some some kind of authentication.
+
+Okay? But the thing is we don't need it because this URL, right, is only going to be accessible and e workspace. If I go and click on this e workspace, I would see a URL. That is the expectation. Right?
+
+And for each of the Yeah. I would say probably Priyad, one question for you. Okay? I don't think we will have that launch enrollment and see workspaces at all. Okay?
+
+That'll it will not be there. If you scroll down below, there'll be only one screen, okay, which has your one stop development universe and all these things. And all your things, whichever is created and not created, will show here. Okay? If, when you click on launch environment, if the enrollment does not exist, we will create a new enrollment and load it.
+
+If an enrollment already exist, we will load that enrollment with all the changes that you have done. But how do we know the URL for that? Are we going to Yeah. We are going to get the URL back from, coder to here and save it in the data. Mapping with that Jira and user ID.
+
+Right. Okay. So let's see if I put this even this story, then Google has any component. Is it going to moment that you can launch? Mhmm.
+
+What what what is the current going to give me? It's going to give me a red color? So That this is What do you mean red color? No. On this screen.
+
+Right? This is what my expectation was. Uh-huh. All these roles and all I meant are for the stories that are new or in progress, but I haven't started any work. Right?
+
+And if I go and click on the see workspace, see workspace is going to have all my workspaces. Right? We can have it in two tabs if you want. Okay? But I all we thought was let's have it in a single tab.
+
+Maybe a user will have four to five Jira tickets assigned at the maximum. He will have five cards. Right. Okay. He will have five cards in the same screen.
+
+Okay? And Mhmm. If when you click on launch environment, if you have already created an enrollment and saved certain things there, it'll load the enrollment. If there is nothing that will create an enrollment for you. Okay?
+
+So as soon as load an enrollment or create an enrollment, we send the URL back into the system and store it in the system as a mapping between user ID, story ID, and URL. So for this user, for this story, this is the URL. So, Krishna, you can log it. Right? Well Okay.
+
+Okay. I see. I see. The environment is purged, the URL will be there. When the environment is purged, the URL will be, removed from the table.
+
+This should work. Maybe we'll have a Boolean column. Right? Saying that if it is active or not, what's specific? Yeah.
+
+That sounds like a good deal. Not a big deal. Something like that. Okay. Something like that.
+
+Okay. That is why I wanna keep it very simple. That is the the thing there. Yeah. Not to confuse No.
+
+I think you're the yeah. You are right. You are right. In that approach is what this so this is how the screen will look like. Right?
+
+Just one. Just one one with the So five things by cards will show. Each thing is a separate user story, and you can launch, work on it, do whatever you want. Okay. Okay.
+
+And also, I don't know whether you need that search bar sorting filter and all. If you want, we can keep it, but Let's keep it. Let's keep it. Maybe it's part of React, framework. Right?
+
+It's part of the great framework. That's an all. It's something we don't have to go manual implement. Right? It will all be taken in the UI.
+
+I don't think there is any peak on there. It's supposed to happen. Maybe there are some components like this. Right? Yeah.
+
+I think there are already You're already processing components which might be there. We might we can reuse, which we may be able to reuse. But the main functionality is here in these cards only for us. Right? Right.
+
+Okay. Each each you are a writer. This is what I wanted to talk to. Okay. The way this is asking for authentication.
+
+Right? Is there a way we can bypass this authentication? Because any authentication authorization is going to happen based on SSO when you go log in to the Inspire. And this is where I had question for myself. That is what you're referring to.
+
+You are not showing the user ID by email and you are not asking for email and password. Right? So, I mean, for now, we like, for now testing, we will do this, but, our final, product will directly log in through SSO form Verizon portal. From Inspire portal. So from Inspire, when you click on launch environment, you'll be directly authenticated and directed to the analysis.
+
+Yeah. Prior to phase one, SSO integration might not be possible. Maybe phase two, we will do it prior. But then SSO, how do we ask people to should we give them a common email ID and password to share? Maybe If I go See, this install will already created.
+
+Right? Okay. Let's So now we will pass the user ID and password, Vaishnav, even in the phase one. Right? Okay.
+
+Then then log in and this give the interface to the user. Okay? Do one thing. Right? Can you just pass information?
+
+You you can get password in the URL and see if this works. Okay. This one even I'll figure out. Okay. I'll do some Yeah.
+
+I mean, see, we can figure it out. We can just make sure that once the once you log in, whatever page you get, that is the page that the user gets. So it will be easier. Correct. Correct.
+
+So more authentication authorization for now. Next step, because the right the the only thing is this issue. In order for us to do this, we have to give the external authentication. In order for us to assemble authentication, we have to put a four g rock or as a reverse proxy. Right?
+
+That any request goes to this folder, goes to a reverse proxy, we go to SSO, authenticate the user, and then open these things. It's too much for this one is what I feel. That's what I'm saying. Not what I'm saying. But this one so we will see whether we can simplify this process.
+
+Okay. Instead of If you see on this one let's let's see if we can bypass the authentication. Okay. So for fear one, right, this is what we need, Vishwa. And I think that is what I was talking with the team today in the call.
+
+I was kind of well, at the stories. So, Aruna, you are good on what phase one report. Right? Yeah. Regarding the gate also, we were discussing, just want to get it clarified with Vishwa.
+
+Why are we doing it, like, at the Inspire AI launch page, or in the It's a it's a separate UI. Right? It has nothing to do with Inspire AI now. Can I correct my thumb off? Yeah.
+
+Yeah. I mean, Inspire AI this has something to do with Inspire, and and I will tell you why. I've been telling you this. Every page you see here, okay, is a separate UI. Yeah.
+
+A third hosted UI. These are all I know. What will happen is, if I'm a user, right, my name, my ID, blah blah blah blah, everything is going to be passed from this component to this MFE. And that is why you will have a separate hosting security port. Right?
+
+You put in a separate hosting. This has nothing to do with Inspiree. So this is kind of a stitching. Right? Let's say there's a t shirt.
+
+We are we are stitching one free to this Inspiree portal. So that is how we are going to go and pitch the MFE. Integrate it, just the MFE call. Correct. Integrate just the MFE call.
+
+Okay. Got it. So we can do that, and that shouldn't be a problem. Okay. That is all we need for phase one.
+
+That's what I was asking Amit. He was asking me that, okay, did you guys start anything on on to the EKVN by giving this intelligent possession for a course. And that is why we are is why we are called to this this, books. Yeah. I understand that.
+
+See, I have a little bit of understanding about EKB and this ontology. Okay? For your information. Mhmm. Because, before starting the I worked a little bit on EKB.
+
+Maybe two weeks. So I have a little bit of overview on it. Much. You know more than a step. Well, a little bit of overview on it and how Neo four j works and whatnot.
+
+So just saying. Okay? Mhmm. So I went on Neo four j two years back, but not anything about four years too. Nothing has changed in two years.
+
+I don't know if I actually I'm Neo four j. So Yeah. Neo four j. Okay. So that is what, we have.
+
+So now, next step is right to show, Vandana. In this go look at how these guys go pull information for a mid level data. And then we have to go see how we can get from stories, how we can provide a search. But I think phase one is good. Base one, we are we'll get the report from the user as of now.
+
+Right? So that is fine. You mentioned that this is from the story. Is it from the story or from the user? So, Brian, this is the idea.
+
+Right? If the user did not give any input on the story, we will ask the user to provide the info. Correct? Oh, good. Phase one or next series?
+
+Phase one. On that, we are going to give a pop up. Right? Where people are going to enter the get access token, repur you order, and what brands they want to clone. That is the phase one.
+
+There is nothing going to be in the story. Right? Yeah. Okay. Tooling, we are not story.
+
+Nobody is putting anything. Right? Yeah. But What do you say we are capturing? We never inspire the portal itself.
+
+That is what I'm thinking. Okay? If they do the ontology mapping and they create the story, okay, why can't they add this mapping as well in the report details as well in the story? We can pick it up directly from the story. The only thing is that, this story they're using is from system entities.
+
+These people will not go code level detail. No. I don't know. But No. As a developer, before you click on launch environment, you would already use a story.
+
+Right? If you find something wrong, you can correct it and then launch. Right? Yeah. Actually.
+
+Yeah. See, that's phase two. Right? Because phase two, what it's going to be is phase phase two, we have to go and accept things from user story. And that is why phase one is very simple for us.
+
+Right? Right. That we are not going to touch a user story, not in not get anything from the story. See, the phase two idea is not accepting. Phase two, the idea is we use this ontology to do the mapping.
+
+Is wrong. There is a problem. Yeah. We need to get that. At least we need to do the cyclic process.
+
+Okay? If he corrects it one time, the system should learn and correct it next time. Correct. Correct. That should be a cyclic process.
+
+So that will I will see how to do it. Yeah. I have to discuss with the what the what the LLM, what method we can use to do this. Okay. So I will discuss and I'll let you know, Prayad.
+
+Okay. If not, but for phase one, we are good. Right? For the next phase one, we are good. Vaishnav, you know right now.
+
+Yep. Any questions? Nothing for right now. Any blockers for this one voice now? Nothing at all now.
+
+Okay. Thank you. Alright. Thanks, Gloria, Ashish. Yeah.
+
+We we need to involve the offshore team also, Vishwa. There are certain Yeah. We need to inform them about all these things. Okay? We need to have a daily call with them, Yeah.
+
+Because right Yeah. Maybe evening our time, morning their time, we'll set up a call. Mhmm. Or morning their time we can Whatever. We'll we'll see morning our time, maybe evening their time.
+
+Something we'll set up a call and we'll do a daily sync up. By the If only thing is, Verma, like I told you, right, if I know who is doing what, what what is getting done, then we are good. We we can all sync in the same call, right, really. Yeah. Yeah.
+
+Different calls. Yeah. I mean, right, I see, if, me or Vandana will always know who is doing what. Okay? We can we can sync up to you always.
+
+Definitely. They'll sync up. Okay. So so you don't want also to join the work calls? No.
+
+No. I mean, I they will join the calls, but they will not join all the calls. Right? Because they are working at a certain time. Right?
+
+So till their time till they are available, they will join the call. But our afternoon calls, they cannot join. That's what I'm trying to say. Yeah. Afternoon, I'm not expecting.
+
+Okay. Our morning calls, anyway, they are joining. So let them join our morning calls. Yes. Morning call, let them join.
+
+Yeah. That is the idea as well. Yeah. For me, I'll get, more into the technical details also. This one.
+
+Sure, sir, sir. Sure, you are most welcome. Yeah. If you want to do some coding as well, if you want to develop the agent as well, you are most welcome. Yeah.
+
+I mean, I will I will. But let that part come. Okay? That is why I'm excited. That is where my questions were from day one.
+
+I don't care why I know I know I know that is what you are waiting for, but we will take it in phase two or phase three. Right? We will do it definitely. Yeah. Yeah.
+
+That will make time very comfortable, Vishwa. That's all we have been doing. Right? Yeah. Yeah.
+
+I understand that. I have I mean, see, we are anyway working together as a team only. Right? So it's fine. We can do.
+
+Right. Right. Right. Yes. We'll work out.
+
+Then I take some, AI stuff up. Yeah. Okay. So that's all the young and science for quota. Yep.
+
+Then we need to talk more on some of the responding of that quota instance. Persistence is something that we haven't discussed. Yep. We will talk talk about it tomorrow. Okay.
+
+Whenever you have time, I'll I'll link it. Yeah. Yeah. So I will think of Oh, okay. Yeah.
+
+Yeah. Sure. But take care of pulling the report from Artisectic. Yeah. You don't want it to get from doctor registry or anything.
+
+Right? Yeah. The security Yeah. There are some stories that have already been taken care by, coders. Yeah.
+
+Yeah. I had a call with with Vishnu yesterday. That is why I know. Yeah. Okay.
+
+Coder takes care of these things out of the box. Yeah. So what should I do, with the stories, like, which a coder takes care of? I just say it's done or any changes that I need. No.
+
+You can withdraw it. Put it through. Put it in the Cancel. To it anyways. That's all we.
+
+Right? Cancel the story or something. Throw it. Okay. Okay.
+
+Sure. Sure. Okay. But this is what we need for phase one, the UI. Okay.
+
+But at least, reading the doctor to file, it will send them here. Die will also be there only one challenge. Mhmm. Die will be done. Uh-uh.
+
+Some of the stories actually were created from the requirements of the features itself since it's been done by Coder. So for the features to have, like, all these acceptance criteria to be matched with the stories, I mean, is it's okay if I remove, I mean, if I just, modify or, you know, cancel those stories? I mean, if we can repurpose those stories, please try to repurpose those. But if not, we can cancel those. That is the only way around.
+
+Okay. Okay. Okay? Yeah. If we can repurpose some of the stories saying that, okay, some of the, grid layer can modify and repurpose it.
+
+That's the best way to do it. Sure. Sure. Yeah. But if you ask me right when the nights don't matter because I don't know what this how we'll do.
+
+Right? So we and I have to update you on this. There are 12 to 13 applications that are being piloted for ontology and we can Yeah. Knowledge base. Okay.
+
+So what algorithm tool means, you have to go locate those repose that belongs to all this to an application that figure out the candidate. So that's what I was telling Sonia yesterday that These are good examples for us. Mhmm. If I go look at the things, it should okay. I need to get access to how to create all these node repos.
+
+Yeah. Let us know of the candidates at least so he can plan for it. I would just do it. Okay. But give me some time.
+
+Let's figure this out and let you know. No problem. Okay, guys. I think I'm good. Good call.
+
+At least we have good clarity, now. I have good clarity. I think you like that. This project is running a lot better, sir. Don't worry about that, What what other products are involved with, Rishwan?
+
+Mini. I'm involved in speed test. I'm involved in speed test. You are involved. Speed test.
+
+Who's doing sport speed test? Is it something you're doing here, Varey? Yeah. Varey's on, but not in, Irvine, Ashburn office. From Ashburn office.
+
+Which thing you think? So you're on the network system or Yeah. Networks, essentially. I met Mayapan the other day. He was asking him that he what these things do it?
+
+Yeah. Mayapan told him that Vishwa, he came to me. Vishwa, you know the anthology. Why are you asking me to give the k t? The experts, you should give the k t.
+
+No. He told me that means I know something. I told him that, no, I want other books also to join that and said, I told him that I learned him to that call. Nice. Okay.
+
+I was there in Verizon on this yesterday, actually, prayer. Oh, you were there. You could have ping me. I was not there yesterday. I was there.
+
+My mom was telling me that, which way is going to be there? So he was telling that if you want to, you can ask me to come. I told him no no no. I don't want him to come on the way. Yes?
+
+Yeah. Yesterday, I came. You could have been missed. Monday, Tuesday, I was there in Dallas only. So I went to, Infinite Office on Monday and Tuesday, I came to Verizon Office.
+
+I could have been Yesterday, I had I could have been I had USCIS appointment. So that is the reason I didn't came to office. Okay. My wife's appointment I had at USCIS, so I didn't come. But tell me, is this one next time when we were going to be in office?
+
+Yes. Yes. I'm sure I come. I will. I will do it.
+
+Definitely. Yeah. And you said you are going to call me when you come to see that park something, this week or last week? Is that what no. That didn't happen.
+
+Sure. Oh, yeah. That didn't happen. So I didn't call you. Okay.
+
+But before being hosted, I told you. Sure. Definitely. Same. I'll come to when I come to your ring, I'll call you as well.
+
+Sure. Take care. Okay. Okay. Alright.
+
+Yeah. Stay blessed. Thanks, Laura. Bye bye. You all have a good one.
+
+You too. Bye.

@@ -1,0 +1,284 @@
+
+So it shouldn't matter. It's just based on the e n v files, whatever we have. E n v, whatever we have. Yeah. Because ports will be configured right if it's a light and the port will be configured as well as new air force.
+
+Yes. So the the laptop JS or whatever is the start file. Right? Yeah. Yeah.
+
+Okay. Flow if everything is working fine. Let's see. So AD is not needed because if we go and set up booter properly into application transfer in setup port, You can check the index or the estimate. It's the starting point.
+
+Yeah. If it's the starting point. Yeah. Is within the interest of the same or deployment, we may open duplicate ports. Yep.
+
+And that will create some issues. Yes. You do. But as long as this is configured, right, this will be configured. This is not configuration.
+
+It seems or anything that we have to do. Okay. What is the other one? So the next one is configure, persistent storage. And, this is also your ticket ID?
+
+Yeah. 6210. 6210. Our code executes an environment, so it assigns a persistent storage for us, for the user so that all the user data, like the code, data anything downloaded, any files created, everything will be stored there. The system state, is it based on the UID or it's based on the workspace?
+
+I mean, the workspace will be assigned to the UID. So yeah. You can save for that UID. One UUID might be helpful for workspace. Right?
+
+So No. No. Each workspace will have a unique UUID. Workspace unique UUID. Okay.
+
+So UUID is not based on the user, Yeah. So, two, like, basic examples. So you are a user. You create two host business. Those two host business host business will have two different, personal storage in So your mom path I mean, the word space one mom path will be defined, word space two mom path will only for it to to to call.
+
+Is that the telephone that you were showing us? We we use the mom path, but, for the reason, when it creates the environment and, PVPOD, it the persistent storage is different for both of them. Yeah. What are the Yeah. Storage?
+
+Storage? Yeah. So we code, whatever we have, any files we create and everything. And whatever we, work on on that works best. Okay.
+
+Let's say if I'm running this repo, I if I'm running this repo, right, even I think the voice mail is not connected. Okay. You can go ahead with the other ticket. I'll, just, connect the voice mail, and I'll show you. Okay.
+
+This one I like to discuss with you more. So this is more of an understanding of how how the coder works. Yeah. Okay. Because, see, what we discussed yesterday, right, this registry, were able to connect to this enabled with this image once again, I'll start sharing this image.
+
+Oh, yes. Could I give you one image, right, this image? Oh, yeah. Yeah. Docker file is going to does does is that working for me without passing any credentials?
+
+No. I mean, I'm still working on, like, implementing the, like, the taking the Docker image completely, not installing Magaly, like, with scripts. So you mean, you're accessing the one at one at a factory? Yeah. It was correct.
+
+Accessing one at a factory works for you. Right? Yes. Yes. It was.
+
+Yeah. Okay. Vaishnu, you mentioned that this is also part of the Coder. Right? You said Coder would be providing this which again?
+
+This, Yeah. Yeah. The persistent storage, yeah. Coder provides this. I think Coder handles it.
+
+We just need to, provide a path where we want our persistent storage to be. Okay. Okay. This one you may discuss more. This one may be a part of when we go and discuss more on coders.
+
+Did did you get a chance to talk to Ganesh about how he went to install coders? Not yet. I'll connect with him today. Okay. So the other one is, kind of assigned to Raja Arumugam.
+
+Currently, he's not part of the call, but you can cross check that Jira ticket, which is 6209. 6209. Yeah. The custom Docker file for an I know that my client will need a custom Docker file. What's it looking to control the language configuration and dependency?
+
+Use cases. Oh, let's take in Yeah. I think what we did as yesterday now. So Yeah. We can go to the space.
+
+Randomly, but it should, pick the base image from the Docker file itself. Correct. If you ask me, this is not needed. Okay. So not needed.
+
+Okay. In order for us to go and provide when that you are speaking something, go ahead. Yeah. I will update that, in the, list that this this feature is not needed. Mhmm.
+
+This one is not needed. And I will tell you why. We, as a team, should figure out, okay, number one, what is the base image Mhmm. That every Docker file will help. Mhmm.
+
+Yeah. And second, what is the dependency file? Okay. No dependency file can be anything. Mhmm.
+
+What we have to do is whatever Dockerfile is getting provided. Right? I can go and ask every different application team to put a Dockerfile just for us. Okay. This is not how it works.
+
+Okay. The way it is supposed to work is we are going to read this Dockerfile. Okay? This is what is important to us. Line number one.
+
+Mhmm. Line number one and two. Okay? This is not needed. Or maybe we can take this copy statements also.
+
+Okay. Okay. And this. Look where it's like to look, create our own document. Okay.
+
+Shall I, remove this story, from the g from the Jira then in that scenario? This is might not be needed for No. Don't don't remove it. Okay. Don't don't remove it for now.
+
+Okay. Let me start now. Okay. Let let let let him learn the part. Okay?
+
+I'll discuss this with you. Okay. Okay. And then we'll see what to do. Okay.
+
+But for sure, we are not going to ask folks for providing a separate of the call for us. Okay? Nobody is going to do that. Okay. Got it.
+
+Got it. The legal goal scenario. Right? We need it one week only. Right?
+
+Correct. We don't ask them the finding what the beginning is what is the version. And if you see line number one here, right, line number one talks about the version. That is what I need, and I need a dependency file to that. In order for me to spin up a pod, all I need is a Dockerfile that tells me this.
+
+I'm not concerned about what is the environment where you would if you see this line number. All these things are not concerned. Yeah. These are of no concern here. Okay?
+
+This is all so if I remove these lines Mhmm. This is how, ideally, our Docker file should look like. Okay? Okay. So if I put this right, if I put an if I did into this Docker file to push now where is the RAMS through Styrofoam, it will always go in setting that.
+
+Mhmm. Got it. This is what Mhmm. Got it. This is what we have to do.
+
+There is a passing engine that needs to run. Okay. Step number one is cloning the for step number two is creating our own Dockerfile. From a Dockerfile, that is already provided. Mhmm.
+
+This this is where I can't give you one demo demo sample application. Yeah. Out of all the 12 applications that I know for POC, I have to go in CRM. Mhmm. Okay.
+
+And we have to go look at the registering code report. Right? Yeah. And see how people are doing stuff. Yeah.
+
+Let's see if there is more than one dependency file. Mhmm. How do we go and check those? All these things will come. But this is not needed.
+
+Okay. It's good that we talked yesterday, Krishna, when you'll knew what to flow, how this code is like. This is not needed. Okay. But we'll wait.
+
+Okay? We'll wait for, which one to join this call? Okay. Kumar, the disc is working. Okay.
+
+Just more in detail, and out. Okay. We will withdraw this. Okay. The next one is, there is one, right now which is not available for this print, which is 6208.
+
+Maybe we can go with the other Jira tickets, which are kind of, in the pipeline for this print itself, which is 6207. Provisioning basic environment. 6207. Okay. So, k.
+
+Yeah. So this is, like, we provide, like if there is no existing repository and you someone wants to start a create a new repository and the they already know the text tags, so we already provide them a basic, boiler code. Well, let's Yeah. So this one, we'll target for now. Yeah.
+
+That's that's that's what we have also decided. So this this is this feature is not for this print. Okay. What is the other two is the And the one I was saying is 606207. Provisioning basic enrollment.
+
+So this one So, this is, like, just to create a basic environment, like, just the clone we, create an environment, then we do another repository and have it ready. But, it in the next field of this will be, like, have the read the document and install everything and have it ready. So that is the current stage. Right? What is the next week?
+
+Yeah. I mean, the what is the in the graph? This data. So this is, like, the basic one which, already we have. So what's the difference between musical element and what we are starting to do, please?
+
+I mean, there's no difference, but, the data that created that I'm just explaining the data. Environment. Just coded. See, Coder provides everything in notes. Right?
+
+What are you doing here? Sorry? Coder? Sorry? Coder?
+
+No. Music environment set up. Right? That is something that you already did. Right?
+
+Yep. Yeah. It's done. Yeah. Successful.
+
+It's done. It's done. It's done. It's done. It's done.
+
+It's done. It's done. So I think, it's like when, you launch the, when when you create a new workspace and you, like, launch, like, click on the create workspace, you give all balance and everything that you click on the workspace. So it it will, start creating the environment for you. So I think it is that one that you you it doesn't So this is the work music sector, music.
+
+Right? Yep. It's like the the setup is working or not. Yeah. Okay.
+
+I think you're on track of this. Right? Anishul? Yes. Yes.
+
+That's what you and you were showing me yesterday. Okay. Okay. Okay. What is the other one that we have?
+
+The other one is, 6205, access a running environment. It's a running environment. This is from UI, I think. Like, once the environment is created, they have to access right the next time they log in or something. So for that Okay.
+
+Yeah. This is the user server. It's it's, I will mail this email login for coders. So, we'll have something further, like an SSO authentication from Inspire AI to coders so that he doesn't need to put his email. Will coders take up the credential?
+
+How does coders authentication work? So right now, it's the email and password. But, emails, like, Sheshant and, Muska, they have already done it for Infinet where they are using Keycloak to authenticate coders, like, from UI. To authenticate coders. Okay.
+
+So let's see. So that is our network. Right? So code uses open OIDC. It supports OIDC and what we were using this Keycloak as identity provider.
+
+Yeah. But, what if Verizon uses any identity provider, we can integrate with that. So let's see if I have a link. Right? Let's see if I have works this link.
+
+This is something that we need to figure out. Can you tell us and show me how this key flow works? But here, I don't have a Verizon laptop. I do have an infinite. I would have an infinite.
+
+Yeah. Maybe we we can share the Webex link and after some sometime later when you want to see that how it works, you can Yeah. We use two things. One, for code, we've used, OID, and for other, we use Tamil. But SAML is working.
+
+It only supports OpenID Connect. So or to work with GitHub to GitHub. Okay. This one, we need to discuss more in detail. So we need to figure out the way to authenticate folks.
+
+So, question, is there a way we can stop this authentication? We can take this out important Yeah. We don't want to do that. So as, like, as I mentioned, they they were also using they were also redirecting the user from an UI to, code us directly. So without any that's the code for that.
+
+It means that we can do that then. So if, Inspire AI can authenticate, and maybe we we can add SSO for the product part so it can actually detect. So they don't have to enter. So you said it or anything if we can integrate the Cisco. Okay.
+
+Let's do one thing, everywhere. First of all, when we connect, right, we also ask the sign to join. Yeah. And it was giving authentication part. For launching the instance, it will be all plugged under Inspire.
+
+To this is, near the user making a call to Inspire. This is a four zero access authentication request earlier. To my US port. So this is how I'm using the application. Now the page where we are putting that, okay, go and launch for instance.
+
+If that is this going to come under the in the in the session. Right? We have, separate MFC here. Our MFC is going to get plugged here, all that operates screens. So the only thing is we don't need to authenticate user one more time.
+
+In the loops, I'm going to open a portal for you. And then you go authenticate yourself again. Yeah. Yeah. That's what you are planning.
+
+It would be only one time, but that's just only Right. They log in only three days. UI wants to decide any login. It should automatically log in to UI for them both. Yeah.
+
+Correct. If I already have a URL code. Right? And that is what we're planning to we're planning to add one more table. What it is going to have that will be here in the feature.
+
+I mean, here is the source. Here is the sign. Here is the voice, and here is the code as well. If I go and, like, this thing, you click on that code as well, I should know performing any authentication stuff. Right?
+
+Yeah. Yeah. Yeah. Okay. Okay.
+
+Not so sank. Why do you feel between there? Voice now and so sank. Yeah. This one has to this part would be skipped when you confirm, Inspire AI, because it will be authentic.
+
+Yeah. I I mean, this, email authentication one, we did totally. So it could totally be an SS authentication only. Correct. Yeah.
+
+Let's start this for now. Okay. But the only thing that can happen is this. Right? Okay.
+
+Let's see if I oh, connecting my system to the VPN, the we can't do our lesson. But for now, right, we don't need to take care of this. We we'll figure this out. We'll I don't know how to, but we will clear this out. When you turn off the VPN, I don't think it should.
+
+Right? Yeah. Connect totally. You can't access Google or anything. Yeah.
+
+No. I can't. I mean, I think I think this is under this Verizon, Robert. Maybe I don't think you'll be able to But we can try. Yeah.
+
+We can check on that. Yeah. This one you have to write up. This one you have to write up. Because then what we'll have to do.
+
+Right? The only thing so this is our first. Right? So we need to request the code. Right?
+
+It's going to code that, it's going to code in this space. Code or whatever part is that. That is what I'm very interested in call to the code is going to go by a system of indication for still nine to the code. But for now, we don't need this. So let's focus more on getting the functionality out at least for a couple of application, and then we can figure this out.
+
+Okay. Sure. Okay. So Alright. What else do you need help?
+
+View and manage environments. Even this might be for the second sprint. The other one, the number is 6204. Yeah. So this is already provided, like, code around I already provided it.
+
+Go on the border. Okay. Then it's written second print here, so I will just change it then. Yeah. Yeah.
+
+So it's like, you have three workspaces running, three environments running. So you can just open any anyone and, go there and develop and come back and open another workspace. No. This is the well, the product is the what are the No. I mean, that's why I just come into that area.
+
+This is already I guess, recorded. This is not able to be clicked and sent over. Okay. I want two more schools. I have just what what what else do we have?
+
+Six two zero two. This is select from multiple, environments. So I think this one is related to there are two workspaces, and they want to open, each workspaces separately in different, Versus code, not in a single one. Yeah. And I think here that code already, that code already Yes.
+
+Yeah. Yeah. Yeah. Yeah. That is something code will do for the devotions.
+
+Every new instance in the code is going to have a different URL. Right? Yeah. So this was already provided, but there are, like, like, in this ticket, it's mentioned, the project name, branch, and other details of that project should be displayed. So, the only question was, like, where those details should be displayed?
+
+The question is if you are split, the head name is the same branch. Okay. Project names is the same. You type in the same. Let's see which you have two different branches.
+
+Right? It Yes. Yes. And that will actually be the data. The data.
+
+The data. The data. The data. The data. The data.
+
+This information, like, which is repository it's working on, which branch it it is on? Which mean any code interface will be the details? Does code interface not provide us this? No. It will provide you with the workspace name, whatever you give, but not the, I mean, you have to, not on the top interface, but you have to go to the settings and then the parents, like, which repository date is which branch it is.
+
+Not directly. So if, what I I mean, if the plan is to show this on the UI, I'm not sure, like, if it's already discussed. But if you want to see the project I mean, the branch details, deposit details, then you need to encode and you need to go to the settings of that was present in terms. You need to check that. It's plan is to find in The US also.
+
+Okay. It means The US. So for this one, right, for for this one, do one thing. Make sure we have an immersion of quota. What workspace is the encoder tool?
+
+Is there anything to play around with the tool? No. I already installed it. I'll give it Order it in there for me. Okay.
+
+No. You send me the instructions. Yeah. Yeah. I'll send you the correct.
+
+So We'll collect more in detail. Yeah. Please won't exclude that. What is the the one that's 626201, which is, securely logging to any of the logging. Why do we need a different login?
+
+It's just so we don't need this. No. I think that's the same, like, when you come from the interior, it's the same, like, as as description is different. Accessing applications via port forwarding, which is, the Forwarding the yeah. That is, 6200.
+
+So Muska is currently working on it. Maybe you can discuss more details about how she's implementing it. Even, I'm not really sure about this. I have to check. Can somebody explain me what is this all about?
+
+Looks like it, but in the description last line, it it's a little different. Still not receiving a secure URL for each forwarded port. Okay. Let me look at it relook at it once, and we'll discuss this again. Okay.
+
+What is the other one that you know? This one is also not scheduled for this print, which is managing files with file browser because right now we can't download within the environment and, you know, like, with the local, synchronization is not there. So you can cross check the ticket, which is 6199. No. That's fine.
+
+Will, cross sequence for me. Anything else for the screen that you have? Yeah. So the other one is Git integration, front end, 6189. It's +1 89.
+
+Can I ask you? I didn't interrupt. So, like, regarding the previous ticket, so how do we, like, manage this? So if my coder is running on some environment on a remote environment, then if we want to, like, upload some image, like, my API needs an image, so locally, I just, like, upload from my computer. So that ticket is, like, how do we manage for our case?
+
+How do we upload that? Because usually, what we do, we upload webin like, we connect to our local webin s t p. We send the files, then we upload it from there because it's already, available on the SMS. It's already in the local? Yeah.
+
+So the previous ticket was the, regarding that issue. Okay. Okay. When it's very frequent use, this is where, people need to upload something from their local At some point, some email. Right?
+
+That's what. And then I'll tell you what my pilot, what my phase one should be. So what is the feature on phase one that we expect in to work? Yeah. You can develop with me virtual screen.
+
+So this is, I think, when the user comes to our application the first time and whenever he wants to launch the environment, instead of redirecting the user to the folder, we are creating a page or a pop up where he has put the, like, yeah, configuration, like workspace name and repository URL and the path and all those things. So that's all that you can look at by Coder. Right? Can you hear me? From the But usually, we discussed with Ganesh, and he said that, users should only go to Coder once the workspace is created.
+
+Before that, everything should be in our UI. That's what we discussed. You know, this is a direct contradiction to what the Yes. Yeah. Okay.
+
+Then what are we planning? What are we doing here? Are we putting one more share of UI on top? And you could discuss this with Ramesh and Nara? Which one?
+
+Yeah. Yesterday only we discussed with him. Like, we can discuss again and then decide which one should we proceed with. We we need to discuss this one with Abidam as well. It's something you want to need to be involved in.
+
+So what you are doing, Muska, are you preparing a page? Are you are you, preparing a form for people to Something like that. Yeah. Once they click on launch environment, there should be a form kind of the page print, and then that all parameters should be passed to the portal to create an environment. You need to know whether there is a workspace already provisioned or not.
+
+Right? How do you know that? Yeah. Okay. Can you spell more on this?
+
+I want, This story I created with with an intention that, like, the way, what Muscan has described, right, which was happened during the workshop time. But when I saw what Vaishnavi is doing yesterday, I thought, like, it this is also I I need to change the story, and this might be probably taken care of CODER. But, I wasn't aware that, the folks are thinking of this page as well. So I think it's it's important to clarify this one for sure, this story. Okay.
+
+This one is more strategic. Yeah. I think, Dinesh Yesterday, when we discussed with Dinesh, he was like, because of security. Like, security reason, he said that we should create like, we should take the parameters in another UI page instead of going instead of letting the user go to the portal because they can alter let me change anything. Right?
+
+Encoder, like, template or anything maybe. That's why he said that. I will discuss this soon, guys. Okay. And, also, once the workspace is created, we are planning to store in the DB.
+
+Right? So for any particular user story, if a workspace is created, we will know, right, that the workspace is already created. So then the launch environment button would be changed. Now I need to understand what the flow is. Can you repeat me as it is?
+
+Is he going to run the call to 1, Vandana? Yeah. Yeah. Okay. We'll check with him to 1.
+
+K. What is the other thing that you have? So front end real time workspace, provisioning status, six one nine one. So when the page is loading from directing to UI to coder, like, you know, or like it's it's, it's it's it has to provide some UI queue saying the workspace is pro you know, provisioning, in all these things. So I last week when I created, I had a thought of the transition phase from, the UI to the coder and, in between the journey.
+
+So this provides cues for the, you know, the user, like, where the status is in terms of, the the launch of the workspace. So this is more of, the user seeing that what is the workspace you want it? It is whether the instance is already changing or not. Correct? Yes.
+
+On the portal, Inspire portal? So in case if that, you know, build fails at Coder, like, it didn't lead to the Coder stage. So, so just wanted to try to, you know, address that that fail as well in terms of the whole thing is seamlessly connecting. Okay. Let's see if I am a user requesting for an environment.
+
+Why do I care about what happened internally? Right? Okay. This one I'm looking for. What what is the other task team?
+
+So enhance home page with workspace status and ID. Actually, this one is for Sprint too, the one which we discussed right now. And the code for the the current one is 6193. 6193. This is for phase one.
+
+Right? Yeah. Phase one. That's correct. This is the image check net.
+
+How low is this? This is Is this the place where I'm going to go and launch? Yeah. This is the main one page. No.
+
+I think we should check it. Thank you. I think, 6198 access to enrollment via web terminal. I think this is not, probably, implemented in this form. So right now So what is this for?
+
+So right now, this one, we we are not focusing on this functionality right now. Oh, this is, it's like a terminal. So it it's like you will be able to log in into the shell, for your application. So, if you if you open the code, I'll write Yeah. Let me share my screen.
+
+It's a simple thing. I'll I'll take this screen share. Okay. This means this thing. So when you have, this one this terminal, this will interact with it.
+
+Basically, your code already has. So so here, you can interact with the order, environment which you have. So it's the best terminal. Is this terminal that we're planning to book for any code or provided. Yeah.
+
+Yes. Yes. Yes. Okay. Then who's what what else do we need to do, dear?
+
+Yeah. Nothing here. Right? Yeah. Yeah.
+
+Nothing. Okay. What does That's all right now. We have discussed. Yeah.
+
+So, if you can provide me, feedback on, you know, something more important missing elements, any other stories that need to be part of this printed self, let me know. I will, add those stories. This one we had done. Like, I had done this. I will I will let me talk to you on this one.
+
+Yeah. Yeah. Hey, Navi. I need to, see if he has one. Right?
+
+And this is what we want to show it to another. Mhmm. If only phase one is this. I can go to the right side. Now since I know
