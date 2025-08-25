@@ -1,0 +1,214 @@
+
+MVP using enrichment from the knowledge graph. So part of what we did was import historical MVPs into the graph. So we had first have a way to test the accuracy of the retriever and the whole process, based on historical data, but also to give additional context to the the whole pipeline, the agent, to be able to understand what other similar language was used in the in previous MVPs. And then last oops. Last go ahead.
+
+Agnes, I have a question here. So if I understand this correctly right, this is more of a collapse relationship that we are trying to build for starting from initiative. Right? So maybe one initiative is connected to a number of MVPs. And MVPs are connected to n features.
+
+N features might go and touch n applications, wherein applications might have n number of screens, n number of screens might have n number of EPAs, n number of EPAs might be referencing n number of DB. So that's the class that we're trying to build. Is that for ontologies? That's right. That's yeah.
+
+If if we're starting with the ontology, that is correct, you know, as a as a starting. So what is the process of building these things? How do we how do we build the relationships sort of logically or or or, practically, tactically? Do you do you mean Actually, how do we do that? I mean yeah.
+
+Do do we do we, do we reference some kind of data source? Do we pull up the process that is going to go into those data source and try? Do we everything in this graph? Can I step in here, Sonia? Yeah.
+
+I I have a if you don't mind pushing my screen, I have some I actually have some diagrams prepared on this. Yeah. So I'm going to so I'm gonna leave this and totally aside for a second. Okay. I believe that you can see my screen currently.
+
+Yep. Yep. Cool. So I'm going to open up. Here we go.
+
+This and I'm actually seeing tolerance on to this IV EPUB mode. So, basically, it's it. I'm gonna go through a high level description of this and then I'll go into the details. But the first thing is so we are given we're given an ontology and the ontology looks a lot like this. A a Let me also turn this into a bit easier to see when you're on a call.
+
+So this is what an ontology looks like. This is basically a statement of where we want to get to. In a relation database, this would be your entity relation to diagram for a graph. All you say is these are the type of things you want to describe the notes, and these are the type of relations that's among them that we care about. So in order to create this, you have you're always gonna have some sort of ingestion pipeline.
+
+And no matter how we're gonna do this, it's really gonna be three steps. The first step is you're gonna have a set of instructions for how we want to load this. This is basically gonna say, here are my data sources. Here's how I connect to them. Whether this is like a CSV you're building, a database that you actually have to form a connection to.
+
+You get a series of instructions and scripts for that. You then go through building this data, and on each of these nodes and edges. And the way that's most natural to represent this is actually as CSVs. So if you if you think about ontology, we have, like, the application node. Right?
+
+And every application has a series of data points inside of it. So it's very natural actually to represent every node in your graph as a single row in the CSV file. It has the ID of that node and then all the data contained in it. And so, typically, you would actually serialize two CSV files when you create this. So every node and every edge becomes its own CSV.
+
+The node class is primary key and its data. The edge has the primary keys to know to connect, and then any data that edge has on itself as well. I will I'm happy to show to hear you guys the way you can actually do this in Python code. But overall, this is this is the pipeline that you're gonna follow, basically, anytime that you do this. It's kind of three steps, get your instructions, get your data, and serialized to a CSV format.
+
+Is that your I'm less clear if you wanted to know how we are building it or sort of more of a high level about this in, like, in each or generally. Yeah. I think yeah. I think for me, the only question I had is more towards high level of how this information is aggregated in a way so that we can start building the graph. But then I have few other questions.
+
+Right? Just can you go to the diagram that you were showing earlier? Yeah. The other one where it where as you can also yeah. So we have this thing.
+
+Right? Where we have some application, we have some screens, and then we kind of establish a relationship between what applications uses what screen, what screen, using what service. In order for us to do this, right, are I mean, going and getting detailed information, are we going and looking at the portables and figuring this thing out? Or are we looking at some kind of documentation that says that, okay, here is the application, here are the APIs, here are the screens, here are the DVs. How how does that happen?
+
+How do we recommend that? In our case, this would be actually relatively easy because in the in one of the databases that our team uses, we have one table that references applications and a second table to describe services. And very fortunately, these were already related by foreign key relationship. So when we created this application node and this service node, are basically just those application service tables uplifted into a graph format And this edge here is what that foreign key relationship was in your relational database. So this was a very direct uplift of basically a one for one mapping of post rest data into a graph.
+
+So there is already the mapping, available in post print database and just pulling up In that through DB, there is already a mapping that that connects here is my service ID, and this service ID is part of this application this application ID. And because you have two IDs, it makes constructing this edge very, very simple because you simply say, oh, ID x maps maps to ID y. So can I ask you one question, Jeff? So the completeness of the information is dependent upon the value as of today in the post credit of this. Right?
+
+Yes. So the the system we have built is essentially just uplifting a subset of the post rest data that is relevant to this graph in here. So it can be more up to date in post presses. Okay. So if the information in post gray is not valid, it, then the same will be here as well.
+
+That's what I'm doing. Yes. Now you can in you can integrate other data or have other ways of adding data into the graph other than loading from Postgres. We are working on that right now. But current but if you only yeah.
+
+You you can't be more up to date than your data sources based on So what are the other ways that, you are looking at, Jeff? Sorry. If I may So two two other things. So the left half of this diagram here, all of this, it's known for us. The right half is from the Inspire AI database.
+
+And actually Basically, you're using for us. So part of this is we we use both of those and that helps keep the data a bit fresh because we can update we can update this part and it's not dependent on Postgres for everything. The second thing we're working on now is probably more important one is having an automated upload system. So that's anybody, basically, what we've built is a web server that you can you can host. And then anybody who wants to add data to scrap can upload data.
+
+The server automatically does, constraint checking to make sure this is validated to enter into the graph. And then if it is valid, it will add that data into the graph as additional node for a given type or additional edges of a given type. Okay. And it will even create the edge to node mapping automatically by itself. This is it will it won't create the node to edge mapping that has basically, this the system we built except CSVs that are formatted in a way that's compatible with this.
+
+Uh-huh. We could expand this to creating that kind of a mapping itself, but for right now, you would have to know, oh, this ID maps to this ID. Correct. Correct. Of course.
+
+Okay. Thanks. And I will say, you know, there's other ways, you can do like, right now, I'm in the process of this sort of referenced in at the bottom here. I have a list of glossary terms. And I'm currently doing analysis to find I have the terms and I have the definitions, but I don't know how they relate yet to these notes.
+
+So I'm writing, sort of a discovery script that crawls through and is finding the relationships. Then I will instantiate them and, you know, load them so that then we can quickly traverse them, and that, you know, those relationships will be available. So you can, you know, use your graph to find insights and then, you know, save them within the graph. So I'm in the process of doing that. I have a question here and, that might be for either Jeff or Soget.
+
+So what I'm more interested in. Right? So we have this, down part of the graph. Right? That says service screen application and API.
+
+For each and every node, is there a metadata that we store? So let's see if there is an API written in x y z GitLab repo. Do we do we have that kind of storing mechanism in Graph DB? If there's a API written in a certain Git repo, do we do we have what was the question? The def To the question, right What is the metadata for each node level of API that we have?
+
+Can you show from the graph what is the metadata we're using? Let me show. Is the source source of API being stored? I think get repo or something that we are storing at some place. Right?
+
+We do have API API endpoints, I think, is one of the properties. So oh, I've forgotten the parentheses. There we go. So if we select from APIs and then from its graph, what we will see basically is if we take a look at one of these, this is the data that we have. We don't describe we what we describe, where it comes from, to an extent.
+
+We have the API ID which will map us directly back to the ID in the in the Postgres database. We have some text descriptions of its its short description, business significance, a descript a long description and description of its logic. And then the more relevant parts to what you're asking about is the name of this API, the method we're accessing it, and the end point to be accessing it on. And so Alright. Thank you.
+
+This is what we map you back to, a little bit more in terms of where is this API is that we have data on the endpoints of us. No. I mean, do you have the gate level information or the service level information for this API? Yep. I've written I think service level node has the get the information, I guess.
+
+Right? Can you show something from this? The git repo is in the service, node type? Yes. If we look at service, for example, there's one of these.
+
+So we don't have, some of this does include, like, the the name of the Git repo. We haven't always included the name of the Git repo in this graph because it hasn't we haven't had a benefit use case for that in every case. So there's only a subset of Git information we include. You can see here, we mostly have descriptive stuff on the service. We are asking to to get a repo here.
+
+So we show up for our case, like, we show in one minute. I think it will be really, really helpful if we have at least get level info here. Right? Either in the service mode or even in the API mode? It should be in the service mode at least.
+
+It'll be in the service mode at least. Right? Okay. Okay. That's good feedback.
+
+But we, okay. And I'll explain you, Sonia, why why do we need this? Okay. I I I still haven't explained you whatever the experience is. What are we trying to do here?
+
+Either me or Vishwa will take this. He will explain you kind of what do we need from ontology there. But before that, can we know more on so I think I'm good in ontology. I'm good on the way we are trying to prepare, you know, draft relationship kind of a framework where we go and connect everything that we have. Right?
+
+Now, anybody has questions? Other than what I think I'm good. As far as oncology is concerned, I think that is what I wanted to know. Isha, Vandana, Grace, Shashank, question. Do you guys have any question, Muska?
+
+I'm good. We are good. I think we are good. I will say that, in the invitation for the meeting, I put the link to the GitLab repo for the ontology, and it has links to deeper documentation through Google Docs out there as well. So there's a lot more information there if if you wanna peruse that as well.
+
+Would it be possible for you to get the access to that? Right now, I couldn't access that link. Yeah. Me neither. Okay.
+
+Oh. The the to the get repo? Yes. Okay. Okay.
+
+I'll, I'll change that. Thank you. Okay. Could we discuss on, enterprise knowledge base? Is knowledge base this ontology that we are going to, prepare or is knowledge base something different than what you have here?
+
+The knowledge base so the ontology is a data model. The knowledge base is the data inside the data model. Like data inside the data model. Okay. So in a way, knowledge based on ontology is the same thing.
+
+Right? Ontology is the architecture. Knowledge is the data line under the architecture that we are building correctly. Exactly, sir. Yeah.
+
+So this is one of the particular source in EKB, I would say. All that we are relying on, for the more on code summarization or get repository based. But the other side of this is where we are having knowledge or document based management which we are doing. So that is also one source where you're uploading or where the solution architect comes and upload different domains of domains, specific documents. Yeah.
+
+I mean, that's good. So one the main requirement for us is we need to get repo level mapping record. Okay. Yeah. So I think we have it somewhere.
+
+We are showing that. I'll I'm just checking with others from where did we get that. I kind of missed it from where it is, but I'll I'll try to get that information now. Because we have that mapping. The current feature generation, we are showing from somewhere that we are fetching those services from.
+
+So I And that's what we need next to you. Yeah. You get the the information to me. And also, see, if for example, my requirement let me explain my requirement. So for example, if I'm giving you a report, okay, can I get all the repos or something that are dependent on that as well using the, ontology that you're creating?
+
+So is repo same as service? Yeah. Kind of. Yeah. So every service might have a separate repo.
+
+Correct. So if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if we we can't rely to get we've got data for more than one or two applications. So we actually don't have that data anymore. We we never have here. Right.
+
+So at this point, maybe we don't have, but that is where we thought we'll have it from New Relic, but we didn't have it for all of the applications. Right? So which means you don't have the repo level dependencies and all the mapping. Right? Yeah.
+
+This is a gap. And we also don't have, any kind of event driven workflow. We're we're still looking for a good data source for that. So those Yeah. Supposing yeah.
+
+Supposing anybody in case a new report anything that should be automatically updated or something like that. So you have a discovery script for that as well? Just asking. Not yet. We once we have that data, we will Okay.
+
+Okay. But, are there a post that let somewhere where Visa or for our studies? Right? Sorry. I didn't get All the reports are somewhere mapped with the Visa or the VAST studies.
+
+Right? Those will be but, see, this is what we're looking. Right? And, to as well. So, see, the first thing that we're looking is, right, for us, the classic use case for developer experiences is so let's take this scenario where I have a Jira assigned to me.
+
+Right? And I have some description of the Jira. Right? So let's say if it is say if Jira says that, okay, I have to go, write a API logic for x y z. Right?
+
+So our use cases, step number one is based on the description. Right? That, hey, you write the service for x y g. Based on this x y z description, we exactly want to know or we want to narrow down based on the application, based on the description that that x y z, right, in thanks to for. So we show you, sharing what we have for developer experience.
+
+So when you see this Inspire AI to agent API encoder, right, you see there is agent API sitting between, Inspire AI portal and the coder. So let's say there is a genetic data created to me based on the application, I need to go narrow down that out of 10 number of repos, right, for the replication. What are the repos where code is the where there is supposed to be a code change? Correct? That is our past starting point.
+
+Yeah. That is why we need a description, post service marketing, and then we need service to repository marketing. Is sure I'm stating this correct? Correct. API to service and service to repo.
+
+Correct. Correct. So we we have this Swagger documents. Right? So Swagger document might say that, okay, for a Swagger doc, Let's see if I have a service a.
+
+So service a is supposed to do x y z things. Right? And based on the swagger document or maybe based on this, underlying ontology data source. We need to go figure out that based on the description, based on the application, there are three or four reports that we plan to touch to write the code. Extension to this is the right.
+
+Let's see if a story is okay if I have to make a change in x particular service. So that is the extension that Michelle was talking about. That okay, how do we know that x is a workflow when it goes and talks to other downstream microservices. Right? So this is what our use cases this is what we are trying to get from on topology.
+
+And that is why I had set up this call to understand what is currently the relationship that we are having. And what is the the case if you want to put this kind of relationship moving forward? How how do we do that? Yeah. We today, we found out that the, sort of, the plan that that was in place to get the service calls, like, to do the service mapping, what's we can't use it anymore.
+
+Like, we can't plan to use it. We need to find an alternative. And to figure out the path. Is it possible we can mine that sort of in a large scale to create these service mappings? Well, so I guess, just an example, Sonia.
+
+K. So I don't know how do we take care of this. So I guess, once such example I give, but see, I don't know. Right? And the There will be service documentation or engineering service, there'll be different forms of documentation, Sonia.
+
+So the problem is that, the easiest way to get it from the repositories rather than the documentation, scanning the repositories and building a relationship and whatnot rather than going through the documentation. Probably, if you can read the palm files or the properties files, you can go get out the dependencies and all the mappings as well based on that. Okay. Oh, that's a good idea. Okay.
+
+Okay. So, yeah, power and properties file will have the relationships, dependencies, and mapping. But, dependencies between repos, that is something which, you can find out based on reading the repo only certain certain files in the repo. So we need to come up with a foolproof plan of doing this and, there's some tool that will auto scan and build this relationship, but someone can go and fix it later if there is some minor deviations. But Mhmm.
+
+Okay. What comes with? Well, we've currently, we have a process that summarizes each repo and each service. There's a that decent element. So that could be part of the app.
+
+Find out the, dependencies as well. So if you're able to summarize the repo, you'll be able to find out the dependencies as well. Okay. Who's to say about that? Okay.
+
+Is there someone from your team looking for? I'll just sorry. Is there someone from your team that we can tap if we had quest let's say we're pursuing this solution that You can talk to Mishra. You can talk to me. You can talk to Vandana.
+
+But I think Mishra is the right guy if you want to. Talk to that. Yes. Okay. So this is what I was thinking.
+
+Right? I was talking to Srini the other day and he told me that we have been piloting for, let's say, 10 or 11 application with something that you have. Right? That you guys are already building and onto the info. So see, this is what I want to do.
+
+Right? Out of all these certifications, we need to first figure out a way to, get this gift rapport information stored somewhere in our relationship. We can get started. We can narrow down who goes 11 or 12 applications. Okay?
+
+Because I think based on these applications, we will maybe pick something for us to pilot with if for developer experience. You need to take one of these 11 applications or something like that. Okay. Great. Yeah.
+
+We can give you a list of the applications we have so far. Okay. You can do that after the call. TPVM and Broadband Gateway were the first couple that we were sort of using more broadly. Yeah.
+
+But, yeah. The I think I can give you a list of the application right now if you just give me two seconds. Thanks, Jeff. Yeah. I think I already have I think I already have the list of applications.
+
+I got it from Vishwas Vishwas. I think I have those. But you see, this call was kind of us telling you that, hey, this is also some of the information that we want to get into ontology so that we can integrate this one in future because that is the next phase for us. Right? Once we have the developer experience up and running at a stable point, we want an intelligent agent kind of telling us that, hey, this is the description, this is the application.
+
+This might be the repose you might be interested in. Yeah. Thanks, Jeff. Thanks for the new stuff. 100%.
+
+In terms of the But this is just cutting base stone rights. And that's what I was speaking to, my husband on Monday that, hey, let us get to know what oncologist because at this point I think I don't know if folks were aware but I wasn't kind of aware of what oncologist And that's what I was not trying to figure out. Actually, how do we let, you know, part two hours. But I think that's all I have. It's a good start.
+
+And I think you guys should maybe figure out a way to to get our information because there is a much to developer experience coming soon in future. Yeah. We we just found out today that our source for that is sort of evaporated. So it it would have had all the all the, yeah, all the get repos and then all of the service call. I mean, the service call data wasn't perfect.
+
+It was sort of ephemeral. Yeah. And it it but it would have been sort of directionally correct. But, I I'm still looking for, yes, an alternate, alternative. I mean, I think if we can maybe use a LLM that's working to summarize all of the repos, if we can also turn some reasoning toward, the dependency mapping from that process, we we might like you said, it might might work.
+
+The next thing that should be done is as well. Let me work with Vandana and see if there is an LLM, Priyank, okay, which can summarize the gate report, to address some coding or something like complex things like gate report codes for us. Yeah. We have we have the process. Like, in the in the note itself, we already have the the summaries, but we don't we don't have those mappings.
+
+So that would be Yeah. If you want something to do the NLP, call it actually. So we will Yeah. Yeah. Okay.
+
+So We'll we'll see. We'll work together on that then. Yeah. Yeah. That would be good.
+
+When when do you want to meet up again? We need to keep the ball rolling, Sonia. Probably, I think we'll today is can we meet next Monday or Tuesday, somewhere around there? Yeah. I'll set up.
+
+Yes. I'll set up. Should I I can get the get get app and get help Git information integrated in by the end of the day today into the graph. Okay. So we'll we'll have all that in.
+
+The relation between services, unfortunately, I'd like Sonia said, that's gonna take a bit of time. That is fine. But, yeah, since if we are clear, we're uploading, that is fine. Yeah. I I can definitely get information in there, basically by after this call.
+
+Thank you. Thank you, Jess. Thanks, Jess. Of course. Well, it was a pleasure meeting all of you.
+
+Thank you. Very nice. Thank you. And there is one more thing I had. Jeff was doing this graph where one side of the graph was inspiring.
+
+By the way, I I I am a developer with inspiring. I do that and stuff. I'm I know of tables and stuff. Right? So Inspiry and good.
+
+There is another, tools that are g v that are for showing where we have this service to service ID and all those mapping. Right? That is point one. Point two is getting access to the Graph DB, credentials for the Graph DB. Who can help us, keep that?
+
+When you say, like, accessing, like, the Neo four j instance you mean by the Graph DB? Yes. Yes. Neo four j. For the installation, the other post grades.
+
+So in terms of accessing the other Postgres, Srini or Krishna can help you out with that. Okay. For accessing the current Neo four j, we are going to help you out with that, but we will need to make sure we can make new account, for everybody on on the graph and set that up properly. So I'll take that down to point you. Okay.
+
+So Okay. That's fine. That's fine. I'll just get to Yeah. Raghul, can you send me the sorry.
+
+One minute. Brent, so Raghul, can you send me the post the SQL DB details? Like, yeah, we can raise a request or send a mail to Srini to get the direct access instance, and other details. Postgres for which one? The Postgres where the gate and all the relationship information is being stored, not the gate.
+
+As of now, your relationship information is being used. Okay. Sure. Yeah. Okay.
+
+Also, yeah. For I think for Neo four j, you guys can give me the access to the demo. Right? To read only access at least to the demo and Roman? And then that was the the thing is since right now, the only people we it's been primarily us writing this, so I just need to make sure that I got the right credentials before I send them on.
+
+But, yeah, we can send that on quite quickly. Sure. I think read only access should do, Jeff. Thank you. Yeah.
+
+Oh, absolutely. Yeah. That that would that would definitely depend there. Let me actually, Neo four j I I just sorry. If you give me two seconds, I can just make sure I have these.
+
+I think I have them right on hand right now. Here we go. Here we go. Yes. So I think we might need to generate a new read only account because right now it's mostly just when me and Sonia on here where we have to do a lot of write as well.
+
+So we will generate a read only account that we can share. Sure. Sure. Please pass it on to us. Yeah.
+
+Once you've ready, please pass it on to us. That's Yep. Bye. We'll do that ASAP. Thank you.
+
+Thank you. Okay, guys. Thank you so much. I think I'm good. We'll speak next time.
+
+With the concern. Thanks, Jeff. Thanks. Thank you. Good call.
+
+And, Sonia, if you could, forward this recording to us. Yes. Great. Certainly. Alright.
+
+Thank you, miss. Okay. You will know. I'll see you next week. Thanks a lot.
