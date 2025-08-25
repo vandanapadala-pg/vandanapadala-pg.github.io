@@ -1,0 +1,326 @@
+
+Yeah. So Got it. Got it. Got it. Yeah.
+
+So I I totally yeah. I could totally understand, like, the complexity involved that you have to deal with. So what happened was, like, based on what, kind of features they were on the platform when I was generating the stories, because each feature has, again, acceptance criteria straight. And Right. They are little less on the UI side, and they were lot more heavy lifting.
+
+I mean, most of them were geared towards the coder and the environment creation, all those things. But a lot of those features, a lot of the acceptance criteria, they are already available in coder. So that's why the a lot of stories that we discussed, right, many of them are already handled by coder. So when folks I assign, it's, like, kind of done. But new folks will be working on these stories, which are part of front end UI and back end UI, all these things, it doesn't align to put it in the existing features because their acceptance criteria are different.
+
+So Okay. Yeah. Yeah. Given you are good on the flow and given you know what the app code that does, what you can do is keep trying to try these things for this and create. Okay.
+
+Okay. Okay. Once you do that, right, then I can go and assign those breaks. Okay. So, just If you know what is the full face work, what is the full face work?
+
+Got it. So, these are, like, completely three new features that I have created. This doesn't exist on the platform right now, but from our discussions, I thought these are important. Like, in a nutshell, what this talk about is this is about this UI page and the front end UI page. So these stories deals with, you know, display assigned Jira stories.
+
+So the one one, story is about they need to be displayed in the UI part, and the other story talks about the information that needs to be displayed in the ticket, each ticket, what kind of information need to be there and the acceptance criteria associated with it. There might be, like, slight changes. Right? Going forward, this this information may have some more, you know, inputs going forward, like how do we display. But that's okay.
+
+But we do need this kind of a placeholder for, you know, displaying this kind of information. And then there are also, like, this calculate part of, like, how how old is the ticket. For example, it's five days old. These things, need to have another ticket altogether. And then the link can manage the workspace.
+
+And now you have, like, multiple aspects of running and the status. Right? Whether it's the store, whether it's building. For example, it's displayed here, right, in this state. So so all this is like a front end of, you know, one feature that that that needs to be, like currently, the offshore team will be working on it, but this whole thing, I felt like one particular feature rather than an individual story.
+
+But I can look into it maybe I'll put it a bit. Create, like, a story itself and, like, assign. But yeah. But I mean, we we can we can, end of the day, it has to be done. However, it doesn't matter whether it's a story or a feature for me.
+
+So, so but I had structured it this way just for your understanding. I just wanted to discuss with you right now. I had mapped it displayed for the UI part. The second thing is, so we we were discussing. Right?
+
+Like, for git integration instead of integration. Mhmm. Actually, these stories these stories, this front end one, the offshore team need to be part of it. So if you can add Namrata and Raja, maybe they they it's better if they are aware of it because they will be working on it. No.
+
+Namrata and they're there for work. Because they will be working on books. First of all, let's talk about whether you can add add a filter or not. Adding a feature is not in the scope now since the Yeah. Okay.
+
+Yeah. Okay. The only thing is you can go and edit those features. Mhmm. And that is something that I'm checking it now.
+
+I can't edit features. I can only add stories. You can okay. Can you can you still go to Inspire? Yeah.
+
+So see here, the option that I have is create stories. Create stories. Okay. So, I mean, I don't have, like so, I think if I go to MVP ID, so if for example, if MVP assigned to me, then I will be able to like like this, I will be able to edit features, like, add features probably. Yeah.
+
+So that is not so the only level of access that I have is like, I can see this feature. This view feature is there for me. And then, all these features have, like, acceptance criterias and all that. So this part is, like, kind of, frozen as of now. So these are the acceptance.
+
+And then I can click I can change stories. Okay. Yeah. I think this was Mhmm. Yeah.
+
+Yeah. Like like feature by quartet to find the best possible feature and then, create a story, then maybe you can write the acceptance criteria and then store itself. Right? Yeah. But, do I have to match the acceptance criteria of the feature to stories as well?
+
+Mhmm. Because they don't match. Ideally, yes. Okay. Mhmm.
+
+Okay. Yeah. Okay. Okay. That's that's it.
+
+Problems? Yeah. Yeah. I talk about it. Yeah.
+
+Got it. I'll do my best, to, you know, put the features sorry. Put the stories in as as close, you know, feature bucket as possible. And it might be possible that they may not exactly match the story criterias and feature criteria might not might not exactly match, but I think that's the best that we can do right now in this scenario. Okay.
+
+Okay. Okay. Got it. Got it. Yeah.
+
+Yeah. Yes. Yes. So, yeah, there's a lot Yeah. I mean, now it's right.
+
+Right. So one more question I have is, the stories created on the Inspire, they sync with Jira platform, and they reflect on the Jira. But if you make changes in the Jira itself, do they come back and reflect in the Inspire? That doesn't happen on the backward direction. If I will come back, can you tell me one example of a story where it's been worked with?
+
+Because, by mistake, there was cup a few stories that I changed at Jira, but, I mean, I was, like, reading through because what happens is here when, the windows it provides. Right? For example, like, I'll show you. So it doesn't allow you a larger view window for editing. So not this not a view, but say, let's say edit.
+
+Yeah. View, you can see, but while editing and I'll show you. So it it gives you very small, like, for example, like this. Okay? And it doesn't allow me to see things clearly.
+
+So probably at some point, I made a mistake of, editing couple of stories in Jira itself instead of directly doing it here, which would have been reflected there automatically. So I have to synchronize those two. But anyway, I'll I I have to, like, change, edit, and reorganize these stories and, yeah. Because the criterias are not matching with the, features right now. And, so yeah.
+
+So I'll I'll make it consistent all across going forward, but, just just giving you heads up on some changes that happened. I see. So if you commit for something, we should be doing it. Mhmm. Got it.
+
+Okay. So description in our guide, they just need to do it. Put it well. And if you want to go and edit, right, then you put it in the Inspire. Don't move it in Cheetah.
+
+Mhmm. Mhmm. Because if you know that, Yeah. Yeah. That issue came up.
+
+Even now, that is fine. Right? Yeah. Yeah. That's the first time for you.
+
+Now it is fine. Yeah. It's not a big deal. Yeah. So the other thing a lot of details.
+
+The other thing is, like, this launch page itself, is it's part of, like, like, last time we discussed gen utils, but, like, how does from here, it will redirect to the launch page? Yeah. Okay. Okay. Okay.
+
+So there will be one more Or if you can drop down right? Yeah. If if someone Okay. Okay. So the other if you tell us, okay, do do one thing, embed it here, it's not probably the support.
+
+That's all. It's not going to be happening. Okay. Done. The other thing is, like, the Git integration model.
+
+So we were discussing about this pop up, right, from the launch itself to provide the Git URL link instead of going to the Coder config, you know, that, that page. So this this whole thing talks about that part only. It's a front end Git integration model. So, so it's like a trigger launch model and then, any, if you are giving any Jira story, basically click the launch button on the specific, you know, Jira ticket, and then it has to appear and then some context, certain aspects of it's written. I'll just go through the, overall stories.
+
+So the second is capture git git repository and branch. This is happening like Alright. Good. Good. Good.
+
+Good. Good. Good. Good. Good.
+
+Good. Good. Good. Good. Good.
+
+Good. Good. Good. Good. Good.
+
+Good. Good. Good. Good. Good.
+
+Good. Good. Good. Good. Mhmm.
+
+Okay. So basically, this this going to ask each number of things. What is number of things, we went and discussed instead. Yes. We send you here.
+
+Yeah. Whatever things that we capture back in codec page is not going to it's not going to lock in the codec page. And the only things we're not planning to go and see in that. So what we're still going to do is we're going to do the parameters, pass it to the terraform file based on whatever getting this Okay. Yeah.
+
+Yeah. These are the stories because these are not there right now. And, they might not match the acceptance criteria. This this is like a back end APIs for the two code and workspace orchestration. And, so this this part, I'm not an expert at back end.
+
+So I have created a few stories around it. This probably I need to discuss with the team how they are implementing in detail to make any modifications necessary. I can tell you what that in the email needed. This is for what? This is to fetch the Git repository for launching Coder.
+
+Okay. Okay. And authentication And it needs one EBS and one, player that will perform a file. What is it there? What's all we need?
+
+Yeah. And also the users, the developer needs to provide the, personal authorization token also. Right? For the, it's a private git repository that they he is providing to spin up the environment. So even PAT needs to be provided.
+
+Yeah. That's not that's not actually there. Okay. So so this bit authentication also need to be there. Right?
+
+And how is it controlled from Terraform? I mean, like, how do you mean, like, how is it controlled? So all you do is just pass this greeting right to the Terraform file. It will go and pull Terraform? Yeah.
+
+You you you give your access to the lock and get that. Yes. Okay. Okay. Okay.
+
+Done. Okay. And also is already a part of code of we don't provide this authentication. It's not in we're in default. Okay.
+
+You can correct me for all. Yes. Yes. So, when the code has when the code has been what we are doing so everything is, authenticated. Like, the authentication is handled by Coder.
+
+But this one is even before launching the Coder. Right? When that model is popping up. So you mean, like, the Git clone and all. Right?
+
+Yes. Because this one this this one I wrote because we are triggering, like, like, when they they click the launch, you will have a model which which pops up with before even going to Coder and launching, they're providing the, you know, Git URL and all. Okay. Sorry. I wasn't, like, part of this call, like, from the beginning.
+
+So Okay. So, Vaishna, this is, like, the first part which is, you know, the UI landing page. This is the UI part. Okay. This is one feature or, story we will be adding.
+
+It was not there before. And then once you click the launch, I thought there will be, like, a pop up on which it's like like we discussed. Right? Two options. Either you do it on the Yes.
+
+Yeah. Coder, that, you know, it will show all the config options. Or when you click the launch here itself, there will be a pop up where you provide the Git URL, you know, related to this. Yeah. So so I this this this this continuation of this one is regarding triggering that launch model, which kind of model is just a pop up, you know, form for git and all, which starts even before it's going to Coder here.
+
+So that will Yes. Yes. Yes, sir. Okay. So So here we don't have any authentication.
+
+So okay. It's not authentication. It's just a model popping. So it will you just provide the information and and then just click the submit and trigger the launch. Mhmm.
+
+Okay? Okay. And then after that so it has to happen, that some processing has to happen before connecting to the, you know, Coder Workspace. This is, like, basically the orchestration part. So that is where I I wanted to check, like, whether, in that pop up itself, model itself, are we providing the pad keys?
+
+And also, like, when it is trying to connect, you know, all these address, it could happen, these things to be handled or Oh. Everything else all of this will be handled by coder itself, like, any kind of errors as well. No. So, how it will work is, like, there are, like, couple of ways to do do this. So once you give Gitpad and the Git URL Mhmm.
+
+So if the repository is accessible for you Mhmm. So we can check-in the UI itself that if it's accessible or not with that Gitpad. Or, like, when I think that's the best way to do it. Mhmm. And there is another way when, like, coders, when it runs it straight off on script, so it tries to clone the report using that bitpad.
+
+Mhmm. So it will throw an authentication error, like, if it's not, accessible for you. So what is the strategy here? Like, I know multiple ways. So what is, Oh, I think, in UI only, we'll do that.
+
+We we should do that in the, in spirit UI. Okay. So if we are doing it in UA, are these stories relevant? Maybe you can take a look and just let me know. Or if you want some time to read through it, the this is, stories August 22.
+
+It's in the, features folder in the drive itself. Okay. Then I'll check it. Yeah. Maybe we can connect on this, just check, like, how the implementation of what this is.
+
+Sure. Sure. Sure. Sure. So, Ashna, we we can, guide one or not two.
+
+Right? Yeah. Yeah. Sure. All the good stuff, Marvita.
+
+So then we can start the I think schooling will work on the schooling first. Yeah. Actually, the point like the plan is to, like, have the git repository shown only which user has access to. Like, instead of user copying and putting the git URL, URL, we'll have some drop down kind of thing which the user has access to the repository user. So, we select that and Yeah.
+
+First of all these things we can take it to phase two right because Yeah. In order for me to do that, right, I need to have a service account that talks to all the repos within Netcore Systems. Okay. So that's a very deep see, these are all bureaucratic things. Right?
+
+Okay. Okay. Okay. Okay. Yeah.
+
+So for phase one, right, we'll keep it very simple. Okay. Okay. What we'll do is we'll give three drop downs. Oh, sorry.
+
+Yeah. It will, it it it will throw an error, like, it failed during the, git clone. Okay. I mean, the quota process won't build it, but, this thing, like, the, SSH and the repository thing, we can handle it in our UI only. So there should be some way for Git, like, to, check that SSH is working for that repository or not.
+
+So we'll throw an error over in the UI too. Oh, but why do we put one more layer on top of that? Right? Do we go and check? Oh, okay.
+
+So, yeah. I mean, it would be a quick check then rather than, like, user entering and, he'll go through the launch he'll click the launch environment and Coder tries to launch environment and when the part it comes to where the tries to clone the Git repository to the network. So that I was thinking rather than that, a quick check-in the UI itself. Mhmm. So we're not taking the UI then way to go clear out the service.
+
+Okay? And all the service again that accessing any gate service is going to get a service account. Creating that service account, getting access to the repos is very difficult. Okay. I'll check on that.
+
+If not, then, yeah, we'll look at it the code around here. For now for now, keep it voice information. Okay. We are done. More more fancy checking like this.
+
+This is step one. People need to buy the idea. Step number two is us going and telling them that, okay, these are on the, announcement that we want to. Okay? Yes.
+
+But before that, people need to buy this idea. Yes. Whatever you were saying is for the Yes. Yes. That's correct.
+
+But, yeah, it's about the effort that is worked now or that effort is worked later. Yeah. Yes. Okay. So Yes.
+
+Okay. Who knows if that is fair and we can pull that check here itself in The US? Yeah. Yeah. Yeah.
+
+Okay. Yep. I'll also check that. Yeah. Thanks for checking from your side also.
+
+You Parsing the Dockerfile is very important. Yeah. Otherwise, things are very straightforward. Yeah. So finally, how are we thinking for this, phase one to go ahead in terms of implementation?
+
+So I think as Brad mentioned, so we'll keep it simple only. So, from, UI, he'll just pass it. So we'll, see if, like I mean, Coder, Coder was the billing will, fail because of this gate authentication. So we'll, try to, send the error message from Coder that this, gate authentication failed, and he needs to check and try again. Okay.
+
+Okay. Okay. Yeah. Uh-uh. Vaishnav, after this call, go through this document and let me know, like, your feedback and any changes that's required.
+
+Okay? Yeah. Yeah. So the so this is git cloning and repo mounting. And then persistent the this is the persistent workspace mapping in the database.
+
+So we need to, like, map, right, record of the relationship between Jira ticket and the repository and the CODER workspace also. So they did Yeah. Yeah. So So this is being anyway done, I guess. So this also needs to be part of the story.
+
+Right? I mean, you can create a story also for that. But, yeah, you can create because it's like I think, we, we'll have everything, recorded in the Jira. Right? Whatever is done.
+
+Because this thing is to be done from the UI or back end team. So Yeah. Yeah. I mean, I'm not saying this is your ticket. I'm just saying, as a part of the, you know, this implementation, this also needs to be done.
+
+That's that's that's what I'm just Yep. Yep. Clarifying for myself. Okay. Okay.
+
+Okay. I'll, incorporate the inputs and, locate the mapping, and, let's discuss, of, which stories I had assigned to the current existing features on Monday, Prayag. Okay. It doesn't matter. Okay.
+
+Okay. Okay. Okay. You do it. This is story creation, tracking, and all too much of the bureaucratic process.
+
+Yeah. Okay? I'm I'm not calling it because I kind of know what what we're doing. Yeah. Okay.
+
+Okay. I know what is getting done. Okay. Okay. Technically also.
+
+Oh, okay. So that that would be the story for the UN. Okay. We we are going to explain the background in the instance. Okay.
+
+Okay? So you my instance is already there. It should basically redirect me to a new page, open the portal for me. Open that workspace. Okay.
+
+Okay? Okay. Another story is launching the instance. Mhmm. Okay.
+
+That story is whatever instance is launched. Right? It has to go from make an entry in the database. Mhmm. That's all.
+
+Okay. Pop up and all these are two granular, things. Okay. See, what what I tell you, let's get started with creating high level stories. Okay.
+
+Okay. So these are high level tools. Right? And then we can create subtask. Okay.
+
+Done. Done. Done. Okay. Yeah.
+
+So we we don't want to reduce some task to stories. Mhmm. Okay. This is too much of a regular, right, so what will happen with this. Right?
+
+Mhmm. When we'll meet daily, even we will think that, okay, there are this story needed to be written. Mhmm. Okay? Okay.
+
+Yeah. Map it to any feature you want. Gotcha. Don't worry. But we we immediately want these things to be captured well.
+
+Yep. Yep. Other things are subtracted. Mhmm. So we'll create a subtraction generator.
+
+Sure. Definitely. We don't need to have that kind of, regular. Right? Okay.
+
+I think even subtask, probably. So you think this is more difficult than, machine learning? Nothing is difficult once you know. The once you know part is the difficult. Yeah.
+
+Believe me, I haven't created a story. I I have created storybook. I haven't created the. I'm also doing it for some The way I look. That's okay.
+
+That's okay. That's okay. So yeah. I think here maybe not for sub stories. Probably that I think we can directly do it on, Yeah.
+
+We'll directly do it in Jira. Yeah. Yeah. Yeah. That's right.
+
+Create a story. That's all. Yeah. Got it. Yeah.
+
+Create a story so that we can track high level what is that. So every day what we'll do is we'll keep the story open. Right? Mhmm. We'll open the story in Jira.
+
+If a subtask is needed or not. Okay. If it is needed, we'll put it. If it is duplicated, we will do it. Okay.
+
+Definitely, sir. Yeah. Thank you so much. I will Jumping in. Right now, I would suggest I would suggest you speak with one another.
+
+Okay? Just have a suggestion about that. Okay? Or Yeah. You know what?
+
+The way I do call is right. I think that's the whole thing that is. I would I want everybody to join, but I thought maybe I'm wasting, other folks' time too. Yeah. Yeah.
+
+Basically, but good thing that we would have done is, That will respond with questions one. Yes. Alright. Anything else that we need to discuss even we are already in the call? I think right now I know we are not going to ask.
+
+Yeah. Yeah. I think right now I'm good. I'll, I think we can have another call on Monday. Let me, like, you know, act on some of the suggestions that you gave me today, and then we can discuss on Monday.
+
+Okay. Okay. That's That's fine, Paula. That's fine. Yeah.
+
+Let's create stories. We don't need to worry much. Okay. We'll arrive with two subtasks for this site. Next time, when we'll do groomie, Yeah.
+
+Groom the screen properly so that next time we end up creating proper feature, we follow the process. Mhmm. That could be much smoother. Yeah. Yeah.
+
+Yeah. True. Yeah. I I I also, like, jumped in trying to create what is the store, like, feature saying because at that time, I didn't have this much context. So now looking back, yeah, the top has to be a little more well defined to make, you know, the finer prints in the stories now.
+
+Anyway, right now, we can address this, by creating the stories and just add add on to the relevant features and then move ahead. And then, in the subsequent sessions, maybe we can do it much more systematically. Yeah. And phase two, Anurag. Phase two is where, our yeah.
+
+Yeah. My name is going to come in. Yeah. Okay. Yeah.
+
+I am very curious about those things. So let's see what we are planning to do. Yeah. And maybe I sit with you. The first round of action Even I need to learn things from you.
+
+Okay? Yeah. Yeah. Let's see. I Yeah.
+
+What it's for? Yeah. That is me what things are needed to be learned. Okay? Sure.
+
+Yeah. Definitely. I have one question with Definitely. But let us figure out. You you you are clear on ontology and you may be right.
+
+I mean, I understand what they're trying to do, but what I am concerned is, like, how does that translate to us, in terms of solving the our, you know, AI agentic problem? Ontology, separately, I understand. What we are trying to do without AI, I understand. But don't know how I mean, both of them, how they are coming together, I'm still, I didn't actually sit down and, you know, think through it as of now because I'm still working on it. Probably I'll do I'll sit down today and next week sometime and then map out a little bit more details on, the potentially where we can explore these options.
+
+And, you know, we need to write write down everything, what we can do, can't do, and then ask them questions and learn more about how much access we have. So this context this much of context right now, I don't have, which I wanted to, you know, evolve in the next week. One one liner thing that we're trying to solve is, right, for phase two. Mhmm. Next to base suggestion.
+
+An entire code base. Right? Group of code bases. Each code base is tied to a service. Okay.
+
+So what we are supposed to do is within the service, match type. Mhmm. Each tool is going to maybe there is an AI agent or maybe engine for now that runs. That, okay, this is, the user story description. Okay?
+
+And these are all the APIs that we have for. So based on learning, we'll figure out, okay, that for this story, there are five things that need to be changed. Five potential candidates. You have this all key clustering, gaming, and all those things. Right?
+
+The five potential candidates. Out of five potential candidates, what we'll do is, right, we'll tell you, okay. This is based on our suggestion. It is what really forward suggestion works. That is phase two.
+
+Mhmm. That is all. Now phase two is again All these five reports. Right? We will still make it very manual.
+
+So for download for experience, come to the screen. Test whatever approach you could do, create a workspace. And that is why voice number was a question for you yesterday. And if I have one workspace, can I pull multiple repos or not? So this is how it's going to be connected.
+
+So that that is phase two. Phase three phase three is not suggestion. He is okay. What's we are 100% sure. There is a 80% probability.
+
+But, That out of all these five reports, we need to go and touch two repos. And he is automatically creating those workspace for two repos. Do I have, like, access to those repos to train on, you know, to auto generate these suggestions? Auto generate these suggestions. Training means fine tuning in the model.
+
+Right? Whatever LLM is. No. No. No.
+
+No. The k means is not LLM model. K means is just a mainstream ML model. You don't need to go to any LLM for that. So what you suggested is, right, or, like, what is the most probable group of, you know, repositories which might be belong to address this story?
+
+If it is that much only, then we need to, like, create the features or, like, you know, some downstream features for each repo to match or, like, you can use some similarity index to, you know, stories to get the best out of it. That doesn't even require, you know, LLM. That for that, all you need to have access to those repositories and then match with the stories and things like that. We will figure everything out. Okay?
+
+Whatever you're speaking now, because I do any I don't find any of these things. Okay. So that is what, we are planning to figure out. Okay. Okay.
+
+Yeah. Again, I have every weekly calls with Anuradha. You and I will ask him what his expectation is for Facebook. Yeah. Okay.
+
+But Facebook is what I this is what he's expecting. Okay. We will see what kind of effort it takes, and then we will come in and out if this is something that we can do for Viswam. If for for that, me and Viswam, we need to check. Yeah.
+
+Yeah. And see that, okay, how are we trying to approach? Because in the this one, right, on the loading, probably, we doesn't store applicable detail for now. So if that starts storing for one or two reports, right, what we can do is we can start training intelligence. There are 40 replicas that we have expect number of students we can inspire.
+
+Now let's see and figure out that how much how much of the current things is our suggestion going to work perfectly or not. So that's the starting point. But for that, we need to figure, we'll discuss this for more. Yeah. Yeah.
+
+Yeah. Yeah. Definitely. Yeah. That's a decision for a next part.
+
+Yeah. But that is the one that you are supposed to give. Yeah. Definitely. Because I'm, I don't have any background.
+
+The one is the I don't move in Europe. But for me, he was going to We we we can definitely work on it together. Class. Yeah. Yeah.
+
+Yeah. But I want to work on this one. Yeah. Definitely. We can work on it.
+
+And this is what I am interested in. Yeah. Definitely. Yeah. Not just being a PM and tracking mode.
+
+It's getting that. Yeah. And what they want to develop. My my days of writing EPI, let me keep intro are gone. I need to come learn these things.
+
+Yeah. Yeah. So that is why that is where I'll be hand hand on you. Oh, yeah. And that is why I always had this question since they were okay.
+
+Why is the label going to get here? Where are we going to plug it? Yeah. Yeah. Okay.
+
+Yep. Okay. One minute. Why tell you had something for me? And that is why I asked the you will Yes.
+
+I am from India. Yeah. You're from what what part of India are you from? I'm from Andhra Pradesh. You're from Mandara.
+
+Yes. Vishwa is from Tamil Nadu. Right? Vishwa is from Tamil Nadu. That's right.
+
+Yes. I think all three of them, they speak in Tamil. Yeah. They'll You can speak some Tamil. Okay.
+
+I think I'll, and I'll, Yeah. Yeah. Yeah. Yeah. Yeah.
+
+Yeah. Some credentials Okay. Or one or two. Okay. Yeah.
+
+Go ahead. Anything else that you may for me?
