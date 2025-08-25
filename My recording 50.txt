@@ -1,0 +1,190 @@
+
+What are we yet not decided to show us? What I'm doing is I'm working on bringing the Java repository. I'm writing a Docker file. Okay. I have some issue there.
+
+Maybe using the incorrect business or something. So what I'll do is I'll give you that for phase one. Right? We will still figure out. The only thing is this one.
+
+Let's figure out this thing that reading from a Docker file. How are you going to download the dependencies? At least let's get that done. Application always will come later. Okay.
+
+We're not going to look at what application specific file we have and are we going to find two Yeah. We are already working on reading from a Docker file and, downloading the dependencies. We are already working on that part. Yeah. Application, I will come up later.
+
+We still have time. I'll still give you this. Let me share my screen. What I did is there is one sample that I created. There are some folks that don't want to share us.
+
+They could do this with me. They couldn't get those. So there is a Java required created. So this is a main one. The it's a string of.
+
+So that's a simple repos created. I'll give you all the access. And the goal needs that to save it now. So Let me get this done so that you have one Angular app, one JavaScript, one Angular, one mode, on React, and then you have one, input also. Main one, please.
+
+Day. Okay. Anybody else need access to the. There was one more direct. If we got this name, I appreciate.
+
+Sushank. Any front end, folks also need, Vishwa? Yeah. I think, see, we don't have anyone like front end or back end. Right?
+
+Maybe you can add Everybody is doing that. I think, yeah. I think, wish no needs for sure. Yeah. Yeah.
+
+Yeah. So that's what I'm doing. K. Once I'm done with this activity, I'll sit and get on applications that I pull that we got. That's okay.
+
+I'll ask him to I'll be ready to test it. Okay. Okay. So that is from my end. This one is still able to give you one application.
+
+Yeah. That involves me looking at the code of the in Docker files. These are some classic use cases that we come. And what's now? Let's check on this one.
+
+If you see here, right, with this. Yeah. Most of the time, what people will do is within the same report, right, they will have different form versions. This is what I was describing. Right?
+
+That looking for a same I like, you know, multiple dependency that can come as part of any build jobs. Yeah. Yeah. I mean, the build job driven by Jenkins or need a build job driven by the cloud runners. Mhmm.
+
+These all can be passed as a parameter. What cases might be right? We'll go figure out what is the latest one. All these things will come. First of all, see this is from this is from Nautilus.
+
+Nautilus is one such heavy application. Yeah. Yeah. It says, good as five g and there. A long standing project.
+
+All these are full of it and in, Springwood. So Let's take this one. If you see here. Right? It is a Docker image.
+
+So this Docker image is this open JDK is stored. It's their own, JDK is true. That is why you can't go and hard code any base images. Yeah. So one question, so this service account, it should be able to at least pull from everywhere.
+
+Right? It will be able to. Okay. For now, it will be able to pull only for those reports that I'm giving you. Okay.
+
+But next extension is for us for this service account to get access to all the code base. In the same service account is used for ontology and knowledge base as well. K. So these people are also using the same service account. Okay.
+
+If this service account has access to all the details, they all the reports, then you should be good. So let's see there's a new application coming and telling that, hey, I want to use, developer experience. We can then get okay for your purpose. Just give access to the service account. It's all tied.
+
+Yep. Right now I have two repos. So far then, yeah, the service account works for both of them. So that works, right? Even, credentials?
+
+Yes. It you're able to take credentials. Yeah. You're able to push and pull the emails? Not push, yet.
+
+But I I mean, I was try I was able to try from UI, but in Docker, I'm seeing, like, I'm not trying that. So I'm fixing things and trying. So it it will work. Yeah. But, I think it it also has a push, access also, no?
+
+Or only pull? Push access. No. It it has. No.
+
+It doesn't need push access for this, one which you gave. One way you asked me to push no. So for that, we need push access. For the rest of all, only pull should be no. Pull access should be no.
+
+But did you try and push? Is it working? Sorry? Just giving you some access. Not even.
+
+Yeah. Just before this call, I was trying, same thing. So, I got some other error. So I I I have to make this, dynamic thing. So once that is fixed, then I can try again.
+
+But it's time to reach that. And also in UI, I was able to, like, log in. So You will you will write in there. Yeah. Yeah.
+
+So yeah. I'll check and I'll let you know if, push or pull push should be okay. Push, might be, like, if there is no push access, I'll let you know. Just let me know. Yeah.
+
+That's true. But I know what to but see these are two things that at least we have for now. The application specific approach have their own different, BBM. Okay. And they might tell what what what power was it to go and download.
+
+So we'll see how we can So, I mean, for now yeah. So this is, like, sprint to solution. This might become easy, where our, AM I mean, our agent would figure out what to use. But Not right now. Like, I'll I'm telling them.
+
+Mhmm. At that time, it But even for Yeah. Even for now, right, let's see if we are using the Nautilus as a application, pilot application. Okay? But let's see if we are using voice mail as a pilot application.
+
+Application for voice mail. First of all, we need to go figure out from the doctor file. Okay? How are they writing the dependencies? Not every application team will write it in one way.
+
+Yeah. Yeah. So one team might use branching. Right? They're okay.
+
+I have different branches created. I use different branches to go and build a code. I don't care what the version is because anyway, we didn't adopt it all depends on how I write the document. Here. Here.
+
+Here. Here. Mhmm. I can also read a package. They said from a different remote repository.
+
+They were at you manage list of Yeah. So all these things are from there, but this is just for you to know. Yeah. Yeah. Then you have to go and accept these business.
+
+Yes. And then there can be multiple different, dependencies Yeah. Within the same of the box at the same repo. So we need extraction layer. Yes.
+
+But for now, right, I'm just tracking a Docker file. Simple Docker file. Everything is there here. Yeah. Yeah.
+
+Yeah. This should be good. So for now, I think by today, I should be able to confirm you, the Docker thing for the application. Your application, you should know. We can try starting for that.
+
+I mean, I mean, this time, we take from Docker. Okay. Let me know 99%, it will work. Yeah. Yeah.
+
+100%, it is going to work you for pull because that's the same credential I use for doing things within, when I create port. Even the red secret I use Okay. Within my own deployments. But this was the stack of the push port. Yeah.
+
+I'm good on that. Yeah. Thanks. Okay. Krishna, you are good on that mail.
+
+Right? Yeah. I am good on that, actually. Okay. I'll talk to him with him and see if he can, find the out.
+
+Okay. Okay. Okay. So next thing I had is for Vandana. Vandana, for story creation, I think you should be good now.
+
+Yeah. Yeah. Okay. Mishra is here. We can, take what story we have created.
+
+Okay? And we'll assign, who you're working on what. Or you can assign, let me know who you're working on what. Okay. Yeah.
+
+As of now, Raja is Raja and, Amraddha are working on the UI. And, Vaishnav is working on the coder. Manhkhan is working on, integration, and, Git integration is done by Sashank. So yeah. Git integration.
+
+What kind of Git integration? Feeding, loading the repos, multi repos, and all these things. Multi repos? Okay. So Sushant is going and exploring how to do that.
+
+Yep. Multi repos is Multi repos. Multi repos. Yeah. Yeah.
+
+And I'm working on that now. Yeah. But Git integration is not big. They're able to load the reports and all these things. So Dockerfile, we are working on it in parallel.
+
+So Okay. How are we trying to figure this out, we have a script? And also there is one more point. Right? You should know that Dockerfile can sit anywhere.
+
+It can also sit in a folder called Dockerfiles. Even I have Dockerfile, Dockerfile one, Dockerfile two. My default, we should take whatever is getting Dockerfile. File. So all those things we're taking care of.
+
+Right? Yeah. I mean, see, for the first phase, we are anyway getting it as a input from the user. Right? The user is not getting input docker file.
+
+Docker file will be there in the repo. That is Uh-huh. That's all. And phase one, I see we keep under our own application only. Sure.
+
+Also, we go and, figure out how many applications are there. For all those square application, we'll figure out, okay, which is the one that doesn't have this kind of fancy, mature code. Right? Nautilus is a mature application. The multiple dependency versions, multiple repost.
+
+We'll not do that. We'll pick up something new. Just for a pilot. I will let you know. I'll keep you posted.
+
+Just let me work on giving device number, Spring Boot. I think one of sales are on Spring Boot. No? One of sales in Spring Boot. Do you have access to that code, miss, Krishna?
+
+I might, but no. I have c off. I think no. I I no. I had access, but right now, I don't have it.
+
+Let me check. No. Leave it, man. That's cool. True.
+
+Okay. Leave it. Leave it. Leave it. Leave it.
+
+That is why I'm doing this exercise. You don't want to get into these, bureaucratic steps. Okay. Any any, thing that we need to discuss more other than spoon is strong one than that? Anybody else have anything for me?
+
+Not for me, sir. Okay. Vandana, can we, take what stories here so that I can assign scripts? Yeah. Let me just able to assign the assignee.
+
+Right? Yeah. Assign, I can assign. Or they can be even self assigned also. Both is possible.
+
+But now, actually, I'm changing all the stories because, they earlier, they were created with a completely different, template in mind. So all the stories are changing now. Okay. Are you done, doing that, Anana? Do you want me to associate sprints to stories?
+
+How do we want to do this? Right now, I'm creating based on Sprint one and maybe couple of stories maybe go into Sprint two. But most of them, Sprint one stories is all all what I'm currently focusing. If need be for other sprints, we can add as we go along. Then bring that along.
+
+Okay. But did you, withdraw whatever story you had created or you created something, Juhi? No. I I'm creating on the dock, so that we can review probably, maybe tomorrow. And then once we finalize tomorrow, I'll add it, on the platform.
+
+Because I don't want to, like, delete first and then, you know, without review, you know, add it again. Okay. Yeah. Okay. Can you do that tomorrow then?
+
+Yeah. Yeah. Okay. Can you do that tomorrow then? Yeah.
+
+Yeah. Okay, guys. Vaishma, anything else you need from me? I'll give you one rapproche. One sec for, spring boot.
+
+I think, I'm going to You're good. Right? Did you say that, one for ODM dashboard. I'll give you. I have For all these Java repos, right, code our CPU code will be too much.
+
+Okay. Yeah. Yeah. Of course, that one is giving you. I'll file it.
+
+Okay. And did you go and check all the authentication part for CODIS? No. It's in the list, but not in the immediate list. So, not yet.
+
+Okay. Take take it out first. That has to be immediate used for you. Okay. Yeah.
+
+Because if it's the not the coder, it's basic. I need to come and play around. Right? Yeah. Yeah.
+
+And the giving users user ID password. So we know the documentation. Yes. That's how we can do it. Yeah.
+
+Yeah. I'll do that. Yeah. I'll Okay. Okay, guys.
+
+Let me know if anything else we can drop. Okay. Yeah. And we'll send the stories and all tomorrow. Okay.
+
+Yeah. Tomorrow, we'll come back and discuss. And, if there is anything need to be modified, we can finalize tomorrow, and I'll add them to the, final Okay. Jira board. And we can you can I'll give it to you, and then you can add it to the sprint board as well.
+
+Sure. Sure. Yeah. Thank you so much, bro. And, yeah, one more thing.
+
+Sorry. Yes. One more thing. Hey. What happened to, this one, Terraform two?
+
+I'm just curious. How are we doing this? Let's see if I have five folders. I have a, b, c, d. I have a doctor from sitting in the house going and extracting those?
+
+Is that within that area of home or we are doing some, and that brings us to that handling the deployment of our pods, coded pods. Ishmael? Yeah. How about did we go Yeah. Are you still in the Terraform file to generate ports?
+
+Yes. Yes. Yes. What's the other way? Haven't we went and figure out how we can do this by hand?
+
+Not yet, Priyak. We will work on it, actually. It is there in the to do list. Okay? But we want to get the board up and running first.
+
+Okay? And to and once we have that running, we will work on, running it through the Helm's to test well. I have already started doing research on that part, but, I'll get to the progress. Okay. Okay, sir.
+
+So as long as we don't like straightforward thing though, but I will look into it under you. Uh-huh. Okay. Okay. Okay.
+
+As long as we take the real image from Docker file, independence is from the same file, we should be good. Okay. But, no no hard coding of, any basing with this. No. No.
+
+No. No. We have not hard code anything, actually. Yeah. So, see, instead of, using, Terraform, flying to we are thinking whether we can use PELM as we requested earlier.
+
+So for that, we are doing some research. But first, before that, we wanna get the enrollment up and running either through Terraform or PELM Okay. Then get it fixed later. Okay. Okay.
+
+That's fine. That's fine. We can keep on exploring that. Okay, guys. I don't have anything.
+
+Let me know if you have anything or else we can drop. Thank you. Thank you. Thanks. Thanks, guys.
+
+Thank you.
