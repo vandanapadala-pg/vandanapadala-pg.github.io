@@ -1,0 +1,670 @@
+
+Good afternoon, Good afternoon. Good afternoon, guys. Hi, Vishwa. Good afternoon. Okay.
+
+Hey, Itzra. When did you get these credentials, Walt? You Today morning. Sorry? Yeah.
+
+Yeah. Metadata, they have little bit of metadata. Okay. It is not, they have a they have almost, whatever we need, I guess. Okay.
+
+So go through it and let me know, sir, okay, once I'll go through it and let you know. Yeah. Sure. Then I'll have some questions. That is why I didn't ask much today.
+
+Even I didn't have anything further. All I wanted to know is that I started capturing this info on it with the URL and stuff. For example, if you do the API. Right? They are taking all the, thing.
+
+Okay? They are putting what is the endpoint. What is the logic? Okay. What is the method data house?
+
+Okay. What is the business significance? What is the the repo part? Okay. And some discussion about the functionality as well.
+
+So kind of, they have come, captured it comprehensively, if I may. Okay. Even if you book the application or whatever be it. Right? They have everything.
+
+Okay? What the server, what service, what is the URL, what is the service ID, what technology it is in, what is the GitLab link, what is the last company? They're They're they're all tools. They're nice. And you and I had this question that how long, I mean, how frequent do you guys go and update?
+
+Because sometimes what will happen is, like, tools can get created for current tasks also. Right? So let's say if I'm writing some code in the next sprint, you and I might have some stories. Let's see if I have written one service in the which might need a change, then you should also pick up that kind of information, right, to branch level. Right.
+
+Right. That's what I'm saying. See, if you see here, right, I'm sharing my screen. You see here? Mhmm.
+
+Okay. It does the branch. It is in what comic ID. Okay. What is the GitLab link?
+
+Okay. And what is the context functionality? They have everything, sir, almost. Oh, that is nice. That is nice for us.
+
+Okay. K. T p v m. Do you know what? I didn't know you might not have it handy.
+
+T p v m. I'm checking this. Let me forward something. So this I got from somebody from his team. I'll forward it to everybody.
+
+Okay. So this is what we have in Neo four k. Okay. So almost, most of the, metadata is there. Okay.
+
+If we need more, we need to determine what kind of metadata we need to capture so then they can. That's all. That's what Sonia has made the question. Yeah. But that team, we need to discuss what is is too for us.
+
+I have placed something in, developer experience. No. From a developer experience standpoint. From a developer experience standpoint, we just need to know what are all the reports that are getting affected and, relationships. That's all.
+
+Okay. Martin service? Yeah. I mean But that is also a service. Right?
+
+And then what report is associated to? It is already there. That is all. Yeah. It is the and how are we going to build this, recommendation system?
+
+It is also something I'm interested in. We'll discuss more on that. Recommendation system, you can you I might have missed the call. So that's all phase. Oh, yeah.
+
+Right? Okay. So what system will start discerning, capturing so that even we can have good exit with the ontology kv? Actually I've asked Vandana to start working on that part already. Okay?
+
+So Vandana is doing some analysis on that part, and, me and Vandana are already working on it. Once we do some little bit of progress, I'll let you know, Priyam. Okay? Don't don't do progress, before telling me what you are working. Okay?
+
+I'm very curious, yet. Sure. Okay. What what are those things you're planning to do? Okay.
+
+Just, keep me look technical. No. No. I want to contribute something. Yeah.
+
+Yeah. Yeah. See, you already made it very clear. Okay? I'm I don't know.
+
+What I am working with that, and I Vandana is, how do we fit in AI agents into the DevEx platform? Okay. Gotcha. What are the possible, ways that we can fit in, AI agents into our platform? Okay.
+
+So I'm trying to find out a few use cases, and maybe out of that one or two, we can, try to implement after that, Krishna. That's what I'm trying to do. Awesome. I wish this is for this one. I wish for hey, Brad.
+
+I'm I'm not interested. Yep. But use cases, we know I mean, what use cases are we looking for in here? I mean, we know what we need to do. Right?
+
+Like, additionally, are they trying to Yeah. I just have to The first phase, we need to make sure that we are able to build, deploy the application. Yes, sir. I am it is We are already working on it, Ganesh. Okay?
+
+So see from the next phase standpoint, we are doing little bit of started little bit of analysis as well. That's what I was trying to say. Yeah. So Okay? So you And the focus is more on implementing the one now.
+
+Sorry, Ganesh. Good. Okay. Yeah. But from the use case perspective, we we we for sure know what to do.
+
+Right? Correct. For Facebook, we know what we need to do and everything we know clearly. Okay. That has been documented as well, discussed with Priyag and everyone.
+
+Okay. So we know what we are doing in phase one. Okay. And we also had a call with the EKB team on what are the ontology mappings that we might need. Okay.
+
+So since then, they have almost whatever we need. So for phase one, we are clear, Ganesh. Okay. We have completed the integration, of Coder and all these things almost okay. So Coder and GitLab integration is almost complete and UI design is also complete.
+
+And UI, we are doing the development now a little. Okay? So that will also be complete soon. So phase one, we are clear. I'm just talking about the use cases for phase two now.
+
+That's all. Okay. So brainstorming on phase two, Ganesh. I'll let it expertly. He's going with what to do.
+
+You've been copying on mail to you. Check that one. For, phase two, which means that, by if you're able to do testing, if you're able to instantiate, have one development team start using this. Right? What we should ideally do is, start looking at how can we pre populate all this information either in Jira, right, and use that for instantiating the instance.
+
+That'll be, one part of the work. And second is, with respect to do we have any dependency? How can I configure that dependency? When I say configure, do we need, Kafka topic to be, configured, like the remote cluster port number, if there is any certificate that needs to be pulled up, should we do all of that? How can we pull up all this information into our local testing environment?
+
+That is, the second one that we may possibly need to look into. Third is, prior one one issue for everybody feels today is how do we get access to I'm onboarding into a platform, but, ideally, my access to that core base has to be there. Are we capturing that? How can we intelligently say that, oh, you don't have access to x y z. You'll not be able to start your workspace.
+
+Right? So those kind of stuff that we need to, bring in, in terms of in in terms of, the actual, you know, capability of features. No. I understand that. I I will discuss with you separately, Ganesh.
+
+We have a I have a rough idea of how we can do this, but I will discuss with you. Ganesh, as per what I talked to Amit from last time. Right? Mhmm. You just simply ask me a question, like, what value are we bringing?
+
+Just installing and putting up the coders. If you don't suggest anything for any user based on the Jira story, What reposed do they have to go and code? Okay. So according to, these two is us speak after topics and all that that that might be a separate stuff. Right?
+
+And according to him, what he wants to see is this will be a in action. When we go and recommend k. So that recommendation system is something that we're looking for in place two. I get I'm talking to him on this Thursday. Okay.
+
+If he will allow me, I will ask you guys to join that call, and we can discuss. Okay. His game one is good for now. Let us but for phase two, right, this is what he's expecting. In phase two, let's make sure.
+
+Exactly We are all on the same thing. Yeah. Phase two one is expectation is. Let's say there is a description on the Jira. Based on the description on the Jira, based on the application, there should be a advantage capacity that should go and tell me.
+
+Okay. To for the application, there are n number of code base. Looking at all those n number of code base, looking at the description of the story, there are two or three code base. We will narrow down. Okay.
+
+These are the ones that you have to go and make a change as a developer. That's a suggestion. That's a city. Right? Capability.
+
+This is phase two for it. Okay. So his only question is, if he just integrate the coded tool, what is the value that that you know, seeing if you're not suggesting something. I mean, maybe this question is for you, but we we have documented all of this in in the, in our requirement sheets. Right?
+
+Like, I mean, in the, water sheet that me and was working on. It is up to you to prioritize what you want from us. It is multiple item. Right. When we, yeah, when we spoke spoke about all of this to, AM as well as Ashish, Ashish's main point was how can we bring in service virtualization.
+
+Right? I mean, yeah, definitely, we need to, integrate with Jira. If that is the, initial focus, let's do that. Right? I mean, so that two people can, look into, I mean, pay the ticket and then start getting the whole Workspace provision.
+
+But sooner or later, it'll again be again, it'll be the same thing. What will be the point of just having a a environment from Jira? What else do we can we provide? Right? I mean, that that Well, that's something.
+
+That question will also be think we'll discuss this thing. I know. Yeah. The the only thing is right. Foreign priority is simply different.
+
+Okay? I think based on what you are saying, priority for Ashish might do something different. So let's sit together and see where do we have to go and design the first one. Because what we have started doing is we have started having calls with the EKME and. So that we get to know what is the relationship between the repos, API, description, blah blah blah, all those things.
+
+Correct. According to me, what I talk to in trade as well, this is what he looks. This is what he's looking for at least two. Yeah. Yeah.
+
+See, you you And we'll we'll talk to the team. That conversation. You provide the inputs to the team. And, I mean, obviously, do do we have a Jira board, Vishwan for this? Yeah.
+
+We have a Jira already. Okay. Yeah. And, yeah, Priyal. I mean, you can prioritize what what's what needs to be going in, and, apparently, the team will work with you.
+
+Yeah. Okay. I agree. We are not clear then. Sure.
+
+I mean, the reason why I jumped in is, we we we are not, a use cases are all, there. We just need to document, which one we just want to do. We're not assuming it would be new. Okay. Cool.
+
+Thank you. Yeah. Thank you, guys. Okay. So, Priyank, do you have anything else to discuss today?
+
+I have so I provided the voice mail report yesterday. It's It's a screen boot. Yeah. Screen boot repo. Oh, that's it.
+
+You're you're good with that. Right? Yeah. I think we are good. Yeah.
+
+You did tell them you want to report. So everything you're there in the Docker file, I went and tested it yesterday. It all works good. It spins up a container. So that is good for now.
+
+Now story, that's something that we wanted to discuss. Right? Yes, Priyag. So I have created this, story mapping because, last time we discussed, right, because the criteria acceptance criteria in the features doesn't exactly match because I cannot change any acceptance criteria in the pre created features. What I did was I had done a mapping of all the stories so far created.
+
+And in the in our discussions, we had seen that some of the new stories need to be created as well as, stories need to be organized according to the sprint. So some need to be, like, modified or deleted as well, which were already created on the board. Mhmm. So so these are the eight features which are currently, already existing on Inspire AI. And so the only thing right now we can do is map the current existing stories to one of the any one of those features.
+
+Okay. So, I had created I had created stories for four features before, and there is one more feature for which some of the potential stories which we discussed could be assigned. It could be part of sprint one and two. Basically, these are the features. These orange boxes are the features, and these are the different stories that we have.
+
+And, this is all these ones are for sprint one in this vertical direction. I'll zoom in into the each story. I know that for some of you folks can't see, like, what exactly is the story. It's very small in font to read, but I'm just showcasing the overall, like, mapping of how it is organized. And then these are, like in our discussions, this came up, which could be part of sprint too.
+
+And, these things probably modified or not needed, because I can probably like, for some of the new stories, I can take out the same idea and change the story and assign it because we might not need that, story going forward. Okay. So let me zoom in. Okay. That is fine, ma'am.
+
+You go and create those stories in Inspire. If we don't need to go granular level details. What we'll do if we need something, we'll create a subtask. Raguel is here. Right, Raguel?
+
+Raguel are there? Yeah. Only there. Raguel. Raguel, next time next time we do packaging, right, just make sure, you let me do it instead of only the name because, see, what what has happened is we ended up creating features which were not useful.
+
+Okay? That ended up getting packaged. And now we don't want to reward the package and, adding those features. Next time, if you do packaging for, developer experience, just give me a hard work. Sure.
+
+Sure. And go create the features. Yeah. I just don't want to revert the package, so I asked the, to just Okay. Sure.
+
+Okay. Thanks, Raghav. Let me just This won't be the case next time. Yeah. So, you you guys want to quickly go through the stories and just finalize if or if there is anything added to the Sprint one, just let me know.
+
+I can add. But I I felt these are the final ones, from, what I gathered so far. So The stories, for for screen, for APIs. Right? So this is Those needs to be there, for coding needs to be there.
+
+Yes. Just this. End by check this. So this is, Just send me the story if you take the information. Mhmm.
+
+Or do you want me to share it with you and, you want to take a look and then maybe, if there is anything you want to add later? Oh, go ahead. Okay. You you go ahead. Okay.
+
+If there is anything missing, we need to create a subtask. That's okay. So, Go ahead. Create it. Once you create it, right, just let me know so that I can assign sprints.
+
+I think that is something you can't do it. That's something even, I won't be able to do it, but I'll get You can give me some information from the Inspire or DBXs and stuff. Okay. Since the whole I'll go assign sprints. Yeah.
+
+Since the whole team is here, I just want to go and finalize the stories for once. So, Okay. Yeah. So this one is for the landing page. And these are, like like, last time I created this as a feature, but, we discussed that this should be ideally a story.
+
+So this is a story right now, and all these are subtasks. Mhmm. And then, so the managing, and, the coder workspace from Jira card. This is about, you know, the context of where the terms the status of, basically the whole, life cycle of the, you know, environment. This one, instead of, like, features here, it sorry.
+
+Instead of the sub task here itself, has a potential, to be a separate, you know, ticket. So that is this this particular ticket, which is, environment life cycle management. So, these three ones, like assign Jira display assign Jira stories, display the ticket information, and they calculate the age to showcase, like, how old the ticket is. These are more of a visual features just to give the information, but the management of the workspace Mhmm. Could be part of a different feature altogether.
+
+And, it could have it could have all these potential, you know, sub stories or features I mean, sub stories or stories, however, we want to define going forward, can have, these multiple aspects to it. Because, And, those are function desktop. Let me zoom in a little bit. So this is more of a workspace, management. Right?
+
+Yes. So this is, like, the entire life cycle management, like, whether it's the status is live or not, like, whether it's working properly or not, whether it has been deleted, whether it's is is it stopped? Like, what is going on with the whole life cycle of the environment? It looks good to me. Deletion and stop.
+
+Right? See these things are not I can call her what space. Can you scroll on? Right? Developer cannot do it.
+
+Developer cannot stop. Developer cannot touch. It developer only can create. Okay. I think those things might not be needed.
+
+So Stopping the instance, nobody is going to stop a workspace on this type of data. And you'll see if I'm a diver. Right? I won't, do this. It's not useful for me.
+
+Punging is only based on zero scatters. So if it moves beyond in progress, right, any scatters will be greater than in progress, we are going to go and purge the environment automatically. No. I think we should keep it till it is complete. As complete.
+
+We can keep it till it is complete. Yeah. That one will decide. Let's make it considerable. Okay?
+
+Because, again, I don't know how much time, the the the way domain testing works with this right, Shwath. Let's see if I was told you have done downstream or dependent storage working. So in that case, right, the log match is complete. Test is still not complete. It's a cross domain.
+
+Right? Yeah. Yeah. Let's say there is one in play, form. All those instances we'll we'll, discuss on that.
+
+But I think from now, if it moves beyond in progress, right Mhmm. We can make it. But that is something we can make configurable. We don't need any hard rule. I think that these are configurable things that we can do.
+
+Because this is not needed. One second. Can you can you, expand this one, please, Anana? It says an ID editor. No.
+
+We we actually haven't finished that. Once for the Raya, we haven't finished that feature. Let me finish that feature once. I'll I'll come to the this one. This is part of other different feature.
+
+Any? So so all these, these ones are part of the same feature. So just wanted to close out on this feature. So this is, like, a front end gate integration part. So, so there is, like, last time we had discussion, right, about two things, whether it would be part of a pop up box or it would be part of a configure, you know, at coder level.
+
+So right now, I'm just keeping the story as of now. Any changes that need to be done, like, this is the story itself. The other things, this could be subtasks we can define going forward. Right now, this is not defined. There was some existing story Mhmm.
+
+About, like, the inference should be provided real time validation, all these things. This thing I'm planning to modify this story just to showcase that we need, just a model for, a model box for, you know, git repository URL and branch. The other things which need to be part of going forward, I'll see if I need to create based on your feedback. Mhmm. I think we need to create one more branch where we go and manipulate the files.
+
+To read Docker file from an existing one, figure out number one, what is the big image. Number two, what is the package? Create a new Docker file. The existing Docker file will be with arguments. Did you have that, task created?
+
+So the is Extraction. Right? Docker file parser to extract environmental details. So that is part of a different feature now because all these things are kind of provided by Docker I mean, sorry, Coder. Coder.
+
+Yeah. So Coder display want to be by Coder. This is when we will have some effort. Okay. Not to click on.
+
+Actually, these white ones these white ones are the new new stories. The green ones are already existing stories since since because of that, you can see the code also. Like, the Jira ticket code here. Here, these I haven't created. The white boxes is the one new tickets which needs to be created.
+
+Just wanted to close out on the creation of those new tickets because, again, I don't want to create and then modify or delete later. So just check whether this is the one which you are referring to. Mhmm. Mhmm. And that this is the one except environment.
+
+But do you want me to be so sorry. But do you want me to keep it here or move it elsewhere? Keep it here. Keep it clear. I will tell you, right, see, if I know if I'm implementation for me, story plus the tracking.
+
+Okay? Yeah. I know how this is going to be done. Okay. So that is on, telling you.
+
+You create, the story, but I think it looks good to me. Okay. All these works are for the sprint. So in this feature, you will only find eventually these two stories for this sprint. And these three stories, these ones, which are currently are scheduled for sprint two.
+
+When are we scoping, phase one to be finished, Isha? I have weekly cadence. I don't think we can get Ashish time to at least show him the progress. What we can do is, Amit, another call set up with Ashish. Let's see if he can, demo something to him.
+
+Okay? Even here the weekly call. Okay. But Yeah. Next week probably will be next week.
+
+That is fine. Every week, I think what we'll do is, I'll invite you to those calls. Yeah. Makes sense. Because I think, after tomorrow, he's going to ask him these questions.
+
+Okay. What is phase one sprint one? What are we doing? Okay. What is the demo?
+
+All those things. Okay? At least let's make sure that the meeting problems, we'll give it to them. Just so that easier if the more frequent we tell him, right, the more frequent we get updates, the more frequently we know what to change. Correct.
+
+I mean, it's just one point this could happen that yeah. We'll, keep on doing the other stuff, and then finally, he's asking us for a change. Maybe he thinks something different. Do you think something different? Yeah.
+
+We're gonna ask, like, existing feedback note that we can pull up. Yeah. Yeah. See, this one So this one is, if if if you're okay, like, from the last time discussion, this we decided, like, not needed. I don't know whether it's not needed completely or, or maybe, like, some other sprint.
+
+Just wanted to cross check on that. I'll I'll tell you this again. This requires architecture change. Let's say if I go in, click on a new Coder window. Mhmm.
+
+The question is for now, we are not going to, go ahead with authentication. The only reason is, coding is going to get spinned up based on Inspire tool. Okay? Now this is Inspire tool. You come to the tool.
+
+You go click on launch the instance. It will go and launch the instance. It is already here as as in the app. Yeah. That is what first.
+
+Yeah. That is what we wrote. It's plan is for Inspire to handle authentication. Encoder part would be skipped for reauthentication. Right?
+
+This is okay. So for next time, right, this is what we need to discuss with, Anuta. If there are tickets already, I mean okay. So let's have a phase two. Our phase two is a suggestion.
+
+Right? Branch detail. I think a one instance from. It should go take a new window. That is not the one to inspire.
+
+Then what should happen is that we need to send. In the request to that proxy, proxy need to make the request to coders. That is where we need authentication. And then we have a different mechanism as a code to access authentication that we will set. All of these will be, discussed.
+
+Okay. This is not even for these phases. But don't put not in there. This is something important for future, but not for now. Okay.
+
+Like, next phase or next That's architected change in which we go and access the quota. Right? Okay. From Jira directly. So we are planning to integrate sample application through.
+
+Okay. But not now. In future. So this is something we need to get input from. Okay.
+
+What does he think? What does he look here? Sure. I just put, this is in future, but I think he'll also see one or two for sure. Okay.
+
+So that that's all there for this, sorry, this feature. And let's go through the next one. So this one we already discussed it because I was adding in, some of the, life cycle management into this. This is currently not there on the board. So I was thinking of putting this for the sprint to some of these things.
+
+Mhmm. But I haven't added these stories. I can add these, stories for, this particular feature, and we can do it for sprint too. It's either the launch model that will get your points, handle forms of mission to the launch. No.
+
+All these things you need to do it for failing on. Right? If you don't kind of getting the parameters, if there is a UI layer we are putting on top of quota. Right? Create workspace.
+
+Yeah. I mean, phase two phase one is, sprint two is a part of phase one. Right? Print two is part of the one. Yes.
+
+At least it is from Different. Let's start from. Top and delete. Right? Just don't put that the user is going to do it.
+
+Just put a scripting thing to do it. We'll write a scrum job. Can you repeat? I didn't hear what you said. You know this last two task.
+
+Right? Soft functionality, deletion functionality. Uh-huh. And then I need to log in a. Okay.
+
+For this one. Right? Uh-huh. Don't don't delete this one. This is doing it, but the user is not going to do it.
+
+Okay. It's a process that is going to do. It's a cron job. Okay. We'll put within the cluster itself.
+
+Okay. But they can stop. Nobody will do it. People are not interested doing these things. We don't want to assist to come and tell us what's two stories are fine.
+
+Those stories are fine. Okay. Talk might not be there. Okay. So just only delete.
+
+Right? I don't think should be the We'll go and delete it even. We don't want to. Look. This is question for, so we show a encoder.
+
+Let's see if I purge the port. Is there a mechanism that I'll purge the volume also? Persistent volumes? Whatever we are creating? Yeah.
+
+The persistent volumes will also be paused. Only thing that's the part will be yeah. Anything attached to the part will be deleted. Okay. Okay.
+
+Okay. Is stop my dot been needed? Sorry. Yeah. Stop is not needed.
+
+You can remove this. This one. Right? I'm completely removing it as of now. Mhmm.
+
+Okay. So this one, is should come from, like, kind of scheduler which which would do that in the back end itself. Correct. Once the Jira ticket is, like, completed. Right?
+
+Correct. Okay. So now let's just cross check with access and ID editor. I did not find any feature which is part of sprint one. Let me know if I'm wrong.
+
+So from the discussions, I captured the all these ones, kind of came to the sprint two only. Let me know. Okay. I'll zoom in. I want to use the file browser, navigate to my normal system.
+
+And what is this one? File in file browser? This is for, in the coder environment, for them to have a Mhmm. File browser for navigating the files. That is already inbuilt in the Versus code, actually.
+
+That will be the That will be the Yeah. I can see it. Like, it makes an IDE editor. Right, Vandana? I think it's already in.
+
+Is this, file browser, like, it's from the, I think it's from our, Versus code? No. No. From our remote. What?
+
+So our border runs on a remote server. No? Correct. When you open it on a desktop web, so, if you want to upload any files, like, in Versus code, we go to files and open file. No?
+
+So that we open the remote server's location where it Correct. So it won't open our local world. Correct. This part is where, Vandana is asking that, how will the how will you upload our local files to that Versus Code? Because last Remote server?
+
+Yeah. So there's no local files. Right? When you are creating a file itself, you are going to do it directly via remote server only. Right?
+
+I don't understand your question. No. It's, I mean, it's like, uploading a file from your local, like, if you want to upload some, script or anything from your local. Okay. The thing maybe it's a very rare use case, but yeah.
+
+I'm not sure whether we need to cater to that use case, but I guess I'll leave it to you guys. Alex, Krishna, tell me one thing. Yeah. If I write a code, if I create a file Yes. Let's say if I create let's say if there is a, this one, Python.
+
+You did. I went and created. You did not. Yes. And did it not.
+
+Yes. And did it not. Yes. And did it not. Yes.
+
+And that is some some some configurable parameters that you go and pass to the coders. Mhmm. Let's say within that, I write a service to upload a image. Okay. What I'll do is within my repo, I create resources.
+
+Okay, you put that email there. It's anyway going to go and, sync to quota. Do not use this file and It will be how will you put your image there? No. How will I put I'll put it from my local system.
+
+Right? No. I mean I'll I'll share my screen. So now, this one Mhmm. This, like, logins to the server, like, where our, repository wanted.
+
+So there so now everything here inside this is, like, in shell. Like, you are on the cluster itself. So if you want to open any file, suppose, you want file. Open folder. So when you open this folder, no?
+
+So it will give you where you are, like, what all access you have. So it's inside the code of network. It will give you only the path from that server. It won't give you the path from your local dock load because it's, it's on a different server from your local Oh, okay. I see.
+
+I see. I see. I see. Usually, we use this, VNS API tool. Yeah.
+
+We can. Is there okay. If you want to upload something, this is already in a pod. Right? Yeah.
+
+You need to use an SSH connection or something like that to upload. Oops. You didn't do that. But, usually, like, if you want, like, if you are uploading it in a postman or in a browser, like, if your UI needs to be, like, you you you has the requirement to upload an image, Your URL start in our browser, so then we can upload it, from our local. But in this, like, in this workspace, you may not be able to upload it.
+
+But then can you not go create files and stuff here? Can you open the download? You can create files? You can create file. Yeah.
+
+Just upload is not possible. It's not. Upload will not. So anything from my local machine, I can't go and copy paste because this is You can copy paste, create a new file, and paste it instead of upload upload. Yeah.
+
+Yeah. Do you have any PNG? Take a sample screenshot. Try and see if you can move it there. Probably paste.
+
+Okay. Yeah. Report or not? I don't because you can't open that. No.
+
+You can't do. No. No. I mean, if you open it in your local Internet, different thing, you can copy paste here. Right?
+
+No. No. I mean okay. Yeah. From local, if you are copying anything, text or anything, yeah, it's completely possible.
+
+Just that? You cannot copy? Moment. Yeah. Test.
+
+I think that is fine. Yeah. See, temporarily, we have that option. We'll see what is the other way around. But I think this should be fine if you are able to copy paste testing.
+
+Yeah. Put it for phase two. We don't need to waste time on this one. Yeah. Put it for phase two.
+
+That is what, I had done. I put for phase two only. Okay. Okay. Okay.
+
+So this is actually because last time I remember this was what we discussed. So I just wanted to show you. And because we were also checking with the story feasibility check for this one. So currently, I'm not deleting this story, but just keeping all these orange ones up for phase two only. Sorry.
+
+Sprint two. Okay. I mean, sprint two or if you want to, like, move further to sprint three, probably we can do it. But this is not scheduled for phase one. Just wanted to clarify on that.
+
+Okay. Okay. And then this is secure module. I don't want to. Yeah.
+
+This is a secure, Before accessing any okay. And then select from multiple environments, after logging in so that they can switch between different projects. And this one is also, this one, a lab stand and make sure coder provided team needs to understand the implemented details better. So right now, I'm I'm not modifying these stories. I'm just putting them for phase two.
+
+Sorry. Sprint two. Okay. What is this one? Simply log in to the enrollment that that you refer to just predicted from another okay.
+
+That is fine. That is not something we're going to do now. Multiple environments. I want to access after login is in the session to multiple projects. What is this one?
+
+Is it from multiple environments? So if they are working on one ticket, they want to switch to another ticket. Okay. Then they can see from our No. Then they can do it.
+
+I can see it from our home page. They can close this enrollment, see it from our home page, go to the next ticket, open another enrollment. That doesn't matter, I guess. We don't need this. See, I think end of the day if I go from one to second.
+
+Right? When you can work space for now created. Right? You can go, view this one. So this one, I can move to split And that is why I will do.
+
+This one remove? Mhmm. Cancel the story. Okay. Then I'll move it to the change ones.
+
+Okay. So this one we are keeping but not for this print. So, the whole point is there is no story for this feature, for this print. That should be. This will be okay.
+
+Okay. Okay. Let's check the other one which is, git repository git repository cloning branch commit checkout API. This is the next feature. So right now, there is these are, like, back end Git integrations.
+
+So, let me know like, this is a current existing story, but, these things are like sub task or sub stories part of, this particular story. I'm trying to create Terraform. Terraform is good. We are still, being positive. I think I'll have more quality personal understanding more on this set of home files.
+
+Multi repository from multiple, you know, implement security authentication. This is something codec does for itself. All you do is provide to start that URL token with API access on BitLab. And Krishna can correct me if I'm wrong or if I understand this ticket incorrectly. Just know.
+
+The third one? Yeah. The third one. I mean, secure gate authentication. Just a second.
+
+I'll just check the Jira demo. Yeah. I mean, this, secure git authentication, is it for getting the user credentials for the first time to set it up? So I think that coder does it internally with the Gitpack. But the coder will do?
+
+No. But first time, yes, you give the token in the coder enrollment. Right? Setup. Yeah.
+
+Just to clear that Getting the, git URL banned and everything in our region's firewall. So I think, I'm That's what I must say, David. Okay. So we implement git secure authentication handling is just use the token to connect to the, quick services securely. That's all it is.
+
+Right? Or is it anything else? Yeah. Yeah. I think that is all it is there as a direct service.
+
+I think it is a totally handle part. That that's all it is. Yeah. Even though it's not that if you just get on get authentication on the coder side, then it's already handled, I would say, as soon as Yeah. The coder will be handled.
+
+So we'll do this every time. Right? Irrespective of a user enters or not enters. See, we don't know if there is a different token. Right?
+
+There can be multiple token a user has, like, one or two. Let's stop. Okay? Even though we have a user's token information, we are going to keep the form pretty simple. K.
+
+We need sole branch, target branch. What is the token? What is the URL? That's all we need. Yeah.
+
+Yeah. Step number two might be that, okay. We have your info. We have your tokens stored within that order. So let's see if you are not doing it for the first time.
+
+We are not going to ask you for a token. It is all in the extension. Yep. And maybe, maybe extension, you can have a user profile page in the next phase where you can add multiple tokens. That thing we can do later, but, not now.
+
+Correct. For now, I think we'll just get this running. Okay. Get whatever for apples we have. Three running.
+
+Okay? And, maybe an application. Okay? Application for sure that I give to, which was the sorry. Not which was.
+
+I give it to just just give me see. Not on that. So this would be part of this link only. Right? This would we don't need this.
+
+This is handled. So instead of this, right, just rename it to this. Okay? Just rename the description. Mhmm.
+
+We'll we'll put something for user profile setting. Okay? Just leave it for now. Just put a description that, from that stage, we are going to build a user management kind of, page. But they can come build that token.
+
+We'll build it from there, take it from there, and we'll store it somewhere. Yeah. We need some SSH two five six hash it and store it somewhere. Can you repeat? I didn't get, like, what needs to be done.
+
+I I want to note it down and get it right. Yeah. So I'll I'll tell you what needs to be done. Okay? In the user profile page, user should be given an option to, enter his, GitLab repo GitLab credentials.
+
+Okay? One or more than one. Okay? And there, he should be able to give his access tokens and whatnot, And we should be able to store it with SHA two five six algorithm. And, when a new repo is being created or when a new environment is being created, if he you already have the token, you can add it.
+
+If you have multiple tokens, you can give him an option to choose what token he wants, something like that, and then build the environment, if I need. Anything else to add? You can put this, description, Mandan. And then let's not, even put it for spring two. Okay.
+
+Yeah. It should be. Four. Yeah. It should be.
+
+Onwards. Yeah. Please do. So none of these are required. Right?
+
+I can remove all these. Right? I just keep this one as a story that you for going forward. Mhmm. Keep first, keep second.
+
+Mhmm. Keep first. Keep second. Both both are needed. And this is also something that will happen by that.
+
+Put it in government. The proven branches. See, for this, you can just create one, story. Right? This is a story only.
+
+These are One story UI, one story, by thread. Let's see if I use a thousand parameter, it should go and pass it to the Terraform file. Terraform file, what are you going to get? I mean, these are subtasks. These are not stories.
+
+I think this should be fine. Yeah. We should do fine. We should do fine. So I'm not creating these subtasks right now.
+
+I'm only creating this particular story. Mhmm. And going forward, if need be changes, we'll we'll add these substories later. And this story is for this sprint or, like, next sprint? Which one?
+
+This one only. The one which we discussed. What time ago? No. No.
+
+The back end Git integration. The one which we discussed. That is not in the this print or next sprint. Right? The if you want to store the details, it's secure handling this next phase.
+
+Okay? Next phase altogether. Okay. Yeah. Yeah.
+
+Multi record all these things are this phase, I mean, and this print and Multi repo, if you ask me, should be this print. Okay? There are Yeah. By number of chances. See, multi repo, right, if I for me, what's this is collection of repo?
+
+That's all. And that is for most of the developers. We are we are we are we are we are we are we are we are we are we are we are we are we are we are we are we are we are we are we are we are we are we are we are we are we are we are this multi repo and repo cloning and all is maybe in the sprint, but the rest of the things will come to the next sprint. That's what I was about. Okay?
+
+So So once Musgra completes it, then multi repo would be done. So next Thursday, can we expect that we might have a kind of, demo with the Amrita, and we should be ready for it then? So by the way, these, so this whatever you guys, mentioned, this this one is for the next phase. So I have moved it to the next phase. Okay.
+
+Altogether. And, so these two are for the next sprint. Just take a look and if anything needed, let me know. Yeah. I think this is second one is fine.
+
+First one, what is it? I need a potential wrong running asynchronous process. What is it? Back end asynchronously provision more space and run setups. What does it mean?
+
+It is running now. Right? Which one? The first one, 6192. Potentially, long running asymptotes.
+
+This is your code of thing. Right? Yeah. It is code of I was also This one was created based on the requirements on the features. So just let me know whether this makes I think this is done.
+
+This is a part of Coder, actually. Vaishnav can correct me if I'm wrong. So, in I mean, in this, on this ticket only, you can see the, second statement. It says that it should detect and execute from the, users repository. So I think it's the docker, it's, like Docker hide.
+
+Yes. Yeah. Take from the docker and all. And also The current status endpoint for the front end to pull for real time updates. I think that is already in built in Coder.
+
+Correct? Yeah. That one is in built for Coder. Yeah. So what what is the one question for this one.
+
+Yes. Actually, if I go and click on the new workspace first step, how much time does it, take for port to come up? Fuse it. To seconds. Until then, right, what we can do is I'll I'll give you one service.
+
+Yeah. Yeah. I'll give you one service. That's a generic service. Mhmm.
+
+What we can do is we can take user the Mhmm. What we can do is we can take user the email that that will be the. Mhmm. It it will be in, in SSO. We can take user email ID and then send him a mail.
+
+Okay. Your environment is ready to from this link to view your environment. Okay. Okay. It is And then There there that's a flow issue I need to Yeah.
+
+But if it takes more than a minute, then we can try it. But as of now, it takes few seconds prior. As of now, it can take two seconds. But It's been a second minute, definitely, for sure. So Okay.
+
+Yeah. I think for the next see, Vishwa, this is what we'll, do for next demo. Okay? The the the thing that I want to scope is at least we'll at least have the UI ready. Mhmm.
+
+We we follow the cards. Okay. The cards are going to ask for what is the source and whatever parameters we discuss. Mhmm. Mhmm.
+
+But, okay, this is what we need. Okay. We'll pass on the parameters to Terraform file. Terraform is going to create environment. Right?
+
+And then, once I go and click on the card again, it's going to get me an access. Like, working environment. If it is created, we'll take me to. That's all. That is all we are going to scope for now.
+
+The other things, we will find you integrated. And at least for next week. Right? Next week, Thursday? I think that's all we'll, scope it.
+
+We we make it ready for that. Yeah. Sure. Okay. Sure, bro.
+
+Maybe we'll have an interview with them on Wednesday or something like that. Okay. And table wise, anything you need info from me to ping anytime there. There's meeting side tables or creating scheme and all those stuff. So currently include.
+
+Currently, I can keep this one for the next sprint. Right? You're listening to us programming of work person running set of scripts. I already done my guesses. I think it should be the sprint.
+
+Vaishno, correct me if I'm wrong. We'll let you do the sprint and assign it to Vaishno if you want me. Yeah. Yeah. Yeah.
+
+Okay. Yeah. Priya, in this case, we we need, one more help with the, another namespace, like, for coder testing. So one would be live for the users and one would be, for us for development and testing. Okay.
+
+For that, we need to, okay. Is there a way I'll I'll check if I have access to create a namespace. I don't think I'll but then we have to okay. We'll get that checked. Perfect.
+
+Yeah. Best case is to be in the list. Okay. That is why I'm asking this question then. Who went and created this namespace?
+
+Name? Installed code. I'll give you I think I know. One second. I think it was, Vikram.
+
+Vikram So when he went and logged in to the Crystal version, was could have already, created namespaces? Yeah. It was already created. Could have been built? Yeah.
+
+It was already created, but, the admin access was not there, so we can provide that. So most probably, the team was responsible for creating. Okay. I'll, check with Ganesh and Mukherjee. For a new, this one.
+
+I think this one would be point of contact. Yeah. I'm sorry. What was that issue? No.
+
+I think Vikram would be the right point of contact. He was the one who Yeah. Vikram would be the right, POC. Okay. I'll get that figured out, Vaishnav.
+
+Yeah. Ideally, I was talking to Vaishnav today morning. We might need three enrollments, but at least we need two. Okay. Who needs I'm talking to him.
+
+Right? Let's create, okay. What enrollments do we need? We'll see. What is the Three enrollments I was telling was one is a live environment in there, which, the users will use.
+
+Second is our demo enrollment that will do the development. And we need one more enrollment where the QA team can do an independent testing and verification. QA team will do independent testing. What which, QA team? I mean, we need some independent verification to be done before moving into the live environment.
+
+Right? So kind of because dev enrollment Maybe kind of some things. And, we might, change a lot of, things as per our requirement. So we need some enrollment similar to the live and run. That's more of a UAT equivalent like us.
+
+Yeah. UAT equivalent. UAT equivalent for us. Okay. Okay.
+
+Good. Okay. Okay. Let me talk to Vikram and, get that thing out. Sure.
+
+Thank you. Thank you. Okay. Alright. Are there any story that you're wanting to So this back end, this story is for the next yes.
+
+In the same feature, this back end, one is for the next sprint. This is for the next think it'd be a will steal the workspace now. This one would What is my workspace dashboard? Is that the same dashboard that, Google goes and clicks on, I think? Let's choose the workspace.
+
+No. What is this for? Can you, describe more? So I think this is the, so instead of we won't be using the colon interface from, like, when we show it to the developers. Right?
+
+So everything like the whatever workspaces and all he has, everything would be seen in the Inspire AI. So, Coder, exposes few REST APIs. So, it it has, like, many APIs, which, like, returns like, it helps to create workspace and returns, like, what are all the workspaces and templates and and the Terraform templates and all. So I think this is wrong time. Right.
+
+And now Yeah. This one This one, there was this, YFrame mock up. Right? Which was, like, the second page where, you see the active running average CPU total. There's one more UI.
+
+Probably it was created part of that, like but I didn't delete it or whether we I don't know whether we are implementing with the second page of that wireframe markup. The first one was this, UI, which are currently developing. But this one, probably this story relates to that second page of the UI. Okay. Okay.
+
+And now now I think what this is. A good user experience. And this is also what we discussed previously. A good user experience is just creating one page. If not another page separate for a workspace, so what will happen is this.
+
+Right? Let's have a five stories. For all my five stories, I will have one more workspace. If for that one workspace, in that card, right, whatever card we are showing in the URL. Mhmm.
+
+If a card already have the workspace, which is the tip, I'm not going to go and show a launch button. I'm going to go and show that, okay, fit me to my workspace, which is going to open up a new tab with Coder window on my workspace. K. That is what it should happen. And if I don't have any workspace associated, then it's in there for us to figure out.
+
+K. We don't need any, Yeah. Like, displaying the cards will be right now. Yeah. That would be useful.
+
+But, we also wanted to display this data, where how much, resources the, workspace is using. Like, a specific like, like, how many CPU usage and all these things. Right? Those will not be Okay. Okay.
+
+Primary CPU usage domains. Okay. These things will get off immediately. That's what you were saying. Yeah.
+
+Yeah. Yeah. Yeah. Okay. Okay.
+
+Now I see. I thought this is about, giving the URL to workspace. Well, not really. You see, in the c workspaces, it will show, like, this much how many is running, what is average CPU, what is average storage, what is storage they used, and with each and run one, if that's okay. Uh-huh.
+
+Yeah. This is a good one. We need to keep this. So we'll keep it for sprint. I guess.
+
+Sprint after the sprint after the dive. I've already asked the UI team to design it. Okay? But Okay. Let me see what we'll demand.
+
+See what we'll do. Okay. But for this one, right, for next, demo for sure we are going to clear. That screen will not be there in the next demo. But yeah.
+
+So I think we can show that we are developing that screen to Amazon. Okay? Just to showcase us. Okay. I think we can see that it is under development.
+
+Okay. Can you think more animal story that we have to burn? So the this is, like, probably the last one. So automated environment provisioning and customization, a lot of them a lot of these stories are already provided by the coder. For example, these three provisioning basic environment, configure persistent storage as well as, configure networking.
+
+Yeah. I mean, about that, the Dockerfile and all these things, I think we are already doing it in the phase one Dockerfile, the extract enrollment details, coder provided, configured networking, configured persistent storage. All these things, we are doing it in Sprint one only. So they are in sprint one right now. All these three are in sprint one only.
+
+And these are the two new ones which is, persistence work pace mapping in database. Correct. And right now this is part of sprint one, but it's not created on the board yet. So these two will be added new stories, which in this for this sprint, under this particular feature, this automated environment provisioning, so these two will be added. And these three are the spikes which we will be adding.
+
+So this is, like, coder authentication methods, like, we need to do further more research that was, like, what was discussed last time. And then validate service account permissions. So verify and test designated service account has a necessary full access to all required pilot repositories. It is. And what And, Wyshav, I have this question for you.
+
+Yeah. I get what this is. These these are all required. Whatever you have is all required. If if I need to tell this account permission, is there Yeah.
+
+We got a check yesterday. Okay. There are there are the whatever service ID I gave you, right, keep on using that for all our environments, even in future. SCC, HCED, HCHD, that service ID. Right?
+
+Yes. Service ID is going to have different permissions in artifacting. Okay. Okay. Okay.
+
+So let's say if you're going and piloting for some team, and if you want to read their artifacts, I have to give our service ID, push, and pull access. Push access. And this is something we will make push one for you? So, yeah, push so what so the plan what the plan is, so we will pull from pull the images from their, the files, and we'll read that of the file. We'll build our own image, and we'll push it to our art artifactory.
+
+So whenever someone comes and wants to use this of the file, we'll, provide them image from whatever we have in our RT RT directory. Alright. Okay. So we're going to maintain our own, copy. To our file system.
+
+Also, all the not only the base, like, from node no. Not only the node image, but all the commands run and everything. So everything very. Yeah. But when it is time for us to build.
+
+Right? Yes. Yes. The let's see if I have okay. The, there is a Even I will need that so whatever service account I'm using to build.
+
+Right? Yeah. With the Docker file to build the container. Create a Docker file. Build the container.
+
+Mhmm. But that whatever service account I use Mhmm. For that one, whatever service account I use needs an access to that base image is what I'm telling. Yeah. Yeah.
+
+Yeah. Yeah. K. So for that, use SBCTC DVD. Use the same, service account.
+
+What we'll do is in future, right, if you don't have access to x, y, z base image, we can ask application teams to gain that service ID access. Okay. Okay. Okay. Understood.
+
+Okay. So it's all access driven. Even, reading access driven. Yeah. Do we can't go and keep on building, Docker file with arbitrary image?
+
+Yeah. Yeah. I understand. Yeah. Okay.
+
+I just, brought this point out, as as one hour was sharing the right time. Mhmm. Yeah. I was discussing this with, Madhu yesterday on my team. So he he told me this.
+
+Okay. This is something you guys should take care of. Yeah. Yeah. Okay.
+
+So this is the valid service account permission. In this one, code authentication method. And what, about code authentication bypassing? Did you guys figure out if if there is a way to do this? Not yet.
+
+So, we are we will be done with that pending, student tomorrow. So we'll, look into it. Okay. Let's check this one out for now. Yeah.
+
+Okay, Anuna. I'm good with this one. First thing, and there is one more thing you need to add is metadata offer. What is this? What is the start time?
+
+What is the end time? All those things if you want to bring analytics in future? Yeah. When has the user started to use it? When has he logged it, and how long was the enrollment back?
+
+So certain things we need to capture. So this, change can create studios for those. Okay. And the last one, is this one. I think last time also we kind of discussed this and not sure where to place it.
+
+So just wanted to bring it up. Mhmm. Pre built environment templates so that, we can start with a version that already has current run times and tools for my project. I think this one was, like, kind of scheduled for other sprints, not this sprint for sure. But, like, are we going with this kind of an implementation or just wanted to understand what's going on.
+
+Done. Every developer has each follow have a own way of writing the code. Okay. Let me give you an example. If if if it is a Java if it is a new one based direct code, right, what what what I can do is I can run it two ways.
+
+It's very clear with new one here. So I think you you might have written coding. Right? Remote. There are two ways to do things.
+
+Right? One is if I have Maven installed in my router. So when you're using the Maven, so let's say you have instance where Maven is installed. And you take the treat that as well, based in which Another way is to use the maven wrapper. And the tail configured, then maven wrapper is going to go and do it.
+
+And we use I can go use the JDK in and out of the way to install maven and then use this as a docker file. It all depends how I go and do things. K? So we can't have a specific base image. Different teams will use different way of, building the post.
+
+That's So I don't think this is build the base image anyway. Correct. Correct. So that is why we're reading Dockerfile and building building the image. Right?
+
+We don't want one stop solution. And, hey, this is the building image we have. We don't know the origin. Right? Plus, we don't know what is the building age, how they're writing the Dockerfile, how they're building.
+
+Only this one. Yeah. That's what I think this might be needed. Yeah. So right now I placed it in not needed, and this other feature also not needed from last time, our discussion.
+
+So this other feature is saying use a custom Dockerfile for an environment. So No. I mean, the each environment has their own Docker file. I don't think we need to do this as well. So Yeah.
+
+That's what I wrote a note, like, instead of time, we'll define a base image and identify dependencies. Yeah. And even the base image will be taken from the Docker file of that particular repo. Yeah. Correct.
+
+So overall, I think around four stories are kind of demote, like, demoted and, two of them probably are added for next phase or so. And these are for the next sprint and this is what we have. These are the overall stories that we have for this current sprint. I'll share this document with you and create the stories, the ones in white. I think these are sub subtasks which I'm not gonna define, but these two stories and these four spines and these two stories, this needs some modification and this story need to be added.
+
+So this one I'll add, on the Jira on on Inspire and which will be reflected in Jira today. Sure. Okay. Okay. Thanks, Vandana.
+
+And tomorrow we are going to have call at the same time. Right? What we used to have? Yeah. Yeah.
+
+In the morning. Right? Also doing Morning. Yeah. Morning.
+
+Tell what they're doing. Yeah. Yeah. Perfect. Yeah.
+
+And then I don't worry. I'm not going to go this through task wise. Okay? For me, it's more of a ongoing everybody. Yeah.
+
+Yeah. I was confused a lot, with this whole mess because I was not sure of what to delete, what to keep. Yeah. Anyway, I hope this clarifies for everyone, like, currently what they're working on so that, they also get some visibility into what need to be done. No.
+
+This is done actually. This makes our task easier, right, for schooling. And that is why it is, necessary. Yeah. And this looks good?
+
+Yeah. At least yeah. This looks good. Okay. Perfect.
+
+Yeah. Thank you so much, everyone for joining this call. And if there is any other change, going forward or any other inputs you have, let me know. I'll I'll update. And maybe going forward, like, maybe Shiva can create the stories for, you know, other features and, maybe he can make the changes and updates.
+
+Mhmm. I'm planning to work more on the agent side. Agent side. The agent side. The agent implementation part.
+
+I have requested. I'm gonna have to focus on agent implementation part. Yeah. Yeah. Yeah.
+
+Yeah. Yeah. Stories, again, to make the join offshore team, they can manage the stories from their problem. Yeah. They can yeah.
+
+Yeah. They're still used to. Yeah. We'll, like, rather in the she were driving this the story creation each other. So he can then.
+
+He thinks it's already in India. The story creation. Mhmm. Mhmm. I think they already are are aware of it.
+
+So it will be easy for them as well. So Right. So our the phase two for this one. Right? So a suggestion of a post reading, and reading a knowledge base or, this one.
+
+Isha and, Vandana, whenever we're gonna be scheduling this looping. Sure. Yeah. Definitely. For me, I'm more interested, in the lead part of things.
+
+Yeah. Sure. Yeah. Yeah. Definitely.
+
+Okay. Yeah. Just, keep in loop. Definitely. Definitely, Payak.
+
+We'll, we need your inputs for sure. Mhmm. Yeah. Okay. No.
+
+I I I need your inputs in how to do things. I think it's going to be the opposite way. Okay? Let's see. Because I want to be more hands on.
+
+Yeah. Okay. Okay. Thanks a lot. Yeah.
+
+Thanks a lot. Thank you so much. Yeah. And, Jason. Yeah.
+
+Just click the or TPVM, I am going and looking at the code base. It's for just giving me a few key when I will working with multiple things to spread. Problem that it's not acting. Everything's I'll, give you something. Sure.
+
+You'll also contact. But if you, you know, I think going forward is a good example. Let me check that. No. I can find out.
+
+Sorry. It's not a problem. I'll find out in the kitchen. Do you even like and I'll find out if the if We will look at okay. I'll just keep you posted.
+
+Which one? There is one API. I'm going to paste you the last ID for the. Let's figure out who has. Okay.
+
+How we can get access to the code. Access to the code is the another service account. I will have to get the credentials. Okay. But at least whatever it has, we can get it from the.
+
+The Indian developer experience. Okay. We'll start looking at, over the course. Okay. Okay.
+
+Thanks. Yeah. Thanks, team. Thanks. Thank you.
+
+Bye.
