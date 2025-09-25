@@ -1,0 +1,103 @@
+Here’s a **detailed mapping of the conversation** from the transcript, broken into aspects so you can clearly see what suggestions and inputs the team provided:
+
+---
+
+## 1. **Access and Data Modeling**
+
+* **EKB Team Input**:
+
+  * Confirmed that DevX can connect to the **read-only Neo4j database** directly using Cypher queries.
+  * Offered to provide **credentials, schema documentation, and a maintained README** so DevX knows what queries to run.
+  * Suggested reaching out to them or Jeffrey if help is needed with the **data model**.
+
+---
+
+## 2. **Current & Past Use Cases**
+
+* **Inspire AI**:
+
+  * An agent/chatbot already built for **feature/story generation** using EKB.
+* **TestAI**:
+
+  * A **standalone tool in production**, used by \~5–6 developers.
+  * Currently **not agentic**, more prompt-based, but idea is to integrate **EKB for end-to-end test case generation**.
+  * Lead: Harita (mentioned as contact).
+* **Copilot/IDE Integration**:
+
+  * A **POC demonstrated** where developers could **drill into the knowledge graph** to see services/APIs of an application.
+  * Suggested evolving this into **IDE chat integration** (e.g., Visual Studio, VS Code) so devs can interrogate EKB from their IDE.
+
+---
+
+## 3. **Explored / Proposed Agent Use Cases**
+
+* **Automated Code Refactoring**:
+
+  * Team clarified: **not a good fit for EKB**, since EKB doesn’t store code, only metadata and dependencies.
+* **Legacy-to-Modern Framework Migration**:
+
+  * Team input: **not useful** for EKB (it doesn’t cover framework-level changes like TensorFlow → PyTorch).
+* **Bug Triage & Repair**:
+
+  * Could be a **partial fit**:
+
+    * If bug reports are high-level (e.g., “blank screen”), EKB’s **service/API relationships** can help.
+    * If bug reports point to specific files, EKB adds little value.
+  * Conclusion: **Useful only for multi-service/system bugs**, not single-service issues.
+* **Security Patching**:
+
+  * Input: **EKB not useful** here.
+* **CICD / PR Analysis**:
+
+  * Input: Not supported, since EKB **doesn’t track branches/PR-level details**.
+* **On-Demand Prototyping & Docs-to-Demo**:
+
+  * Input: **Some potential fit**:
+
+    * EKB can suggest relevant **services, APIs, DB tables** to use in a prototype.
+    * Not a core driver but a **helpful contributor** in stitching demos.
+
+---
+
+## 4. **Frameworks for Thinking About EKB**
+
+* **Key Input**:
+
+  * EKB is best when providing **multi-system context**:
+
+    * How services relate to each other.
+    * How services connect with apps, databases, and initiatives.
+  * **Not as valuable for single-service/local development**.
+* Suggested DevX should **prioritize projects with multi-service dependencies** (once pilot apps are onboarded).
+
+---
+
+## 5. **Roadmap & Future Enhancements**
+
+* Upcoming features being considered:
+
+  * **Docs ingestion** (design docs, diagrams, Confluence pages).
+  * **Screens/UI elements ingestion** (Figma files, screen metadata).
+  * Move from “one giant graph” → **federated graphs** (different specialized graphs joined together).
+* Input: These will expand EKB’s utility, but **not available today**.
+
+---
+
+## 6. **DevX Team’s Ask and EKB Team’s Response**
+
+* **DevX ask**: Inputs on what’s already built, what’s valuable, and where EKB fits for Dex agents.
+* **EKB response**:
+
+  * Shared existing use cases (Inspire AI, TestAI, Copilot demo).
+  * Provided **clear boundaries** of where EKB is and isn’t useful.
+  * Encouraged DevX to start with **multi-service pilot apps** once onboarded.
+  * Offered to continue support with documentation, schema help, and roadmap updates.
+
+---
+
+✅ **In summary**:
+The EKB team guided DevX to **reuse proven use cases (story gen, test gen, dependency navigation)**, avoid misfits (refactoring, PR analysis), and **double down on multi-system scenarios** where EKB shines. They also previewed future roadmap items (docs, screens, federated graphs) that will broaden applicability.
+
+---
+
+Would you like me to now **create a structured matrix (Use Case vs. EKB Fit vs. Next Steps)** so you can see in one table which ideas are worth pursuing and which to drop?
